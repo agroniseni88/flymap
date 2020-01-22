@@ -1,1 +1,1 @@
-first day 
+first = 20 + 2
