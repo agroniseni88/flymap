@@ -1,1 +1,1 @@
-first day = hcd cudn
+first day = 20
