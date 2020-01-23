@@ -68,9 +68,13 @@ a:hover {
 /*leaflet map */
 
 .leaflet-container {
-        height: 400px;
-        width: 500px;
-        margin: 50px;
-        border: 2px black solid;
+       
+    height: 700px;
+    width: 1000px;
+    border: 2px black solid;
 }
 
+
+.image {
+    width: 100%;
+}

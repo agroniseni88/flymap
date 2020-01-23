@@ -1,16 +1,17 @@
 import React from 'react';
-import { Map as LeafletMap, GeoJSON, Marker, Popup } from 'react-leaflet';
-import worldGeoJSON from 'geojson-world-map';
+import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
 
-function MapBe() {
-    return (
-        <div>
+import PopUp from './PopUp';
+import bivakzones from './bivakzones.json';
 
 
+class MapBe extends React.Component {
+    render() {
+        return (
             <LeafletMap
-                center={[51, 8]}
+                center={[51, 5]}
                 zoom={9}
-                maxZoom={18}
+                maxZoom={19}
                 attributionControl={true}
                 zoomControl={true}
                 doubleClickZoom={true}
@@ -19,23 +20,28 @@ function MapBe() {
                 animate={true}
                 easeLinearity={0.35}
             >
-                <GeoJSON
-                    data={worldGeoJSON}
-                    style={() => ({
-                        color: '#4a83ec',
-                        weight: 0.5,
-                        fillColor: "#1a1d62",
-                        fillOpacity: 1,
-                    })}
-                />
-                <Marker position={[50, 10]}>
-                    <Popup>
-                        Popup for any custom information.
-          </Popup>
-                </Marker>
+                <TileLayer url='http://{s}.tile.osm.org/{z}/{x}/{y}.png' />
+                {
+                    bivakzones.features.map((bivakzone) => (
+                        <GeoJSON
+                            data={bivakzone}
+                            style={() => ({
+                                color: '#4a83ec',
+                                weight: 0.5,
+                                fillColor: "#1a1d62",
+                                fillOpacity: 1,
+                            })}>
+                            <Popup>
+                                <PopUp bivakzone={bivakzone} />
+                                <a href="/page1">{bivakzone.properties.name}</a>
+                            </Popup>
+                        </GeoJSON>
+                    ))
+                }
             </LeafletMap>
-        </div>
-    )
+        );
+    }
 }
 
 export default MapBe;
+

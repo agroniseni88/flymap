@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MapBe from './components/MapBe';
 import Header from './components/Header';
 import Symbols from './components/Symbols';
 import Footer from './components/Footer';
@@ -18,7 +18,7 @@ function App() {
 
           <Card.Body>
             <Header />
-
+            <MapBe />
             <Symbols />
             <Footer />
           </Card.Body>
