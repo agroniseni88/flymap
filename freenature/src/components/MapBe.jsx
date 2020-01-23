@@ -8,9 +8,9 @@ function MapBe() {
 
 
             <LeafletMap
-                center={[50, 10]}
-                zoom={6}
-                maxZoom={10}
+                center={[51, 8]}
+                zoom={9}
+                maxZoom={18}
                 attributionControl={true}
                 zoomControl={true}
                 doubleClickZoom={true}
