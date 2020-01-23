@@ -13,8 +13,6 @@ function App() {
       <Header />
       <MapBe />
       <Symbols />
-
-      <div>Tamar</div>
       <Footer />
     </div>
   );
