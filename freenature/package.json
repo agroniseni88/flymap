@@ -6,9 +6,21 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+<<<<<<< HEAD
     "bootstrap": "^4.4.1",
     "geojson-world-map": "0.0.2",
     "leaflet": "^1.6.0",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "nodemon": "^2.0.2",
+=======
+    "bootstrap": "^4.4.1",
+>>>>>>> 4371924730abd221d47fc4396bb4bb9e64f7725f
+=======
+    "bootstrap": "^4.4.1",
+>>>>>>> 4371924730abd221d47fc4396bb4bb9e64f7725f
+>>>>>>> 7bbfead6a2c34913eab4a62c1ad65d7f596b7712
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
