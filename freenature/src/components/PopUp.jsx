@@ -15,6 +15,7 @@ const PopUp = ({ bivakzone }) => {
                         <li>reservation:{bivakzone.properties.reservation}</li>
                         <li>operator:{bivakzone.properties.operator}</li>
                         <li>openfire:{bivakzone.properties.openfire}</li>
+                        <li>Website:{bivakzone.properties.website}</li>
 
                     </ul>
                 </Card.Text>

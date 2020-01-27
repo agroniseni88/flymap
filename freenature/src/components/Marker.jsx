@@ -1,12 +1,12 @@
 import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
 import PopUp from './PopUp';
-import bivakzones from './bivakzones.json';
+import nofires from './nofires.json';
 
-
-class MapBe extends React.Component {
-    render() {
-        return (
+export default function Marker() {
+    return (
+        <div>
+            <h1>Nofire on area</h1>
             <LeafletMap
                 center={[51, 5]}
                 zoom={9}
@@ -21,9 +21,9 @@ class MapBe extends React.Component {
             >
                 <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
                 {
-                    bivakzones.features.map((bivakzone) => (
+                    nofires.features.map((nofire) => (
                         <GeoJSON
-                            data={bivakzone}
+                            data={nofire}
                             style={() => ({
                                 color: '#4a83ec',
                                 weight: 0.5,
@@ -31,16 +31,13 @@ class MapBe extends React.Component {
                                 fillOpacity: 1,
                             })}>
                             <Popup>
-                                <PopUp bivakzone={bivakzone} />
-                                <a href="/page1">{bivakzone.properties.name}</a>
+                                <PopUp nofire={nofire} />
+                                <a href="/page1">{nofire.properties.name}</a>
                             </Popup>
                         </GeoJSON>
                     ))
                 }
             </LeafletMap>
-        );
-    }
+        </div>
+    )
 }
-
-export default MapBe;
-
