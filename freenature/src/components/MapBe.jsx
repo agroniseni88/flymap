@@ -1,6 +1,5 @@
 import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
-
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
 
