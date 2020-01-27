@@ -1,0 +1,160 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2020-01-27T11:15:01Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "way/765449190",
+                "backcountry": "yes",
+                "bicycle": "yes",
+                "camp_site": "basic",
+                "capacity": "10",
+                "caravans": "no",
+                "description": "minimalistic bivouac site",
+                "description:nl": "site voor paalkamperen",
+                "description:reservation": "send SMS one day in advance",
+                "drinking_water": "no",
+                "fee": "no",
+                "image": "http://www.bivakzone.be/images/hogevijvers/arendonkplatform.jpg",
+                "image:1": "http://www.bivakzone.be/images/winkelsbroek/winkelsbroek.jpg",
+                "image:2": "http://www.bivakzone.be/images/winkelsbroek/bivakzone_winkelsbroek.jpg",
+                "maxstay": "2 night",
+                "maxtents": "3",
+                "motor_vehicle": "no",
+                "name": "Winkelsbroek",
+                "openfire": "no",
+                "opening_hours": "Apr 1-Oct 31",
+                "operator": "Natuurpunt",
+                "phone": "+32491 33 62 23",
+                "reservation": "required",
+                "source:nl": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
+                "tents": "yes",
+                "tourism": "camp_site",
+                "url": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
+                "website": "http://www.bivakzone.be/winkelsbroek-turnhout.html"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.9471737,
+                            51.2648438
+                        ],
+                        [
+                            4.9472437,
+                            51.2644903
+                        ],
+                        [
+                            4.9480401,
+                            51.2645669
+                        ],
+                        [
+                            4.9480749,
+                            51.2649244
+                        ],
+                        [
+                            4.9471737,
+                            51.2648438
+                        ]
+                    ]
+                ]
+            },
+            "id": "way/765449190"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/4366549150",
+                "backcountry": "yes",
+                "camp_site": "basic",
+                "capacity": "10",
+                "caravans": "no",
+                "description": "minimalistic bivouac site",
+                "description:nl": "site voor paalkamperen",
+                "drinking_water": "no",
+                "fee": "no",
+                "image": "http://www.bivakzone.be/images/wereldboom/wereldboom2.jpg",
+                "image:1": "http://www.bivakzone.be/images/wereldboom/landschap.jpg",
+                "image:2": "http://www.bivakzone.be/images/stropersbos/konikpaarden.jpg",
+                "maxstay": "2 night",
+                "maxtents": "3",
+                "motor_vehicle": "no",
+                "name": "werelddboom",
+                "openfire": "no",
+                "opening_hours": "24/7",
+                "operator": "Raoul D'Hoossche",
+                "reservation": "no",
+                "source:nl": "http://www.bivakzone.be/wereldboom-horebeke.html",
+                "tents": "yes",
+                "toilet": "no",
+                "tourism": "camp_site",
+                "url": "http://www.bivakzone.be/wereldboom-horebeke.html",
+                "website": "http://www.bivakzone.be/wereldboom-horebeke.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.6751901,
+                    50.8192516
+                ]
+            },
+            "id": "node/4366549150"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/5633545233",
+                "backcountry": "yes",
+                "camp_site": "basic",
+                "capacity": "10",
+                "drinking_water": "no",
+                "fee": "no",
+                "maxtents": "3",
+                "motor_vehicle": "no",
+                "name": "Paalkampeerplaats Galgenhof",
+                "openfire": "no",
+                "tourism": "camp_site",
+                "website": "http://www.meetjesman.be/pagina/paalkamperen"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.545672,
+                    51.1898564
+                ]
+            },
+            "id": "node/5633545233"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/6821054100",
+                "alt_name": "Paalkampeerplaats Eykenbos Sint-Truiden",
+                "backcountry": "yes",
+                "bicycle": "no",
+                "camp_site": "basic",
+                "description": "site voor paalkamperen",
+                "drinking_water": "no",
+                "maxtents": "3",
+                "motor_vehicle": "no",
+                "name": "Bivakzone Eyckenbos Kerkom",
+                "name:fr": "Point de bivouac Eykenbos",
+                "openfire": "no",
+                "toilets": "yes",
+                "tourism": "camp_site"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.1857866,
+                    50.7699529
+                ]
+            },
+            "id": "node/6821054100"
+        }
+    ]
+}
