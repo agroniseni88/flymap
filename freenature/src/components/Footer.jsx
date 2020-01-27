@@ -1,7 +1,7 @@
 import React from 'react';
 import nature from '../img/nature.png';
 import { Card, Row, Col, Image, Container } from 'react-bootstrap';
-import Symbols from "./Symbols";
+// import Symbols from "./Symbols";
 
 function Footer() {
     return (
@@ -11,10 +11,10 @@ function Footer() {
                     <Row>
                         <Col style={{ color: '#fff' }}>
 
-                            <Image src={nature} alt="nat"  style={{ width: '50px', height: '50px' }} />
+                            <Image src={nature} alt="nat"   style={{ width: '50px', height: '50px' }} />
                             <small > © Hack Your Future 2019</small> </Col>
                         <Col >
-                            <Symbols />
+                            {/* <Symbols /> */}
 
                         </Col>
                     </Row>
