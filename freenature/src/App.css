@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  padding: 0;
+ padding: 0;
   margin: 0;
   background-color: #fff;
   color: #333;
@@ -63,12 +63,6 @@ a:hover {
   height: 100vh;
 }
 
-/*leaflet map */
-
-.leaflet-container {
-        height: 400px;
-        width: 500px;
-        margin: 50px;
-        border: 2px black solid;
+.map {
+  height: 300px;
 }
-

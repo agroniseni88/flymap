@@ -1,41 +1,42 @@
-import React from 'react';
-import { Map as LeafletMap, GeoJSON, Marker, Popup } from 'react-leaflet';
-import worldGeoJSON from 'geojson-world-map';
+import React, { Component } from 'react';
+import L from 'leaflet';
+import { Map, TileLayer, Marker, Popup, GeoJSON } from 'react-leaflet';
+import bivakzoneData from '../bivakzoneData.json';
 
-function MapBe() {
+
+class MapBe extends Component {
+    state = {
+        lat: 51.505,
+        lng: -0.09,
+        zoom: 13,
+      }
+    render() {
+        const position = [this.state.lat, this.state.lng]
     return (
-        <div>
-
-
-            <LeafletMap
-                center={[50, 10]}
-                zoom={6}
-                maxZoom={10}
-                attributionControl={true}
-                zoomControl={true}
-                doubleClickZoom={true}
-                scrollWheelZoom={true}
-                dragging={true}
-                animate={true}
-                easeLinearity={0.35}
-            >
-                <GeoJSON
-                    data={worldGeoJSON}
-                    style={() => ({
-                        color: '#4a83ec',
-                        weight: 0.5,
-                        fillColor: "#1a1d62",
-                        fillOpacity: 1,
-                    })}
-                />
-                <Marker position={[50, 10]}>
-                    <Popup>
-                        Popup for any custom information.
+      <Map className= 'map' center={position} zoom={this.state.zoom}>
+        <TileLayer
+          url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
+          attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>contributors"
+        />
+       
+        {bivakzoneData.features.map((bivakzoneData) =>
+          <GeoJSON data={bivakzoneData}
+          style={() => ({
+            color: '#4a83ec',
+            weight: 0.5,
+            fillColor: "#1a1d62",
+            fillOpacity: 1,
+          })}>
+          <Marker position={position}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
-                </Marker>
-            </LeafletMap>
-        </div>
+          </Marker>
+          </GeoJSON> 
+       )}
+      </Map>
     )
+  }
 }
 
 export default MapBe;
