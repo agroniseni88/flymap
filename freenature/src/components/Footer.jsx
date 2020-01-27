@@ -11,7 +11,7 @@ function Footer() {
                     <Row>
                         <Col style={{ color: '#fff' }}>
 
-                            <Image src={nature} alt="nat" style={{ width: '70px', height: '70px' }} />
+                            <Image src={nature} alt="nat"  style={{ width: '50px', height: '50px' }} />
                             <small > © Hack Your Future 2019</small> </Col>
                         <Col >
                             <Symbols />
