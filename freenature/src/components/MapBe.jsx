@@ -6,9 +6,9 @@ import bivakzoneData from '../bivakzoneData.json';
 
 class MapBe extends Component {
     state = {
-        lat: 51.505,
-        lng: -0.09,
-        zoom: 13,
+        lat: 50.5011,
+        lng: 4.34878,
+        zoom: 7,
       }
     render() {
         const position = [this.state.lat, this.state.lng]
