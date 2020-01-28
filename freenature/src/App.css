@@ -56,13 +56,6 @@ a:hover {
   text-decoration: none;
 }
 
-.app-header {
-  width: 100%;
-  background: #138086;
-  display: flex;
-  align-items: center;
-
-}
 
 .app {
   height: 100vh;
@@ -74,7 +67,6 @@ a:hover {
        
     height: 800px;
     width: 1000px;
-    border: 4px coral solid;
 }
 
 
@@ -82,34 +74,7 @@ a:hover {
     width: 100%;
 }
 
-/*
-@media screen and (max-width: 992px) {
-  .leaflet-container {
-       
-    height: 400px;
-    width: 600px;
-   }
 
-.image {
-    width: 100%;
-}
-}
-
-
-@media screen and (max-width: 600px) {
- .leaflet-container {
-       
-    height: 400px;
-    width: 400px;
-    border: 2px coral solid;
-}
-
-.image {
-    width: 100%;
-}
-}
-
-*/
 
 
 svg {
