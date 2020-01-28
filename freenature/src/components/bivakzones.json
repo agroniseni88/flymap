@@ -1,3117 +1,1246 @@
 {
-    "type": "FeatureCollection",
-    "generator": "overpass-ide",
-    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    "timestamp": "2020-01-23T15:19:03Z",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/76905445",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "150",
-                "caravans": "no",
-                "description": "Zeltwiese für Gruppen, aber auch für Einzelpersonen über Ortsverwaltung buchbar",
-                "drinking_water": "yes",
-                "fee": "yes",
-                "impromptu": "no",
-                "name": "Zeltplatz im Langental",
-                "phone": "+49 6302 983795",
-                "reservation": "required",
-                "shower": "yes",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.imsbach.eu/index.php/de/tourismus/wandern-zelten/zeltplatz"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.8946962,
-                            49.5902983
-                        ],
-                        [
-                            7.8942951,
-                            49.5898869
-                        ],
-                        [
-                            7.894623,
-                            49.5896907
-                        ],
-                        [
-                            7.8955161,
-                            49.5894126
-                        ],
-                        [
-                            7.8957124,
-                            49.5896435
-                        ],
-                        [
-                            7.8953621,
-                            49.59003
-                        ],
-                        [
-                            7.8946962,
-                            49.5902983
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/76905445"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/222137187",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description:reservation": "No reservation reqired but compulsary registration in the log book",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/steenberg/steenberg.jpg",
-                "image:1": "http://www.bivakzone.be/images/steenberg/vuurput.jpg",
-                "image:3": "http://www.bivakzone.be/images/steenberg/WC2.jpg",
-                "image:4": "http://www.bivakzone.be/images/steenberg/meerdaalwoud1.jpg",
-                "impromptu": "yes",
-                "landuse": "grass",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Steenberg Meerdaalwoud Oud-Heverlee",
-                "openfire": "yes",
-                "operator": "The Flemish Agency for Nature and Forests and",
-                "reservation": "no",
-                "start_date": "2013-05-06",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/steenberg.html",
-                "website": "https://sites.google.com/site/paalkampeerders/locatiebeschrijvingen/steenberg"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.6744231,
-                            50.8149045
-                        ],
-                        [
-                            4.6746203,
-                            50.8149343
-                        ],
-                        [
-                            4.6745482,
-                            50.8150662
-                        ],
-                        [
-                            4.6746512,
-                            50.8150943
-                        ],
-                        [
-                            4.6745721,
-                            50.8151902
-                        ],
-                        [
-                            4.6743314,
-                            50.81511
-                        ],
-                        [
-                            4.673774,
-                            50.8150585
-                        ],
-                        [
-                            4.6738242,
-                            50.8149781
-                        ],
-                        [
-                            4.6739697,
-                            50.8149408
-                        ],
-                        [
-                            4.6742447,
-                            50.8148985
-                        ],
-                        [
-                            4.6744231,
-                            50.8149045
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/222137187"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/332573121",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "description": "site voor paalkamperen",
-                "landuse": "grass",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Het Spoor / La Trace",
-                "start_date": "2014-07",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/het-spoor-meerdaal.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.6919498,
-                            50.7884453
-                        ],
-                        [
-                            4.6917022,
-                            50.7880498
-                        ],
-                        [
-                            4.6926187,
-                            50.7880365
-                        ],
-                        [
-                            4.692579,
-                            50.7884028
-                        ],
-                        [
-                            4.6926097,
-                            50.7887547
-                        ],
-                        [
-                            4.6923539,
-                            50.788757
-                        ],
-                        [
-                            4.692308,
-                            50.7884218
-                        ],
-                        [
-                            4.6919498,
-                            50.7884453
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/332573121"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/378931256",
-                "alt_name": "Paalkampeerplaats Het Vinne",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description:reservation": "Registration by phone on arrival before pinching tent.",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/vinne/paalcamping_het_vinne2.jpg",
-                "image:1": "http://www.bivakzone.be/images/vinne/het_vinne2.jpg",
-                "image:2": "http://www.bivakzone.be/images/vinne/paalcamping_vinne.jpg",
-                "impromptu": "yes",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Het Vinne - Zoutleeuw",
-                "openfire": "yes",
-                "opening_hours": "Apr 1 - Sep 30",
-                "operator": "The Government of Flemish Brabant",
-                "phone": "+32 11 78 18 19",
-                "reservation": "yes",
-                "sanitary_dump_station": "no",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/het-vinne.html",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.1329606,
-                            50.8452949
-                        ],
-                        [
-                            5.1325994,
-                            50.8454057
-                        ],
-                        [
-                            5.1323455,
-                            50.8450705
-                        ],
-                        [
-                            5.132187,
-                            50.8448611
-                        ],
-                        [
-                            5.132525,
-                            50.8447464
-                        ],
-                        [
-                            5.1329606,
-                            50.8452949
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/378931256"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/420288154",
-                "alt_name": "Paalkampeerplaats Itter",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "description": "site voor paalkamperen",
-                "drinking_water": "no",
-                "maxtents": "3",
-                "name": "Bivakzone Itter",
-                "openfire": "no",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.duinengordel.be/#!bivakzones-itter-en-solt/q53r8"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.6534963,
-                            51.1046904
-                        ],
-                        [
-                            5.6533058,
-                            51.1046995
-                        ],
-                        [
-                            5.6532582,
-                            51.1046677
-                        ],
-                        [
-                            5.6532613,
-                            51.1046023
-                        ],
-                        [
-                            5.6533605,
-                            51.1045672
-                        ],
-                        [
-                            5.6533958,
-                            51.1045627
-                        ],
-                        [
-                            5.6535475,
-                            51.1045946
-                        ],
-                        [
-                            5.6535575,
-                            51.1046525
-                        ],
-                        [
-                            5.6534963,
-                            51.1046904
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/420288154"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/420288156",
-                "alt_name": "Paalkampeerplaats Solt",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "description": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "maxstay": "2 day",
-                "maxtents": "3",
-                "name": "Bivakzone Solt",
-                "openfire": "no",
-                "operator": "Agentschap Natuur en Bos",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.duinengordel.be/#!bivakzones-itter-en-solt/q53r8"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.653428,
-                            51.0998742
-                        ],
-                        [
-                            5.6533581,
-                            51.0998781
-                        ],
-                        [
-                            5.6533231,
-                            51.0998633
-                        ],
-                        [
-                            5.6533127,
-                            51.0998336
-                        ],
-                        [
-                            5.6533441,
-                            51.0998111
-                        ],
-                        [
-                            5.6533887,
-                            51.09981
-                        ],
-                        [
-                            5.6534358,
-                            51.0998221
-                        ],
-                        [
-                            5.653428,
-                            51.0998742
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/420288156"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/420624660",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/wortelkolonie/bivakzone_wortel4.jpg",
-                "image:1": "http://www.bivakzone.be/images/wortelkolonie/bivakzone_wortel.jpg",
-                "maxstay": "2 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Root Colony (Hoogstraten)",
-                "openfire": "yes",
-                "opening_hours": "24/7",
-                "operator": "Flemish Agency for Nature and Forests",
-                "reservation": "no",
-                "source:nl": "http://www.bivakzone.be/hogevijvers.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/hogevijvers.html",
-                "website": "https://www.natuurenbos.be/bivakzone-wortel-kolonie-hoogstraten"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.8174936,
-                            51.4039225
-                        ],
-                        [
-                            4.8176392,
-                            51.4034949
-                        ],
-                        [
-                            4.8190423,
-                            51.4036411
-                        ],
-                        [
-                            4.8189535,
-                            51.4039713
-                        ],
-                        [
-                            4.8182324,
-                            51.4040112
-                        ],
-                        [
-                            4.8174936,
-                            51.4039225
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/420624660"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/439023547",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "no",
-                "impromptu": "yes",
-                "internet_access": "no",
-                "name": "Bivakzone Koppenbergbos -Melden (Oudenaarde)",
-                "openfire": "yes",
-                "operator": "Agentschap Natuur & Bos",
-                "smoking": "yes",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/koppenbergbos.html",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            3.5941846,
-                            50.8159096
-                        ],
-                        [
-                            3.5943167,
-                            50.8157652
-                        ],
-                        [
-                            3.5945442,
-                            50.8158287
-                        ],
-                        [
-                            3.59456,
-                            50.8159064
-                        ],
-                        [
-                            3.5944712,
-                            50.8159855
-                        ],
-                        [
-                            3.5941846,
-                            50.8159096
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/439023547"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/439071306",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "no",
-                "impromptu": "yes",
-                "internet_access": "no",
-                "name": "Bivakzone: Brouwierweide - Parike (Brakel)",
-                "openfire": "no",
-                "operator": "Agentschap Natuur & Bos",
-                "sanitary_dump_station": "no",
-                "smoking": "yes",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/brouwierweide.html",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            3.8085127,
-                            50.7763384
-                        ],
-                        [
-                            3.8085359,
-                            50.7763031
-                        ],
-                        [
-                            3.8086391,
-                            50.7762111
-                        ],
-                        [
-                            3.8087034,
-                            50.7761851
-                        ],
-                        [
-                            3.8089047,
-                            50.7762138
-                        ],
-                        [
-                            3.8088151,
-                            50.7764157
-                        ],
-                        [
-                            3.8085127,
-                            50.7763384
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/439071306"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/508028407",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Annweiler / Wernersberg",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "4",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-4"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.9251766,
-                            49.2023402
-                        ],
-                        [
-                            7.92519,
-                            49.2024734
-                        ],
-                        [
-                            7.9252383,
-                            49.2025891
-                        ],
-                        [
-                            7.9252303,
-                            49.2026749
-                        ],
-                        [
-                            7.9250157,
-                            49.2026679
-                        ],
-                        [
-                            7.9249406,
-                            49.2025978
-                        ],
-                        [
-                            7.9248601,
-                            49.2025926
-                        ],
-                        [
-                            7.924785,
-                            49.2026434
-                        ],
-                        [
-                            7.924675,
-                            49.2025838
-                        ],
-                        [
-                            7.9247569,
-                            49.2025233
-                        ],
-                        [
-                            7.9249942,
-                            49.2024164
-                        ],
-                        [
-                            7.925127,
-                            49.2022981
-                        ],
-                        [
-                            7.9251766,
-                            49.2023402
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/508028407"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/547503702",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Leinsweiler",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "3",
-                "reservation": "required",
-                "short_name": "Leinsweiler",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-3/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.9938774,
-                            49.198658
-                        ],
-                        [
-                            7.9941496,
-                            49.1986527
-                        ],
-                        [
-                            7.9944138,
-                            49.1986247
-                        ],
-                        [
-                            7.9945801,
-                            49.1985511
-                        ],
-                        [
-                            7.9946351,
-                            49.1986659
-                        ],
-                        [
-                            7.9940785,
-                            49.198977
-                        ],
-                        [
-                            7.9938506,
-                            49.1986974
-                        ],
-                        [
-                            7.9938774,
-                            49.198658
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/547503702"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/580072866",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Vorderweidenthal",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "2",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-2"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.8892913,
-                            49.127176
-                        ],
-                        [
-                            7.8893182,
-                            49.1271593
-                        ],
-                        [
-                            7.8893919,
-                            49.1271926
-                        ],
-                        [
-                            7.8893919,
-                            49.127233
-                        ],
-                        [
-                            7.8897862,
-                            49.1273497
-                        ],
-                        [
-                            7.8899445,
-                            49.1273567
-                        ],
-                        [
-                            7.8900813,
-                            49.1273857
-                        ],
-                        [
-                            7.8900088,
-                            49.1274199
-                        ],
-                        [
-                            7.8899364,
-                            49.1274252
-                        ],
-                        [
-                            7.8898211,
-                            49.1274761
-                        ],
-                        [
-                            7.8898157,
-                            49.1273997
-                        ],
-                        [
-                            7.8893544,
-                            49.1272602
-                        ],
-                        [
-                            7.8892913,
-                            49.127176
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/580072866"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/588751397",
-                "FIXME": "length estimated ~1.5* old size",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "description": "The Campsite is a wooden platform for two tents. Each spot measures 2,25m * 3,5m. As there is no reception, it has to be booked in advance for 10€.",
-                "fee": "yes",
-                "internet_access": "no",
-                "maxtents": "2",
-                "name": "Walden",
-                "operator": "Naturpark Nordeifel e.V",
-                "ref": "3",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/walden/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.478253,
-                            50.550536
-                        ],
-                        [
-                            6.4781165,
-                            50.5504695
-                        ],
-                        [
-                            6.4781699,
-                            50.5504253
-                        ],
-                        [
-                            6.4782049,
-                            50.5504424
-                        ],
-                        [
-                            6.4782362,
-                            50.5504165
-                        ],
-                        [
-                            6.4783376,
-                            50.5504659
-                        ],
-                        [
-                            6.478253,
-                            50.550536
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/588751397"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/608518368",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/hogevijvers/arendonkplatform.jpg",
-                "image:1": "http://www.bivakzone.be/images/hogevijvers/arendonk3.jpg",
-                "maxstay": "2 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Hoge Vijvers - Arendonk",
-                "openfire": "yes",
-                "opening_hours": "24/7",
-                "operator": "Flemish Agency for Nature and Forests",
-                "reservation": "no",
-                "source:nl": "http://www.bivakzone.be/hogevijvers.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/hogevijvers.html",
-                "website": "http://www.bivakzone.be/hogevijvers.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.0839162,
-                            51.3688388
-                        ],
-                        [
-                            5.0844289,
-                            51.3690172
-                        ],
-                        [
-                            5.0841956,
-                            51.3693312
-                        ],
-                        [
-                            5.0836422,
-                            51.369074
-                        ],
-                        [
-                            5.0839162,
-                            51.3688388
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/608518368"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/619271899",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "2",
-                "name": "Land in Sicht",
-                "openfire": "no",
-                "operator": "Naturpark Nordeifel e.V",
-                "ref": "2",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/land-in-sicht/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.4783086,
-                            50.5558779
-                        ],
-                        [
-                            6.4782598,
-                            50.5558506
-                        ],
-                        [
-                            6.478338,
-                            50.5557942
-                        ],
-                        [
-                            6.4782443,
-                            50.5557417
-                        ],
-                        [
-                            6.4783123,
-                            50.5556927
-                        ],
-                        [
-                            6.4784549,
-                            50.5557725
-                        ],
-                        [
-                            6.4783086,
-                            50.5558779
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/619271899"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/619280904",
-                "FIXME": "Toilette außerhalb Naturpark oder ESRI Luftbild verschoben?",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "2",
-                "name": "Ich bin mal kurz weg",
-                "openfire": "no",
-                "operator": "Naturpark Nordeifel e.V",
-                "ref": "4",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/ich-bin-mal-kurz-weg/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.6083682,
-                            50.4598251
-                        ],
-                        [
-                            6.6083857,
-                            50.4598639
-                        ],
-                        [
-                            6.6083609,
-                            50.4600261
-                        ],
-                        [
-                            6.6083863,
-                            50.4600607
-                        ],
-                        [
-                            6.6083012,
-                            50.4600863
-                        ],
-                        [
-                            6.6082683,
-                            50.4600389
-                        ],
-                        [
-                            6.608334,
-                            50.4600167
-                        ],
-                        [
-                            6.6083542,
-                            50.4598682
-                        ],
-                        [
-                            6.6083387,
-                            50.4598323
-                        ],
-                        [
-                            6.6083682,
-                            50.4598251
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/619280904"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/633741815",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Am Herrentisch",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "14",
-                "reservation": "required",
-                "shower": "no",
-                "source": "https://www.trekking-pfalz.de/de/trekking-plaetze/",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-14/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            8.0254859,
-                            49.3858699
-                        ],
-                        [
-                            8.0254765,
-                            49.3859086
-                        ],
-                        [
-                            8.0255127,
-                            49.3859732
-                        ],
-                        [
-                            8.0254731,
-                            49.3859797
-                        ],
-                        [
-                            8.0254477,
-                            49.3859632
-                        ],
-                        [
-                            8.0254202,
-                            49.3859719
-                        ],
-                        [
-                            8.0253947,
-                            49.3860064
-                        ],
-                        [
-                            8.0253263,
-                            49.38604
-                        ],
-                        [
-                            8.0253169,
-                            49.3860199
-                        ],
-                        [
-                            8.0253544,
-                            49.3859784
-                        ],
-                        [
-                            8.0253746,
-                            49.3859527
-                        ],
-                        [
-                            8.0253947,
-                            49.3859584
-                        ],
-                        [
-                            8.0254295,
-                            49.3859413
-                        ],
-                        [
-                            8.0254423,
-                            49.385913
-                        ],
-                        [
-                            8.0254349,
-                            49.385882
-                        ],
-                        [
-                            8.0254859,
-                            49.3858699
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/633741815"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/633747373",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Enkenbach-Alsenborn",
-                "note": "Die genauen Platzgrenzen sind vor Ort nicht ersichtlich. Ich bin mit dem Garmin zweimal um die Fläche, die belegt und belegbar aussieht, gelaufen.",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "8",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-8/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.9469401,
-                            49.5167757
-                        ],
-                        [
-                            7.9469897,
-                            49.5167861
-                        ],
-                        [
-                            7.946995,
-                            49.5168854
-                        ],
-                        [
-                            7.9469642,
-                            49.5169367
-                        ],
-                        [
-                            7.9468931,
-                            49.5169672
-                        ],
-                        [
-                            7.9468328,
-                            49.5169524
-                        ],
-                        [
-                            7.9467402,
-                            49.5168732
-                        ],
-                        [
-                            7.9466426,
-                            49.51681
-                        ],
-                        [
-                            7.946432,
-                            49.516727
-                        ],
-                        [
-                            7.9464557,
-                            49.5166962
-                        ],
-                        [
-                            7.9466544,
-                            49.5167652
-                        ],
-                        [
-                            7.9467228,
-                            49.5167626
-                        ],
-                        [
-                            7.9468448,
-                            49.5167461
-                        ],
-                        [
-                            7.9469401,
-                            49.5167757
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/633747373"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/636901917",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "fixme": "Details vor Ort erfassen (WC, ...), Geländeform prüfen.",
-                "name": "Trekkingplatz Ellerspring",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "reservation": "required",
-                "short_name": "Ellerspring",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.soonwaldsteig.de/trekkingcamps/die-camps/trekkingcamp-ellerspring"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.6080224,
-                            49.9092224
-                        ],
-                        [
-                            7.6074591,
-                            49.9088562
-                        ],
-                        [
-                            7.6076951,
-                            49.9087353
-                        ],
-                        [
-                            7.6083013,
-                            49.9090807
-                        ],
-                        [
-                            7.6080224,
-                            49.9092224
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/636901917"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/647873466",
-                "access": "yes",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/warande/dewarande2.jpg",
-                "maxstay": "2 nights",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Bivakzone De Warande",
-                "openfire": "yes",
-                "operator": "the Flemish Agency for Nature and Forests",
-                "toilets": "yes",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.4986118,
-                            51.2515936
-                        ],
-                        [
-                            5.4989042,
-                            51.2512478
-                        ],
-                        [
-                            5.4995479,
-                            51.2512696
-                        ],
-                        [
-                            5.4996472,
-                            51.2512931
-                        ],
-                        [
-                            5.4997169,
-                            51.2513452
-                        ],
-                        [
-                            5.4997545,
-                            51.2514006
-                        ],
-                        [
-                            5.4999369,
-                            51.251785
-                        ],
-                        [
-                            5.4993548,
-                            51.2517229
-                        ],
-                        [
-                            5.4986118,
-                            51.2515936
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/647873466"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/683082961",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "description": "The Campsite is a wooden platform for two tents. Each spot measures 2,25m * 3,5m. As there is no reception, it has to be booked in advance for 10€.",
-                "fee": "yes",
-                "internet_access": "no",
-                "maxtents": "2",
-                "name": "Nordstern",
-                "operator": "Naturpark Nordeifel e.V.",
-                "ref": "1",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/nordstern/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.4398464,
-                            50.5747311
-                        ],
-                        [
-                            6.4402666,
-                            50.5745147
-                        ],
-                        [
-                            6.440323,
-                            50.5745605
-                        ],
-                        [
-                            6.4399906,
-                            50.5747256
-                        ],
-                        [
-                            6.4400805,
-                            50.5748222
-                        ],
-                        [
-                            6.4400162,
-                            50.5748445
-                        ],
-                        [
-                            6.4399946,
-                            50.5748335
-                        ],
-                        [
-                            6.4399701,
-                            50.5748275
-                        ],
-                        [
-                            6.4399303,
-                            50.5748303
-                        ],
-                        [
-                            6.4398953,
-                            50.5748024
-                        ],
-                        [
-                            6.4398849,
-                            50.5747717
-                        ],
-                        [
-                            6.4398514,
-                            50.5747485
-                        ],
-                        [
-                            6.4398464,
-                            50.5747311
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/683082961"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/699282073",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Frankelbach",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "12",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-12/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.6486945,
-                            49.5305984
-                        ],
-                        [
-                            7.6488031,
-                            49.5305592
-                        ],
-                        [
-                            7.6488595,
-                            49.5305792
-                        ],
-                        [
-                            7.6489507,
-                            49.530648
-                        ],
-                        [
-                            7.6490392,
-                            49.5307246
-                        ],
-                        [
-                            7.6490459,
-                            49.5307942
-                        ],
-                        [
-                            7.6489934,
-                            49.5308618
-                        ],
-                        [
-                            7.6489635,
-                            49.5308695
-                        ],
-                        [
-                            7.6488917,
-                            49.530893
-                        ],
-                        [
-                            7.6488474,
-                            49.5308934
-                        ],
-                        [
-                            7.648777,
-                            49.5308851
-                        ],
-                        [
-                            7.6487365,
-                            49.5308855
-                        ],
-                        [
-                            7.6486476,
-                            49.5308316
-                        ],
-                        [
-                            7.648602,
-                            49.5307368
-                        ],
-                        [
-                            7.6486127,
-                            49.5306454
-                        ],
-                        [
-                            7.6486945,
-                            49.5305984
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/699282073"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/699285563",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Drehenthalerhof",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "11",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-11/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.8238944,
-                            49.5223751
-                        ],
-                        [
-                            7.8239889,
-                            49.5223342
-                        ],
-                        [
-                            7.8240245,
-                            49.5222894
-                        ],
-                        [
-                            7.8240634,
-                            49.5222733
-                        ],
-                        [
-                            7.8241459,
-                            49.5222702
-                        ],
-                        [
-                            7.8241975,
-                            49.5222654
-                        ],
-                        [
-                            7.8242961,
-                            49.5222615
-                        ],
-                        [
-                            7.824402,
-                            49.5223177
-                        ],
-                        [
-                            7.8245281,
-                            49.5223825
-                        ],
-                        [
-                            7.8246199,
-                            49.5224469
-                        ],
-                        [
-                            7.8245737,
-                            49.522517
-                        ],
-                        [
-                            7.8244704,
-                            49.5224883
-                        ],
-                        [
-                            7.8243993,
-                            49.5224326
-                        ],
-                        [
-                            7.8243088,
-                            49.5224169
-                        ],
-                        [
-                            7.8242169,
-                            49.5224426
-                        ],
-                        [
-                            7.8241405,
-                            49.5224631
-                        ],
-                        [
-                            7.8241231,
-                            49.5225088
-                        ],
-                        [
-                            7.8241231,
-                            49.5225505
-                        ],
-                        [
-                            7.8241955,
-                            49.5225815
-                        ],
-                        [
-                            7.8242089,
-                            49.5226045
-                        ],
-                        [
-                            7.8241573,
-                            49.5226115
-                        ],
-                        [
-                            7.824119,
-                            49.5226037
-                        ],
-                        [
-                            7.8240721,
-                            49.5225714
-                        ],
-                        [
-                            7.8240379,
-                            49.5225466
-                        ],
-                        [
-                            7.8239675,
-                            49.5225331
-                        ],
-                        [
-                            7.823946,
-                            49.5225157
-                        ],
-                        [
-                            7.8239239,
-                            49.5224861
-                        ],
-                        [
-                            7.8238998,
-                            49.5224557
-                        ],
-                        [
-                            7.8238783,
-                            49.522433
-                        ],
-                        [
-                            7.8238723,
-                            49.5224113
-                        ],
-                        [
-                            7.8238944,
-                            49.5223751
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/699285563"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/712513999",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "description": "The Campsite is a wooden platform for two tents.",
-                "fee": "yes",
-                "internet_access": "no",
-                "maxtents": "2",
-                "name": "Birkenrausch",
-                "openfire": "no",
-                "operator": "Naturpark Nordeifel e.V.",
-                "ref": "5",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/nordstern/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.4166999,
-                            50.3103671
-                        ],
-                        [
-                            6.4167209,
-                            50.3103281
-                        ],
-                        [
-                            6.4167433,
-                            50.3103153
-                        ],
-                        [
-                            6.4167475,
-                            50.310281
-                        ],
-                        [
-                            6.4167857,
-                            50.3102638
-                        ],
-                        [
-                            6.4168034,
-                            50.3102682
-                        ],
-                        [
-                            6.4168174,
-                            50.3102879
-                        ],
-                        [
-                            6.4167923,
-                            50.3103421
-                        ],
-                        [
-                            6.4167703,
-                            50.3103829
-                        ],
-                        [
-                            6.4166999,
-                            50.3103671
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/712513999"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/724560109",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "charge": "10 EUR",
-                "description": "The Campsite is a wooden platform for two tents. Each spot measures 2,25m * 3,5m. As there is no reception, it has to be booked in advance for 10€",
-                "email": "info@nordeifel-tourismus.de",
-                "fee": "yes",
-                "fixme": "Add correct sized object, toilet etc.",
-                "internet_access": "no",
-                "name": "Großer Wagen",
-                "operator": "Naturpark Nordeifel e.V",
-                "phone": "+49 2441 994570",
-                "ref": "8",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://trekking-eifel.de/de/die-trekkingplaetze/grosser-wagen/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.719115,
-                            50.4034653
-                        ],
-                        [
-                            6.7192666,
-                            50.4035452
-                        ],
-                        [
-                            6.7191881,
-                            50.4036187
-                        ],
-                        [
-                            6.7190312,
-                            50.4035324
-                        ],
-                        [
-                            6.719115,
-                            50.4034653
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/724560109"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/724561063",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "charge": "10 EUR",
-                "description": "The Campsite is a wooden platform for two tents. Each spot measures 2,25m * 3,5m. As there is no reception, it has to be booked in advance for 10€",
-                "email": "info@nordeifel-tourismus.de",
-                "fee": "yes",
-                "fixme": "Add correct sized object, toilet etc.",
-                "internet_access": "no",
-                "name": "In die Wildnis",
-                "operator": "Naturpark Nordeifel e.V",
-                "phone": "+49 2441 994570",
-                "ref": "7",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://trekking-eifel.de/de/die-trekkingplaetze/in-die-wildnis/"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            6.5645047,
-                            50.3817333
-                        ],
-                        [
-                            6.5646563,
-                            50.3818133
-                        ],
-                        [
-                            6.5645778,
-                            50.3818868
-                        ],
-                        [
-                            6.5644209,
-                            50.3818004
-                        ],
-                        [
-                            6.5645047,
-                            50.3817333
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/724561063"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/762874436",
-                "access": "customers",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "charge": "2 EUR/night/person",
-                "description": "Reservation required by sending a mail or SMS a few days in advance, otherwise the cost is 15 EUR/night/person",
-                "description:reservation": "Reserve at least a few days in advance at vzw Brunehaut by SMS, you will then receive details for bank transfer + proof that can be presented on the spot when checked by competent authorities.",
-                "drinking_water": "no",
-                "email": "brunehautvzw@gmail.com",
-                "fee": "yes",
-                "image": "http://www.bivakzone.be/images/brunehaut/bivakzone_brunehaut.jpg",
-                "maxstay": "2 nights",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Aire de Bivouac Brunehaut / Bivakzone Brunehaut",
-                "openfire": "yes",
-                "opening_hours": "24/7",
-                "operator": "VZW Brunehaut",
-                "payment:wire_transfer": "yes",
-                "phone": "+32 473 43 77 93",
-                "reservation": "required",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/brunehaut-hargimont.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.3226954,
-                            50.180832
-                        ],
-                        [
-                            5.3224867,
-                            50.1808544
-                        ],
-                        [
-                            5.3224183,
-                            50.1807586
-                        ],
-                        [
-                            5.3223241,
-                            50.1806415
-                        ],
-                        [
-                            5.3221948,
-                            50.1805255
-                        ],
-                        [
-                            5.3220303,
-                            50.1804486
-                        ],
-                        [
-                            5.3219176,
-                            50.180509
-                        ],
-                        [
-                            5.3217975,
-                            50.1804368
-                        ],
-                        [
-                            5.3219786,
-                            50.1803327
-                        ],
-                        [
-                            5.3223204,
-                            50.1803374
-                        ],
-                        [
-                            5.3226141,
-                            50.1803209
-                        ],
-                        [
-                            5.322664,
-                            50.1803386
-                        ],
-                        [
-                            5.3227712,
-                            50.1804084
-                        ],
-                        [
-                            5.3228913,
-                            50.1805658
-                        ],
-                        [
-                            5.322919,
-                            50.1807006
-                        ],
-                        [
-                            5.3228248,
-                            50.1807917
-                        ],
-                        [
-                            5.3226954,
-                            50.180832
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/762874436"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765431040",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "description:reservation": "By hanging a piece of paper on the notice board in advance. Especially during holiday periods and weekends it is better to reserve.",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/traqueurs/traqueurs.jpg",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Aire de Bivouac des Traqueurs",
-                "opening_hours": "16:00-10:00",
-                "operator": "Département de la Nature et des Forêts",
-                "reservation": "recommended",
-                "toilets": "no",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/traqueurs-nassogne.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.369824,
-                            50.1252649
-                        ],
-                        [
-                            5.3698685,
-                            50.1251913
-                        ],
-                        [
-                            5.3699993,
-                            50.125227
-                        ],
-                        [
-                            5.369934,
-                            50.1252917
-                        ],
-                        [
-                            5.369824,
-                            50.1252649
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765431040"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765434484",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capicity": "10",
-                "drinking_water": "no",
-                "fee": "no",
-                "maxstay": "16 hr",
-                "motor_vehicle": "no",
-                "name": "Aire de bivouac du Golet",
-                "opening_hours": "16:00-10:00",
-                "operator": "bivakzone",
-                "reservation": "not required",
-                "toilets": "no",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.4769177,
-                            50.0672711
-                        ],
-                        [
-                            5.4768745,
-                            50.0671553
-                        ],
-                        [
-                            5.4768821,
-                            50.0670588
-                        ],
-                        [
-                            5.4769779,
-                            50.0670637
-                        ],
-                        [
-                            5.4770492,
-                            50.0670792
-                        ],
-                        [
-                            5.4771004,
-                            50.0671243
-                        ],
-                        [
-                            5.4770873,
-                            50.0672757
-                        ],
-                        [
-                            5.4769177,
-                            50.0672711
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765434484"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765439965",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "drinking_water": "no",
-                "maxstay": "16 hours",
-                "motor_vehicle": "no",
-                "name": "Bivouac de Gives",
-                "opening_hours": "16:00-10:00",
-                "operator": "bivakzone",
-                "reservation": "not required",
-                "toilets": "no",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            5.6385254,
-                            50.0686575
-                        ],
-                        [
-                            5.6385331,
-                            50.0686389
-                        ],
-                        [
-                            5.6385418,
-                            50.0686181
-                        ],
-                        [
-                            5.6385534,
-                            50.0685902
-                        ],
-                        [
-                            5.6386466,
-                            50.0685288
-                        ],
-                        [
-                            5.6387376,
-                            50.0685423
-                        ],
-                        [
-                            5.6389614,
-                            50.0686186
-                        ],
-                        [
-                            5.6388192,
-                            50.0688027
-                        ],
-                        [
-                            5.6386813,
-                            50.0687345
-                        ],
-                        [
-                            5.638596,
-                            50.0686924
-                        ],
-                        [
-                            5.6385254,
-                            50.0686575
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765439965"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765449190",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "description:reservation": "send SMS one day in advance",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/hogevijvers/arendonkplatform.jpg",
-                "image:1": "http://www.bivakzone.be/images/winkelsbroek/winkelsbroek.jpg",
-                "image:2": "http://www.bivakzone.be/images/winkelsbroek/bivakzone_winkelsbroek.jpg",
-                "maxstay": "2 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Winkelsbroek",
-                "openfire": "no",
-                "opening_hours": "Apr 1-Oct 31",
-                "operator": "Natuurpunt",
-                "phone": "+32491 33 62 23",
-                "reservation": "required",
-                "source:nl": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
-                "website": "http://www.bivakzone.be/winkelsbroek-turnhout.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.9471737,
-                            51.2648438
-                        ],
-                        [
-                            4.9472437,
-                            51.2644903
-                        ],
-                        [
-                            4.9480401,
-                            51.2645669
-                        ],
-                        [
-                            4.9480749,
-                            51.2649244
-                        ],
-                        [
-                            4.9471737,
-                            51.2648438
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765449190"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765670756",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "dog": "no",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/stropersbos/bivakzonestropersbos5.jpg",
-                "image:1": "http://www.bivakzone.be/images/stropersbos/stropersbos1.jpg",
-                "image:2": "http://www.bivakzone.be/images/stropersbos/konikpaarden.jpg",
-                "maxstay": "2 night",
-                "maxtents": "6",
-                "motor_vehicle": "no",
-                "name": "Stropersbos",
-                "openfire": "yes",
-                "opening_hours": "24/7",
-                "operator": "Flemish Agency for Nature and Forests (ANB)",
-                "reservation": "no",
-                "source:nl": "http://www.bivakzone.be/stropersbos.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/stropersbos.html",
-                "website": "http://www.bivakzone.be/stropersbos.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.0728947,
-                            51.2394817
-                        ],
-                        [
-                            4.072851,
-                            51.2394973
-                        ],
-                        [
-                            4.0728018,
-                            51.2395035
-                        ],
-                        [
-                            4.0727519,
-                            51.2394998
-                        ],
-                        [
-                            4.0727063,
-                            51.2394865
-                        ],
-                        [
-                            4.0726669,
-                            51.2394628
-                        ],
-                        [
-                            4.0726427,
-                            51.2394321
-                        ],
-                        [
-                            4.0726365,
-                            51.2393981
-                        ],
-                        [
-                            4.0726491,
-                            51.2393648
-                        ],
-                        [
-                            4.072679,
-                            51.2393361
-                        ],
-                        [
-                            4.0727226,
-                            51.2393155
-                        ],
-                        [
-                            4.0727749,
-                            51.2393053
-                        ],
-                        [
-                            4.0728295,
-                            51.2393068
-                        ],
-                        [
-                            4.0728801,
-                            51.2393198
-                        ],
-                        [
-                            4.0729178,
-                            51.2393406
-                        ],
-                        [
-                            4.0729433,
-                            51.2393677
-                        ],
-                        [
-                            4.072954,
-                            51.2393984
-                        ],
-                        [
-                            4.0729489,
-                            51.2394297
-                        ],
-                        [
-                            4.0729284,
-                            51.2394584
-                        ],
-                        [
-                            4.0728947,
-                            51.2394817
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765670756"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "way/765759463",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/troostembergbos/paltform.jpg",
-                "image:1": "http://www.bivakzone.be/images/troostembergbos/kampvuurhoek.jpg",
-                "image:2": "http://www.bivakzone.be/images/troostembergbos/troostembergbos6.jpg",
-                "image:3": "http://www.bivakzone.be/images/troostembergbos/ecotoilet.jpg",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Troostembergbos (St-Joris-Winge)",
-                "openfire": "yes",
-                "operator": "The Flemish Agency for Nature and Forests",
-                "reservation": "no",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/troostembergbos-winge.html"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            4.8460459,
-                            50.9152335
-                        ],
-                        [
-                            4.8461105,
-                            50.9150495
-                        ],
-                        [
-                            4.8464192,
-                            50.9145823
-                        ],
-                        [
-                            4.8470873,
-                            50.9149274
-                        ],
-                        [
-                            4.8470087,
-                            50.9150583
-                        ],
-                        [
-                            4.8465484,
-                            50.915322
-                        ],
-                        [
-                            4.8460459,
-                            50.9152335
-                        ]
-                    ]
-                ]
-            },
-            "id": "way/765759463"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/1390812291",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "designation": "Natuurkampeerterrein Gooren en Krochten ''Vrij kamperen.",
-                "dog": "yes",
-                "drinking_water": "no",
-                "fee": "no",
-                "maxstay": "72 hr",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Paalkampeerterrein Gooren en Krochten",
-                "openfire": "yes",
-                "opening_hours": "17:00-09:00",
-                "operator": "bivakzone",
-                "reservation": "no",
-                "source": "http://www.staatsbosbeheer.nl/overnachten/kampeerterreinen/gooren%20en%20krochten.aspx",
-                "toilets": "no",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.6889206,
-                    51.4574828
-                ]
-            },
-            "id": "node/1390812291"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/1985858969",
-                "alt_name": "Paalkampeerplaats Spettekraai",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "2",
-                "caravans": "no",
-                "description": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "internet_access": "no",
-                "name": "Bivakzone: Oude Schelde Spettekraai - Zingem",
-                "openfire": "yes",
-                "operator": "Agentschap Natuur & Bos",
-                "smoking": "yes",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/oudescheldespettekraai.html",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.6756643,
-                    50.8922404
-                ]
-            },
-            "id": "node/1985858969"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/2082330043",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Eußerthal",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "5",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-5/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.9500938,
-                    49.254413
-                ]
-            },
-            "id": "node/2082330043"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/2273605600",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Kalmit",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "7",
-                "reservation": "required",
-                "shower": "no",
-                "source": "https://www.trekking-pfalz.de/de/trekking-plaetze/",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-7/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    8.0821352,
-                    49.3145732
-                ]
-            },
-            "id": "node/2273605600"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/3544038313",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/molenheide/bivakzone_molenheide2.png",
-                "image:1": "http://www.bivakzone.be/images/molenheide/bivakzone_molenheide.jpg",
-                "maxstay": "2 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Molenheide Poppel",
-                "opening_hours": "24/7",
-                "operator": "Flemish Agency for Nature and Forests (ANB)",
-                "reservation": "no",
-                "source:nl": "http://www.bivakzone.be/molenheide.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://bivakzone.be/arcadia-muizen.html",
-                "website": "http://www.bivakzone.be/molenheide.html"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    5.067727,
-                    51.46677
-                ]
-            },
-            "id": "node/3544038313"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/3824691120",
-                "FIXME": "Toilettenhäuschen, Feuerstelle etc. erfassen",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Ruine Guttenberg",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "1",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-1/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.919124,
-                    49.0832763
-                ]
-            },
-            "id": "node/3824691120"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/3999393657",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "fee": "yes",
-                "internet_access": "no",
-                "name": "Trekkingcamp Schmidtburg",
-                "openfire": "yes",
-                "operator": "Naturpark Soonwald-Nahe 2019",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.soonwaldsteig.de/trekkingcamps/die-camps/trekkingcamp-schmidtburg",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.3900336,
-                    49.8463175
-                ]
-            },
-            "id": "node/3999393657"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/4205769490",
-                "alt_name": "Paalkampeerplaats Merode",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "description": "site voor paalkamperen",
-                "impromptu": "yes",
-                "maxstay": "1 day",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Hertberg-Oost",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.natuurenbos.be/bivakzone-hertberg-oost"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.9300095,
-                    51.0627669
-                ]
-            },
-            "id": "node/4205769490"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/4346872496",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "drinking_water": "no",
-                "motor_vehicle": "no",
-                "name": "Paalkampeerterrein Strijbeekse Heide",
-                "reservation": "no",
-                "tourism": "camp_site",
-                "website": "https://www.logerenbijdeboswachter.nl/vrij-kamperen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.8192462,
-                    51.4976985
-                ]
-            },
-            "id": "node/4346872496"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/4366549150",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://www.bivakzone.be/images/wereldboom/wereldboom2.jpg",
-                "image:1": "http://www.bivakzone.be/images/wereldboom/landschap.jpg",
-                "image:2": "http://www.bivakzone.be/images/stropersbos/konikpaarden.jpg",
-                "maxstay": "2 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "werelddboom",
-                "openfire": "no",
-                "opening_hours": "24/7",
-                "operator": "Raoul D'Hoossche",
-                "reservation": "no",
-                "source:nl": "http://www.bivakzone.be/wereldboom-horebeke.html",
-                "tents": "yes",
-                "toilet": "no",
-                "tourism": "camp_site",
-                "url": "http://www.bivakzone.be/wereldboom-horebeke.html",
-                "website": "http://www.bivakzone.be/wereldboom-horebeke.html"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.6751901,
-                    50.8192516
-                ]
-            },
-            "id": "node/4366549150"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5504875431",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "fee": "no",
-                "internet_access": "no",
-                "name": "Bivouac du Sentier des Pins",
-                "openfire": "yes",
-                "sanitary_dump_station": "no",
-                "tents": "yes",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.2155904,
-                    50.022595
-                ]
-            },
-            "id": "node/5504875431"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5554063599",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Heldenstein",
-                "note": "kein Name vor Ort ausgeschildert",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "6",
-                "reservation": "required",
-                "shower": "no",
-                "source": "https://www.trekking-pfalz.de/de/trekking-plaetze/",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-6/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    8.0207652,
-                    49.2940542
-                ]
-            },
-            "id": "node/5554063599"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5568928692",
-                "TODO": "Toilette, Feuerstelle, etc. erfassen",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Ramsen",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "9",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-9/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.9912813,
-                    49.5362315
-                ]
-            },
-            "id": "node/5568928692"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5633545233",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "drinking_water": "no",
-                "fee": "no",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Paalkampeerplaats Galgenhof",
-                "openfire": "no",
-                "tourism": "camp_site",
-                "website": "http://www.meetjesman.be/pagina/paalkamperen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.545672,
-                    51.1898564
-                ]
-            },
-            "id": "node/5633545233"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5696744891",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "no",
-                "internet_access": "no",
-                "maxtents": "3",
-                "name": "Bivakzone Onderdale",
-                "openfire": "no",
-                "sanitary_dump_station": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/meetjesland.html",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    3.4735765,
-                    51.1395892
-                ]
-            },
-            "id": "node/5696744891"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/5982061166",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Frankenstein",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "13",
-                "reservation": "required",
-                "shower": "no",
-                "source": "https://www.trekking-pfalz.de/de/trekking-plaetze/",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-13/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.9690763,
-                    49.4516299
-                ]
-            },
-            "id": "node/5982061166"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6538020985",
-                "access": "private",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "description:reservation": "you must announce your arrival one day in advance or same day before noon: contact the family Barbé by text message (no phone call)",
-                "drinking_water": "yes",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Nellekensbos",
-                "openfire": "yes",
-                "phone": "+32 478 25 72 39",
-                "reservation": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.bivakzone.be/nellekensbos-meerbeke.html"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.0711499,
-                    50.8152331
-                ]
-            },
-            "id": "node/6538020985"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6566552345",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "capacity": "6",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "maxtents": "6",
-                "name": "Trekking Pfalz: Imsbach",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "10",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-10/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.8868499,
-                    49.589166
-                ]
-            },
-            "id": "node/6566552345"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6590947599",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "fireplace": "no",
-                "internet_access": "no",
-                "name": "Abgetaucht",
-                "openfire": "no",
-                "operator": "Naturpark Nordeifel e.V.",
-                "ref": "6",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "toilets": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-eifel.de/de/die-trekkingplaetze/abgetaucht/",
-                "wheelchair": "no"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.3978509,
-                    50.2528264
-                ]
-            },
-            "id": "node/6590947599"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6699044445",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "name": "Trekking Pfalz: Hauenstein",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "ref": "15",
-                "reservation": "required",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "http://www.trekking-pfalz.de/de/trekking-plaetze/uebersicht-der-plaetze/platz-15"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.82233,
-                    49.1878867
-                ]
-            },
-            "id": "node/6699044445"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6700055630",
-                "access": "customers",
-                "backcountry": "yes",
-                "camp_site": "basic",
-                "caravans": "no",
-                "drinking_water": "no",
-                "fee": "yes",
-                "fixme": "Details vor Ort erfassen (WC, ...)",
-                "name": "Trekkingcamp Ochsenbaumer Höhe",
-                "openfire": "yes",
-                "opening_hours": "Apr 1-Oct 31: \"needs reservation by phone or web\"",
-                "reservation": "required",
-                "short_name": "Ochsenbaumer Höhe",
-                "shower": "no",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "website": "https://www.soonwaldsteig.de/trekkingcamps/die-camps/trekkingcamp-ochsenbaumer-hoehe"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.6215855,
-                    49.9541438
-                ]
-            },
-            "id": "node/6700055630"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6821000037",
-                "alt_name": "Paalkampeerplaats Speelboomgaard Grootloon",
-                "backcountry": "yes",
-                "bicycle": "no",
-                "camp_site": "basic",
-                "description": "site voor paalkamperen",
-                "drinking_water": "no",
-                "fee": "no",
-                "maxstay": "48 hours",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Grootloon",
-                "name:fr": "Zone bivouac Borgloon",
-                "openfire": "yes",
-                "operator": "the Flemish Agency for Nature and Forests",
-                "toilets": "yes",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    5.3539318,
-                    50.7913451
-                ]
-            },
-            "id": "node/6821000037"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/6821054100",
-                "alt_name": "Paalkampeerplaats Eykenbos Sint-Truiden",
-                "backcountry": "yes",
-                "bicycle": "no",
-                "camp_site": "basic",
-                "description": "site voor paalkamperen",
-                "drinking_water": "no",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Eyckenbos Kerkom",
-                "name:fr": "Point de bivouac Eykenbos",
-                "openfire": "no",
-                "toilets": "yes",
-                "tourism": "camp_site"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    5.1857866,
-                    50.7699529
-                ]
-            },
-            "id": "node/6821054100"
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "@id": "node/7093111580",
-                "backcountry": "yes",
-                "bicycle": "yes",
-                "camp_site": "basic",
-                "capacity": "10",
-                "caravans": "no",
-                "description": "minimalistic bivouac site",
-                "description:nl": "site voor paalkamperen",
-                "description:reservation": "Send a text message one day in advance",
-                "dog": "no",
-                "drinking_water": "no",
-                "fee": "no",
-                "image": "http://bivakzone.be/images/arcadia/arcadia2.jpg",
-                "maxstay": "1 night",
-                "maxtents": "3",
-                "motor_vehicle": "no",
-                "name": "Bivakzone Arcadia",
-                "operator": "Heer Karsten Van Lil",
-                "phone": "+32 497 82 66 43",
-                "reservation": "required",
-                "source:nl": "http://www.bivakzone.be/arcadia-muizen.html",
-                "tents": "yes",
-                "tourism": "camp_site",
-                "url": "http://bivakzone.be/arcadia-muizen.html",
-                "website": "https://arcadiamuizen.com/"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    4.5423328,
-                    51.0036932
-                ]
-            },
-            "id": "node/7093111580"
-        }
-    ]
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-01-28T13:40:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222137187",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description:reservation": "No reservation reqired but compulsary registration in the log book",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/steenberg/steenberg.jpg",
+        "image:1": "http://www.bivakzone.be/images/steenberg/vuurput.jpg",
+        "image:3": "http://www.bivakzone.be/images/steenberg/WC2.jpg",
+        "image:4": "http://www.bivakzone.be/images/steenberg/meerdaalwoud1.jpg",
+        "impromptu": "yes",
+        "landuse": "grass",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Steenberg Meerdaalwoud Oud-Heverlee",
+        "openfire": "yes",
+        "operator": "The Flemish Agency for Nature and Forests and",
+        "reservation": "no",
+        "start_date": "2013-05-06",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/steenberg.html",
+        "website": "https://sites.google.com/site/paalkampeerders/locatiebeschrijvingen/steenberg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6744231,
+              50.8149045
+            ],
+            [
+              4.6746203,
+              50.8149343
+            ],
+            [
+              4.6745482,
+              50.8150662
+            ],
+            [
+              4.6746512,
+              50.8150943
+            ],
+            [
+              4.6745721,
+              50.8151902
+            ],
+            [
+              4.6743314,
+              50.81511
+            ],
+            [
+              4.673774,
+              50.8150585
+            ],
+            [
+              4.6738242,
+              50.8149781
+            ],
+            [
+              4.6739697,
+              50.8149408
+            ],
+            [
+              4.6742447,
+              50.8148985
+            ],
+            [
+              4.6744231,
+              50.8149045
+            ]
+          ]
+        ]
+      },
+      "id": "way/222137187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/332573121",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "caravans": "no",
+        "description": "site voor paalkamperen",
+        "landuse": "grass",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Het Spoor / La Trace",
+        "start_date": "2014-07",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/het-spoor-meerdaal.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.6919498,
+              50.7884453
+            ],
+            [
+              4.6917022,
+              50.7880498
+            ],
+            [
+              4.6926187,
+              50.7880365
+            ],
+            [
+              4.692579,
+              50.7884028
+            ],
+            [
+              4.6926097,
+              50.7887547
+            ],
+            [
+              4.6923539,
+              50.788757
+            ],
+            [
+              4.692308,
+              50.7884218
+            ],
+            [
+              4.6919498,
+              50.7884453
+            ]
+          ]
+        ]
+      },
+      "id": "way/332573121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/378931256",
+        "alt_name": "Paalkampeerplaats Het Vinne",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description:reservation": "Registration by phone on arrival before pinching tent.",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/vinne/paalcamping_het_vinne2.jpg",
+        "image:1": "http://www.bivakzone.be/images/vinne/het_vinne2.jpg",
+        "image:2": "http://www.bivakzone.be/images/vinne/paalcamping_vinne.jpg",
+        "impromptu": "yes",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Het Vinne - Zoutleeuw",
+        "openfire": "yes",
+        "opening_hours": "Apr 1 - Sep 30",
+        "operator": "The Government of Flemish Brabant",
+        "phone": "+32 11 78 18 19",
+        "reservation": "yes",
+        "sanitary_dump_station": "no",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/het-vinne.html",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.1329606,
+              50.8452949
+            ],
+            [
+              5.1325994,
+              50.8454057
+            ],
+            [
+              5.1323455,
+              50.8450705
+            ],
+            [
+              5.132187,
+              50.8448611
+            ],
+            [
+              5.132525,
+              50.8447464
+            ],
+            [
+              5.1329606,
+              50.8452949
+            ]
+          ]
+        ]
+      },
+      "id": "way/378931256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420624660",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/wortelkolonie/bivakzone_wortel4.jpg",
+        "image:1": "http://www.bivakzone.be/images/wortelkolonie/bivakzone_wortel.jpg",
+        "maxstay": "2 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Root Colony (Hoogstraten)",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Flemish Agency for Nature and Forests",
+        "reservation": "no",
+        "source:nl": "http://www.bivakzone.be/hogevijvers.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/hogevijvers.html",
+        "website": "https://www.natuurenbos.be/bivakzone-wortel-kolonie-hoogstraten"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.8174936,
+              51.4039225
+            ],
+            [
+              4.8176392,
+              51.4034949
+            ],
+            [
+              4.8190423,
+              51.4036411
+            ],
+            [
+              4.8189535,
+              51.4039713
+            ],
+            [
+              4.8182324,
+              51.4040112
+            ],
+            [
+              4.8174936,
+              51.4039225
+            ]
+          ]
+        ]
+      },
+      "id": "way/420624660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/608518368",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/hogevijvers/arendonkplatform.jpg",
+        "image:1": "http://www.bivakzone.be/images/hogevijvers/arendonk3.jpg",
+        "maxstay": "2 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Hoge Vijvers - Arendonk",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Flemish Agency for Nature and Forests",
+        "reservation": "no",
+        "source:nl": "http://www.bivakzone.be/hogevijvers.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/hogevijvers.html",
+        "website": "http://www.bivakzone.be/hogevijvers.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0839162,
+              51.3688388
+            ],
+            [
+              5.0844289,
+              51.3690172
+            ],
+            [
+              5.0841956,
+              51.3693312
+            ],
+            [
+              5.0836422,
+              51.369074
+            ],
+            [
+              5.0839162,
+              51.3688388
+            ]
+          ]
+        ]
+      },
+      "id": "way/608518368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/647873466",
+        "access": "yes",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/warande/dewarande2.jpg",
+        "maxstay": "2 nights",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Bivakzone De Warande",
+        "openfire": "yes",
+        "operator": "the Flemish Agency for Nature and Forests",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.4986118,
+              51.2515936
+            ],
+            [
+              5.4989042,
+              51.2512478
+            ],
+            [
+              5.4995479,
+              51.2512696
+            ],
+            [
+              5.4996472,
+              51.2512931
+            ],
+            [
+              5.4997169,
+              51.2513452
+            ],
+            [
+              5.4997545,
+              51.2514006
+            ],
+            [
+              5.4999369,
+              51.251785
+            ],
+            [
+              5.4993548,
+              51.2517229
+            ],
+            [
+              5.4986118,
+              51.2515936
+            ]
+          ]
+        ]
+      },
+      "id": "way/647873466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/762874436",
+        "access": "customers",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "charge": "2 EUR/night/person",
+        "description": "Reservation required by sending a mail or SMS a few days in advance, otherwise the cost is 15 EUR/night/person",
+        "description:reservation": "Reserve at least a few days in advance at vzw Brunehaut by SMS, you will then receive details for bank transfer + proof that can be presented on the spot when checked by competent authorities.",
+        "drinking_water": "no",
+        "email": "brunehautvzw@gmail.com",
+        "fee": "yes",
+        "image": "http://www.bivakzone.be/images/brunehaut/bivakzone_brunehaut.jpg",
+        "maxstay": "2 nights",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Aire de Bivouac Brunehaut / Bivakzone Brunehaut",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "VZW Brunehaut",
+        "payment:wire_transfer": "yes",
+        "phone": "+32 473 43 77 93",
+        "reservation": "required",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/brunehaut-hargimont.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.3226954,
+              50.180832
+            ],
+            [
+              5.3224867,
+              50.1808544
+            ],
+            [
+              5.3224183,
+              50.1807586
+            ],
+            [
+              5.3223241,
+              50.1806415
+            ],
+            [
+              5.3221948,
+              50.1805255
+            ],
+            [
+              5.3220303,
+              50.1804486
+            ],
+            [
+              5.3219176,
+              50.180509
+            ],
+            [
+              5.3217975,
+              50.1804368
+            ],
+            [
+              5.3219786,
+              50.1803327
+            ],
+            [
+              5.3223204,
+              50.1803374
+            ],
+            [
+              5.3226141,
+              50.1803209
+            ],
+            [
+              5.322664,
+              50.1803386
+            ],
+            [
+              5.3227712,
+              50.1804084
+            ],
+            [
+              5.3228913,
+              50.1805658
+            ],
+            [
+              5.322919,
+              50.1807006
+            ],
+            [
+              5.3228248,
+              50.1807917
+            ],
+            [
+              5.3226954,
+              50.180832
+            ]
+          ]
+        ]
+      },
+      "id": "way/762874436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765431040",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "description:reservation": "By hanging a piece of paper on the notice board in advance. Especially during holiday periods and weekends it is better to reserve.",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/traqueurs/traqueurs.jpg",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Aire de Bivouac des Traqueurs",
+        "opening_hours": "16:00-10:00",
+        "operator": "Département de la Nature et des Forêts",
+        "reservation": "recommended",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/traqueurs-nassogne.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.369824,
+              50.1252649
+            ],
+            [
+              5.3698685,
+              50.1251913
+            ],
+            [
+              5.3699993,
+              50.125227
+            ],
+            [
+              5.369934,
+              50.1252917
+            ],
+            [
+              5.369824,
+              50.1252649
+            ]
+          ]
+        ]
+      },
+      "id": "way/765431040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765434484",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "maxstay": "16 hr",
+        "motor_vehicle": "no",
+        "name": "Aire de bivouac du Golet",
+        "opening_hours": "16:00-10:00",
+        "operator": "bivakzone",
+        "reservation": "not required",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.4769177,
+              50.0672711
+            ],
+            [
+              5.4768745,
+              50.0671553
+            ],
+            [
+              5.4768821,
+              50.0670588
+            ],
+            [
+              5.4769779,
+              50.0670637
+            ],
+            [
+              5.4770492,
+              50.0670792
+            ],
+            [
+              5.4771004,
+              50.0671243
+            ],
+            [
+              5.4770873,
+              50.0672757
+            ],
+            [
+              5.4769177,
+              50.0672711
+            ]
+          ]
+        ]
+      },
+      "id": "way/765434484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765439965",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "maxstay": "16 hours",
+        "motor_vehicle": "no",
+        "name": "Bivouac de Gives",
+        "opening_hours": "16:00-10:00",
+        "operator": "bivakzone",
+        "reservation": "not required",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.6385254,
+              50.0686575
+            ],
+            [
+              5.6385331,
+              50.0686389
+            ],
+            [
+              5.6385418,
+              50.0686181
+            ],
+            [
+              5.6385534,
+              50.0685902
+            ],
+            [
+              5.6386466,
+              50.0685288
+            ],
+            [
+              5.6387376,
+              50.0685423
+            ],
+            [
+              5.6388495,
+              50.0685805
+            ],
+            [
+              5.6389614,
+              50.0686186
+            ],
+            [
+              5.6388192,
+              50.0688027
+            ],
+            [
+              5.6386813,
+              50.0687345
+            ],
+            [
+              5.638596,
+              50.0686924
+            ],
+            [
+              5.6385254,
+              50.0686575
+            ]
+          ]
+        ]
+      },
+      "id": "way/765439965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765449190",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "description:reservation": "send SMS one day in advance",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/hogevijvers/arendonkplatform.jpg",
+        "image:1": "http://www.bivakzone.be/images/winkelsbroek/winkelsbroek.jpg",
+        "image:2": "http://www.bivakzone.be/images/winkelsbroek/bivakzone_winkelsbroek.jpg",
+        "maxstay": "2 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Winkelsbroek",
+        "openfire": "no",
+        "opening_hours": "Apr 1-Oct 31",
+        "operator": "Natuurpunt",
+        "phone": "+32491 33 62 23",
+        "reservation": "required",
+        "source:nl": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/winkelsbroek-turnhout.html",
+        "website": "http://www.bivakzone.be/winkelsbroek-turnhout.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.9471737,
+              51.2648438
+            ],
+            [
+              4.9472437,
+              51.2644903
+            ],
+            [
+              4.9480401,
+              51.2645669
+            ],
+            [
+              4.9480749,
+              51.2649244
+            ],
+            [
+              4.9471737,
+              51.2648438
+            ]
+          ]
+        ]
+      },
+      "id": "way/765449190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765670756",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "dog": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/stropersbos/bivakzonestropersbos5.jpg",
+        "image:1": "http://www.bivakzone.be/images/stropersbos/stropersbos1.jpg",
+        "image:2": "http://www.bivakzone.be/images/stropersbos/konikpaarden.jpg",
+        "maxstay": "2 night",
+        "maxtents": "6",
+        "motor_vehicle": "no",
+        "name": "Stropersbos",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Flemish Agency for Nature and Forests (ANB)",
+        "reservation": "no",
+        "source:nl": "http://www.bivakzone.be/stropersbos.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/stropersbos.html",
+        "website": "http://www.bivakzone.be/stropersbos.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.0728947,
+              51.2394817
+            ],
+            [
+              4.072851,
+              51.2394973
+            ],
+            [
+              4.0728018,
+              51.2395035
+            ],
+            [
+              4.0727519,
+              51.2394998
+            ],
+            [
+              4.0727063,
+              51.2394865
+            ],
+            [
+              4.0726669,
+              51.2394628
+            ],
+            [
+              4.0726427,
+              51.2394321
+            ],
+            [
+              4.0726365,
+              51.2393981
+            ],
+            [
+              4.0726491,
+              51.2393648
+            ],
+            [
+              4.072679,
+              51.2393361
+            ],
+            [
+              4.0727226,
+              51.2393155
+            ],
+            [
+              4.0727749,
+              51.2393053
+            ],
+            [
+              4.0728295,
+              51.2393068
+            ],
+            [
+              4.0728801,
+              51.2393198
+            ],
+            [
+              4.0729178,
+              51.2393406
+            ],
+            [
+              4.0729433,
+              51.2393677
+            ],
+            [
+              4.072954,
+              51.2393984
+            ],
+            [
+              4.0729489,
+              51.2394297
+            ],
+            [
+              4.0729284,
+              51.2394584
+            ],
+            [
+              4.0728947,
+              51.2394817
+            ]
+          ]
+        ]
+      },
+      "id": "way/765670756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/765759463",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/troostembergbos/paltform.jpg",
+        "image:1": "http://www.bivakzone.be/images/troostembergbos/kampvuurhoek.jpg",
+        "image:2": "http://www.bivakzone.be/images/troostembergbos/troostembergbos6.jpg",
+        "image:3": "http://www.bivakzone.be/images/troostembergbos/ecotoilet.jpg",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Troostembergbos (St-Joris-Winge)",
+        "openfire": "yes",
+        "operator": "The Flemish Agency for Nature and Forests",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/troostembergbos-winge.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.8460459,
+              50.9152335
+            ],
+            [
+              4.8461105,
+              50.9150495
+            ],
+            [
+              4.8464192,
+              50.9145823
+            ],
+            [
+              4.8470873,
+              50.9149274
+            ],
+            [
+              4.8470087,
+              50.9150583
+            ],
+            [
+              4.8465484,
+              50.915322
+            ],
+            [
+              4.8460459,
+              50.9152335
+            ]
+          ]
+        ]
+      },
+      "id": "way/765759463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1390812291",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "designation": "Natuurkampeerterrein Gooren en Krochten ''Vrij kamperen.",
+        "dog": "yes",
+        "drinking_water": "no",
+        "fee": "no",
+        "maxstay": "72 hr",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Paalkampeerterrein Gooren en Krochten",
+        "openfire": "yes",
+        "opening_hours": "17:00-09:00",
+        "operator": "bivakzone",
+        "reservation": "no",
+        "source": "http://www.staatsbosbeheer.nl/overnachten/kampeerterreinen/gooren%20en%20krochten.aspx",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6889206,
+          51.4574828
+        ]
+      },
+      "id": "node/1390812291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3544038313",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/molenheide/bivakzone_molenheide2.png",
+        "image:1": "http://www.bivakzone.be/images/molenheide/bivakzone_molenheide.jpg",
+        "maxstay": "2 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Molenheide Poppel",
+        "opening_hours": "24/7",
+        "operator": "Flemish Agency for Nature and Forests (ANB)",
+        "reservation": "no",
+        "source:nl": "http://www.bivakzone.be/molenheide.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://bivakzone.be/arcadia-muizen.html",
+        "website": "http://www.bivakzone.be/molenheide.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.067727,
+          51.46677
+        ]
+      },
+      "id": "node/3544038313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4205769490",
+        "alt_name": "Paalkampeerplaats Merode",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "caravans": "no",
+        "description": "site voor paalkamperen",
+        "impromptu": "yes",
+        "maxstay": "1 day",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Hertberg-Oost",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.natuurenbos.be/bivakzone-hertberg-oost"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9300095,
+          51.0627669
+        ]
+      },
+      "id": "node/4205769490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346872496",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "description": "It's located in a little forest near Strijbeek in the Netherlands",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/strijbeekseheide/omgevingstrijbeekseheide.jpg",
+        "maxstay": "72 hr",
+        "motor_vehicle": "no",
+        "name": "Paalkampeerterrein Strijbeekse Heide",
+        "operator": "Dutch State Forest Management",
+        "reservation": "no",
+        "tourism": "camp_site",
+        "website": "https://www.logerenbijdeboswachter.nl/vrij-kamperen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8192462,
+          51.4976985
+        ]
+      },
+      "id": "node/4346872496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4366549150",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/wereldboom/wereldboom2.jpg",
+        "image:1": "http://www.bivakzone.be/images/wereldboom/landschap.jpg",
+        "image:2": "http://www.bivakzone.be/images/stropersbos/konikpaarden.jpg",
+        "maxstay": "2 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "werelddboom",
+        "openfire": "no",
+        "opening_hours": "24/7",
+        "operator": "Raoul D'Hoossche",
+        "reservation": "no",
+        "source:nl": "http://www.bivakzone.be/wereldboom-horebeke.html",
+        "tents": "yes",
+        "toilet": "no",
+        "tourism": "camp_site",
+        "url": "http://www.bivakzone.be/wereldboom-horebeke.html",
+        "website": "http://www.bivakzone.be/wereldboom-horebeke.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6751901,
+          50.8192516
+        ]
+      },
+      "id": "node/4366549150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5633545233",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Paalkampeerplaats Galgenhof",
+        "openfire": "no",
+        "tourism": "camp_site",
+        "website": "http://www.meetjesman.be/pagina/paalkamperen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.545672,
+          51.1898564
+        ]
+      },
+      "id": "node/5633545233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6538020985",
+        "access": "private",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "description:reservation": "you must announce your arrival one day in advance or same day before noon: contact the family Barbé by text message (no phone call)",
+        "drinking_water": "yes",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Nellekensbos",
+        "openfire": "yes",
+        "phone": "+32 478 25 72 39",
+        "reservation": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/nellekensbos-meerbeke.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0711499,
+          50.8152331
+        ]
+      },
+      "id": "node/6538020985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821000037",
+        "alt_name": "Paalkampeerplaats Speelboomgaard Grootloon",
+        "backcountry": "yes",
+        "bicycle": "no",
+        "camp_site": "basic",
+        "description": "site voor paalkamperen",
+        "drinking_water": "no",
+        "fee": "no",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Grootloon",
+        "name:fr": "Zone bivouac Borgloon",
+        "openfire": "yes",
+        "operator": "the Flemish Agency for Nature and Forests",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3539318,
+          50.7913451
+        ]
+      },
+      "id": "node/6821000037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821054100",
+        "alt_name": "Paalkampeerplaats Eykenbos Sint-Truiden",
+        "backcountry": "yes",
+        "bicycle": "no",
+        "camp_site": "basic",
+        "description": "site voor paalkamperen",
+        "drinking_water": "no",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Eyckenbos Kerkom",
+        "name:fr": "Point de bivouac Eykenbos",
+        "openfire": "no",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1857866,
+          50.7699529
+        ]
+      },
+      "id": "node/6821054100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7093111580",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "caravans": "no",
+        "description": "minimalistic bivouac site",
+        "description:nl": "site voor paalkamperen",
+        "description:reservation": "Send a text message one day in advance",
+        "dog": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://bivakzone.be/images/arcadia/arcadia2.jpg",
+        "maxstay": "1 night",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Bivakzone Arcadia",
+        "operator": "Heer Karsten Van Lil",
+        "phone": "+32 497 82 66 43",
+        "reservation": "required",
+        "source:nl": "http://www.bivakzone.be/arcadia-muizen.html",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "url": "http://bivakzone.be/arcadia-muizen.html",
+        "website": "https://arcadiamuizen.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5423328,
+          51.0036932
+        ]
+      },
+      "id": "node/7093111580"
+    }
+  ]
 }

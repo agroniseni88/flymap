@@ -1,21 +1,13 @@
 import React from 'react';
-import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
+import { Map as LeafletMap, Polygon, GeoJSON, TileLayer, Popup } from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
-import Bike from './Bicyclee'
 import Icon from './Symbols'
-
 
 class MapBe extends React.Component {
     render() {
         return (
     <div>
-            <Bike >
-                if ()                
-
-            
-            </Bike>
-
             <LeafletMap
                 center={[51, 5]}
                 zoom={9}
@@ -29,11 +21,9 @@ class MapBe extends React.Component {
                 easeLinearity={0.35}
             >
                 <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
-               
               
                 {
                    bivakzones.features.map((bivakzone) => (
-
                         <GeoJSON
                             data={bivakzone}
                             style={() => ({
@@ -46,7 +36,7 @@ class MapBe extends React.Component {
                                 <PopUp bivakzone={bivakzone} />
                                 <a href="/page1">{bivakzone.properties.name}</a>
                             </Popup>
-                        </GeoJSON>             
+                        </GeoJSON>  
                     
                     ))
                 }
