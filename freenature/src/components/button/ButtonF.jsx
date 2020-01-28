@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+//import { Button } from 'react-bootstrap';
 
 
 
@@ -25,19 +25,19 @@ export default function ButtonF() {
             </div>
             <div className="btn_button">
                 <div className='box_button'>
-                    <i class="fas fa-swimmer"></i>
+                    <i className="fas fa-swimmer"></i>
                 </div>
 
             </div>
             <div className="btn_button">
                 <div className="box_button">
-                    <i class="fas fa-air-freshener"></i>
+                    <i className="fas fa-air-freshener"></i>
                 </div>
 
             </div>
             <div className="btn_button">
                 <div className='box_button'>
-                    <i class="fas fa-dog"></i>
+                    <i className="fas fa-dog"></i>
                 </div>
 
             </div>

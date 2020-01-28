@@ -4,16 +4,14 @@ import L from 'leaflet';
 import Basemap from './Basemap'
 
 
-
-
 var myIcon = L.icon({
     iconUrl: 'https://unpkg.com/leaflet@1.5.0/dist/images/marker-icon.png',
     iconSize: [38, 95],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76],
-
-
 });
+
+
 
 
 export default class Modal extends React.Component {
@@ -54,6 +52,7 @@ export default class Modal extends React.Component {
           </Popup>
                     </Marker>
                 </Map>
+
             </div >
         )
     }
