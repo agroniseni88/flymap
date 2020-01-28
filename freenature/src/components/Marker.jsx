@@ -1,7 +1,7 @@
 import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
 import PopUp from './PopUp';
-import nofires from './nofires.json';
+import bivakzones from './bivakzones.json';
 
 export default function Marker() {
     return (
@@ -21,21 +21,25 @@ export default function Marker() {
             >
                 <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
                 {
-                    nofires.features.map((nofire) => (
-                        <GeoJSON
-                            data={nofire}
-                            style={() => ({
-                                color: '#4a83ec',
-                                weight: 0.5,
-                                fillColor: "#1a1d62",
-                                fillOpacity: 1,
-                            })}>
-                            <Popup>
-                                <PopUp nofire={nofire} />
-                                <a href="/page1">{nofire.properties.name}</a>
-                            </Popup>
-                        </GeoJSON>
-                    ))
+                    bivakzones.features
+                        .filter((bivak) => bivak.properties.openfire === 'yes')
+
+
+                        .map((bivak) => (
+                            <GeoJSON
+                                data={bivak}
+                                style={() => ({
+                                    color: '#4a83ec',
+                                    weight: 0.5,
+                                    fillColor: "#1a1d62",
+                                    fillOpacity: 1,
+                                })}>
+                                <Popup>
+                                    <PopUp bivakzone={bivak} />
+                                    <a href="/page1">{bivak.properties.name}</a>
+                                </Popup>
+                            </GeoJSON>
+                        ))
                 }
             </LeafletMap>
         </div>
