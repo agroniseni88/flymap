@@ -1,5 +1,5 @@
 import React from 'react';
-import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
+import {GeoJSON, Map as LeafletMap, Popup, TileLayer} from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
 import Icon from './Symbols'
@@ -8,7 +8,7 @@ class MapBe extends React.Component {
   state = {
     lat: 50.502,
     lng: 4.34878,
-  }
+  };
 
     render() {
       const position =  [this.state.lat, this.state.lng]
