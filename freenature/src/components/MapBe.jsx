@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import L from 'leaflet';
-import { Map, TileLayer, Marker, Popup, GeoJSON } from 'react-leaflet';
+import {GeoJSON, Map, Popup, TileLayer} from 'react-leaflet';
 import bivakzoneData from '../bivakzoneData.json';
 import img from '../img/my-icon.png'
+
 var myIcon= new L.Icon({
   iconUrl: img,
   iconSize: [15,15],
@@ -25,21 +26,15 @@ class MapBe extends Component {
           url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
           attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
         />
-        {bivakzoneData.features.map((sıngleBıvakZone)=> {
-
-
-          if(sıngleBıvakZone.geometry.type === 'Polygon'){
-            return 
-          }
-        
-          let coord = sıngleBıvakZone.geometry.coordinates 
+        {bivakzoneData.features.map((singleBivakZone)=> {
+          let coord = singleBivakZone.geometry.coordinates 
           coord = [
             coord[1],
             coord[0]
-          ]
-          console.log(coord)
+          ];
+          console.log(coord);
           return  <GeoJSON 
-                data={sıngleBıvakZone}
+                data={singleBivakZone}
                 style={() => ({
                   color: '#4a83ec',
                   weight: 0.5,
@@ -47,15 +42,12 @@ class MapBe extends Component {
                   fillOpacity: 1,
                 })}
                 >
-                  <Marker position={coord} icon={myIcon}>
                     <Popup>
                       A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>
-                  </Marker>
-                </GeoJSON> 
+
+          </GeoJSON> 
         }) }
-        
-      
       </Map>
     )
   }
