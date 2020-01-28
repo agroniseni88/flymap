@@ -6,7 +6,7 @@ import bivakzones from './bivakzones.json';
 export default function Marker() {
     return (
         <div>
-            <h1>Nofire on area</h1>
+
             <LeafletMap
                 center={[51, 5]}
                 zoom={9}
