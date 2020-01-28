@@ -20,6 +20,7 @@ class App extends Component {
         <Router>
           <Header />
           <Routes />
+         
           <Footer />
         </Router>
 
