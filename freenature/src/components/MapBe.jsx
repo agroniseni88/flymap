@@ -25,24 +25,35 @@ class MapBe extends Component {
           url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
           attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
         />
-        {bivakzoneData.features.map((bivakzoneData)=> 
-        //var coord = [bivakzoneDatas.geometry.coordinates[1]];
-          <GeoJSON 
-          data={bivakzoneData}
-          style={() => ({
-            color: '#4a83ec',
-            weight: 0.5,
-            fillColor: "#1a1d62",
-            fillOpacity: 1,
-          })}
-          >
-          <Marker position={position} icon={myIcon}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-          </Marker>
-          </GeoJSON> 
-        )}
+        {bivakzoneData.features.map((sıngleBıvakZone)=> {
+
+
+          if(sıngleBıvakZone.geometry.type === 'Polygon'){
+            return 
+          }
+        
+          let coord = sıngleBıvakZone.geometry.coordinates 
+          coord = [
+            coord[1],
+            coord[0]
+          ]
+          console.log(coord)
+          return  <GeoJSON 
+                data={sıngleBıvakZone}
+                style={() => ({
+                  color: '#4a83ec',
+                  weight: 0.5,
+                  fillColor: "#1a1d62",
+                  fillOpacity: 1,
+                })}
+                >
+                  <Marker position={coord} icon={myIcon}>
+                    <Popup>
+                      A pretty CSS3 popup. <br /> Easily customizable.
+                    </Popup>
+                  </Marker>
+                </GeoJSON> 
+        }) }
         
       
       </Map>
