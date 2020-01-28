@@ -1,14 +1,28 @@
-import React from 'react'
+import React from 'react';
+import log2 from '../img/log2.png';
+import {Card, Col, Container, Image, Row} from 'react-bootstrap';
 
 export default function Header() {
     return (
         <div>
-            <h1 style={{ background: 'gold', margin: '20px', padding: '5px' }}>LOGO</h1>
-            <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-            </svg>
-            <h3>Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgeving. </h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ducimus architecto aperiam eveniet mollitia odit natus debitis molestias dolorem magni.</p>
-            <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+            <Container  >
+                <Card style={{ border: '2px #138086 solid', padding: '4px' }}>
+                    <Row>
+                        <Col md={{ span: 6, offset: 3 }}>
+                            <Image src={log2} thumbnail alt="name for website" style={{ padding: '5px', width: "500px" }} ></Image>
+                        </Col>
+                    </Row>
+                    <Card.Body>
+                        <Card.Title>
+                            <h2>Primary Card Title</h2>
+                        </Card.Title>
+                        <Card.Text>
+                            <p>Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgeving. </p>
+                            <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Container>
         </div>
     )
 }
