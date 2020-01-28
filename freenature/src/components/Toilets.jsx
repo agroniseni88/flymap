@@ -22,7 +22,7 @@ export default function Marker() {
                 <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
                 {
                     bivakzones.features
-                     .filter((bivak) => bivak.properties.bicycle === 'yes')
+                     .filter((bivak) => bivak.properties.toilets === 'yes')
                     
                     
                     .map ((bivak) => (
