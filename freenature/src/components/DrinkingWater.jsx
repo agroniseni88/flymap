@@ -22,24 +22,24 @@ export default function Marker() {
                 <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
                 {
                     bivakzones.features
-                        .filter((bivak) => bivak.properties.openfire === 'yes')
-
-
-                        .map((bivak) => (
-                            <GeoJSON
-                                data={bivak}
-                                style={() => ({
-                                    color: '#4a83ec',
-                                    weight: 0.5,
-                                    fillColor: "#1a1d62",
-                                    fillOpacity: 1,
-                                })}>
-                                <Popup>
-                                    <PopUp bivakzone={bivak} />
-                                    <a href="/page1">{bivak.properties.name}</a>
-                                </Popup>
-                            </GeoJSON>
-                        ))
+                     .filter((bivak) => bivak.properties.drinking_water === 'yes')
+                    
+                    
+                    .map ((bivak) => (
+                        <GeoJSON
+                            data={bivak}
+                            style={() => ({
+                                color: '#4a83ec',
+                                weight: 0.5,
+                                fillColor: "#1a1d62",
+                                fillOpacity: 1,
+                            })}>
+                            <Popup>
+                                <PopUp bivakzone={bivak} />
+                                <a href="/page1">{bivak.properties.name}</a>
+                            </Popup>
+                        </GeoJSON>
+                    ))
                 }
             </LeafletMap>
         </div>

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-01-28T13:40:02Z",
+  "timestamp": "2020-01-23T15:33:02Z",
   "features": [
     {
       "type": "Feature",
@@ -561,7 +561,7 @@
         "@id": "way/765434484",
         "backcountry": "yes",
         "camp_site": "basic",
-        "capacity": "10",
+        "capicity": "10",
         "drinking_water": "no",
         "fee": "no",
         "maxstay": "16 hr",
@@ -658,10 +658,6 @@
             [
               5.6387376,
               50.0685423
-            ],
-            [
-              5.6388495,
-              50.0685805
             ],
             [
               5.6389614,
@@ -1031,15 +1027,9 @@
         "@id": "node/4346872496",
         "backcountry": "yes",
         "camp_site": "basic",
-        "capacity": "10",
-        "description": "It's located in a little forest near Strijbeek in the Netherlands",
         "drinking_water": "no",
-        "fee": "no",
-        "image": "http://www.bivakzone.be/images/strijbeekseheide/omgevingstrijbeekseheide.jpg",
-        "maxstay": "72 hr",
         "motor_vehicle": "no",
         "name": "Paalkampeerterrein Strijbeekse Heide",
-        "operator": "Dutch State Forest Management",
         "reservation": "no",
         "tourism": "camp_site",
         "website": "https://www.logerenbijdeboswachter.nl/vrij-kamperen"
