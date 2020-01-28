@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+import React from 'react'
+import Question from './icons';
+class Myapp extends React.Component {
+  render() {
+    return (
+    <div>
+      <Question  />
+    </div>  
+    );
+  }
+=======
 import React from 'react';
 import MapBe from './components/MapBe';
 import Header from './components/Header';
@@ -16,6 +28,7 @@ function App() {
       <Footer />
     </div>
   );
+>>>>>>> 7bbfead6a2c34913eab4a62c1ad65d7f596b7712
 }
 
-export default App;
+export default Myapp
