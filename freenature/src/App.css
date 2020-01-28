@@ -148,6 +148,44 @@ svg:hover {
 }
 
 .btn:hover {
-  background-color: coral;
+  background-color: rgb(233, 211, 16);
   color: white;
+}
+
+
+/*button bisycle*/
+
+#flex_button{
+ display:flex;
+}
+.btn_button{
+  padding: 40px;
+ 
+ flex-direction: row;
+
+}
+
+.box_button {
+ 
+  background-color: #ff7890 ;
+  width: 2rem;
+  height: 2rem;
+  box-shadow: 0 0 0 #d3ad06;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 2rem;
+  transform: rotate(45deg) scale(2);
+}
+.box_button:hover {
+  transition: all ease-in 0.3s;
+  box-shadow: 4px 4px 0px  #e5e903 ;
+}
+.box_button .fas {
+  transform: rotate(-45deg);
+  color: rgb(36, 40, 65);
+  margin: 0 auto;
 }
