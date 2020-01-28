@@ -26,28 +26,33 @@ class MapBe extends Component {
           url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
           attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
         />
-        {bivakzoneData.features.map((singleBivakZone)=> {
-          let coord = singleBivakZone.geometry.coordinates 
-          coord = [
-            coord[1],
-            coord[0]
-          ];
-          console.log(coord);
-          return  <GeoJSON 
-                data={singleBivakZone}
-                style={() => ({
-                  color: '#4a83ec',
-                  weight: 0.5,
-                  fillColor: "#1a1d62",
-                  fillOpacity: 1,
-                })}
-                >
+        {
+            bivakzoneData.features
+                .map((bivakzone) => {
+                    if(bivakzone.geometry.type === "Point"){
+                        return bivakzone;
+                    }
+                    bivakzone.geometry.type = "Point";
+                    bivakzone.geometry.coordinates = 
+                            bivakzone.geometry.coordinates[0][0];
+                    return bivakzone;
+                })
+            
+            .map((singleBivakZone)=> 
+               <GeoJSON 
+                    data={singleBivakZone}
+                    style={() => ({
+                      color: '#4a83ec',
+                      weight: 0.5,
+                      fillColor: "#1a1d62",
+                      fillOpacity: 1,
+                    })}
+                    >
                     <Popup>
                       A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>
-
           </GeoJSON> 
-        }) }
+        ) }
       </Map>
     )
   }
