@@ -39,7 +39,7 @@ class MapBe extends React.Component {
                                 })}>
                                 <Popup>
                                     <PopUp bivakzone={bivakzone} />
-                                    <a href="/page1">{bivakzone.properties.name}</a>
+                                    <a href="/marker">{bivakzone.properties.name}</a>
                                 </Popup>
 
                             </GeoJSON>

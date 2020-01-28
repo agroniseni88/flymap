@@ -2,6 +2,7 @@ import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
+import ButtonF from './button/ButtonF';
 
 export default function Marker() {
     return (
@@ -36,12 +37,13 @@ export default function Marker() {
                                 })}>
                                 <Popup>
                                     <PopUp bivakzone={bivak} />
-                                    <a href="/page1">{bivak.properties.name}</a>
+                                    <a href="/">{bivak.properties.name}</a>
                                 </Popup>
                             </GeoJSON>
                         ))
                 }
             </LeafletMap>
+            <ButtonF />
         </div>
     )
 }
