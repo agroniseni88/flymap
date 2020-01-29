@@ -159,7 +159,6 @@ svg:hover {
   color: white;
 }
 
-
 /*button bisycle*/
 
 #flex_button{
@@ -195,4 +194,10 @@ svg:hover {
   transform: rotate(-45deg);
   color: rgb(36, 40, 65);
   margin: 0 auto;
+}
+
+.leaflet-marker-icon {
+    content : url('./img/tent (1).png');
+    weight: 20px; 
+    height: 25px;
 }

@@ -3,6 +3,7 @@ import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
+
 class MapBe extends React.Component {
     state = {
         lat: 50.502,
