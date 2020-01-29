@@ -17,7 +17,7 @@ export default function Header() {
                             <h2>Primary Card Title</h2>
                         </Card.Title>
                         <Card.Text>
-                            <p>Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgeving. </p>
+                            Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgevin
                             <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                         </Card.Text>
                     </Card.Body>

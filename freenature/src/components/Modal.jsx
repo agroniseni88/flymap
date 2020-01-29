@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 
-const PopUp = ({ bivakzone }) => {
+const Modal = ({ bivakzone }) => {
     console.log(bivakzone)
     return (
         <Card>
@@ -24,7 +24,7 @@ const PopUp = ({ bivakzone }) => {
     )
 };
 
-export default PopUp;
+export default Modal;
 
 
 
