@@ -12,7 +12,7 @@ class MyRoutes extends React.Component {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
-                <Route exact path="/modal" component={Modal} />
+                {/*  <Route exact path="/modal" component={Modal} />*/}
                 <Route path="*" component={NotFound} />
             </Switch>
         );
