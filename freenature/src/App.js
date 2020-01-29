@@ -5,25 +5,23 @@ import Routes from './routes/routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-
-
       <Router>
         <Header />
         <Routes />
-
         <Footer />
       </Router>
-
 
     </div>
   );
 }
 
-export default App
+export default App;
+
+
+
