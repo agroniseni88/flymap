@@ -197,7 +197,6 @@ svg:hover {
 }
 
 .leaflet-marker-icon {
-    content : url('./img/tent (1).png');
-    weight: 20px; 
-    height: 25px;
+    content : url('./img/tentIcon.png');
+
 }
