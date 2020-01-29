@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import NotFound from '../components/NotFound';
 import Home from '../components/pages/Home';
 import About from '../components/pages/About';
-import Modal from '../components/modal/Modal'
+
 
 
 class MyRoutes extends React.Component {
