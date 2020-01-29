@@ -3,6 +3,7 @@ import {GeoJSON, Map as LeafletMap, Popup, TileLayer} from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
 
+ 
 class MapBe extends React.Component {
     state = {
         lat: 50.502,
@@ -46,12 +47,8 @@ class MapBe extends React.Component {
                    
                             <GeoJSON
                                 data={bivakzone}
-                                style={() => ({
-                                    color: '#4a83ec',
-                                    weight: 0.5,
-                                    fillColor: "#1a1d62",
-                                    fillOpacity: 1,
-                                })}>
+                              
+                               >
                                 <Popup>
                                     <PopUp bivakzone={bivakzone} />
                                     <a href="/page1">{bivakzone.properties.name}</a>
