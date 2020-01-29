@@ -1,6 +1,6 @@
 import React from 'react';
 import log2 from '../img/log2.png';
-import {Card, Col, Container, Image, Row} from 'react-bootstrap';
+import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 
 export default function Header() {
     return (
@@ -14,10 +14,12 @@ export default function Header() {
                     </Row>
                     <Card.Body>
                         <Card.Title>
-                            <h2>Primary Card Title</h2>
+                            <h2>Why are there no roads pointers to the Bivouaczone?</h2>
                         </Card.Title>
                         <Card.Text>
-                            Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgevin
+
+                            The Pole campgrounds are not intended to attract casual holidaymakers such as picnickers, let alone youngsters. They are peace and quiet places, aimed at cyclists, hikers, hikers, nature lovers or just peace seekers. That is why only coordinates are often specified and excessive signage is avoided. Sometimes discreet characters have been applied to guide you to it.
+                            Take into account the fact that you may be approaching the bivouac zone from the wrong direction, often there is only one single road or path to it.
                             <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
                         </Card.Text>
                     </Card.Body>

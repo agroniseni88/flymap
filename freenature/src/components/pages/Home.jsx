@@ -2,7 +2,7 @@ import React from 'react';
 import MapBe from '../MapBe';
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Home() {
     return (

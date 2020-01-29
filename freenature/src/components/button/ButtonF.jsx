@@ -26,6 +26,7 @@ export default function ButtonF() {
             <div className="btn_button">
                 <div className='box_button'>
                     <i className="fas fa-swimmer"></i>
+
                 </div>
 
             </div>

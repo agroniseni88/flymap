@@ -1,6 +1,6 @@
 import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
-import PopUp from './PopUp';
+import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
 
@@ -24,10 +24,9 @@ export default function Marker() {
                 {
                     bivakzones.features
                         .filter((bivak) => bivak.properties.openfire === 'yes')
-
-
                         .map((bivak) => (
                             <GeoJSON
+                                key={bivak.id}
                                 data={bivak}
                                 style={() => ({
                                     color: '#4a83ec',
@@ -36,7 +35,7 @@ export default function Marker() {
                                     fillOpacity: 1,
                                 })}>
                                 <Popup>
-                                    <PopUp bivakzone={bivak} />
+                                    <Modal bivakzone={bivak} />
                                     <a href="/">{bivak.properties.name}</a>
                                 </Popup>
                             </GeoJSON>
