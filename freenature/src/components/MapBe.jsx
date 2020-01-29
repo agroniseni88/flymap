@@ -1,6 +1,6 @@
 import React from 'react';
 import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
-import PopUp from './PopUp';
+import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
 class MapBe extends React.Component {
@@ -32,8 +32,10 @@ class MapBe extends React.Component {
                     {
                         bivakzones.features
                             .map((bivakzone) => {
+                                console.log(bivakzone)
                                 if (bivakzone.geometry.type === 'Point') {
                                     return (bivakzone)
+
                                 } else {
                                     bivakzone.geometry.coordinates =
                                         bivakzone.geometry.coordinates[0][0]
@@ -45,6 +47,7 @@ class MapBe extends React.Component {
                             .map((bivakzone) => (
 
                                 <GeoJSON
+                                    key={bivakzone.id}
                                     data={bivakzone}
                                     style={() => ({
                                         color: '#4a83ec',
@@ -53,8 +56,8 @@ class MapBe extends React.Component {
                                         fillOpacity: 1,
                                     })}>
                                     <Popup>
-                                        <PopUp bivakzone={bivakzone} />
-                                        <a href="/marker">{bivakzone.properties.name}</a>
+                                        <Modal bivakzone={bivakzone} />
+                                        <a href="/page1">{bivakzone.properties.name}</a>
                                     </Popup>
                                 </GeoJSON>
 
