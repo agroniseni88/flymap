@@ -1,6 +1,6 @@
 import React from 'react';
 import log2 from '../img/log2.png';
-import { Container, Card, Image, Row, Col } from 'react-bootstrap';
+import {Card, Col, Container, Image, Row} from 'react-bootstrap';
 
 export default function Header() {
     return (

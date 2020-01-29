@@ -1,17 +1,21 @@
 import React from 'react';
-import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
+import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
 
-
-
 class MapBe extends React.Component {
+    state = {
+        lat: 50.502,
+        lng: 4.34878,
+    };
+
     render() {
+        const position = [this.state.lat, this.state.lng]
         return (
             <div>
                 <LeafletMap
-                    center={[51, 5]}
-                    zoom={9}
+                    center={position}
+                    zoom={7}
                     maxZoom={19}
                     attributionControl={true}
                     zoomControl={true}
@@ -21,23 +25,40 @@ class MapBe extends React.Component {
                     animate={true}
                     easeLinearity={0.35}
                 >
-                    <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
+
+                    <TileLayer url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
+                        attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
+                    />
                     {
-                        bivakzones.features.map((bivakzone) => (
-                            <GeoJSON
-                                data={bivakzone}
-                                style={() => ({
-                                    color: '#4a83ec',
-                                    weight: 0.5,
-                                    fillColor: "#1a1d62",
-                                    fillOpacity: 1,
-                                })}>
-                                <Popup>
-                                    <PopUp bivakzone={bivakzone} />
-                                    <a href="/marker">{bivakzone.properties.name}</a>
-                                </Popup>
-                            </GeoJSON>
-                        ))
+                        bivakzones.features
+                            .map((bivakzone) => {
+                                if (bivakzone.geometry.type === 'Point') {
+                                    return (bivakzone)
+                                } else {
+                                    bivakzone.geometry.coordinates =
+                                        bivakzone.geometry.coordinates[0][0]
+                                    bivakzone.geometry.type = 'Point'
+                                    return (bivakzone)
+                                }
+                            })
+
+                            .map((bivakzone) => (
+
+                                <GeoJSON
+                                    data={bivakzone}
+                                    style={() => ({
+                                        color: '#4a83ec',
+                                        weight: 0.5,
+                                        fillColor: "#1a1d62",
+                                        fillOpacity: 1,
+                                    })}>
+                                    <Popup>
+                                        <PopUp bivakzone={bivakzone} />
+                                        <a href="/marker">{bivakzone.properties.name}</a>
+                                    </Popup>
+                                </GeoJSON>
+
+                            ))
                     }
                 </LeafletMap>
             </div >
