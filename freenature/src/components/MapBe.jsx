@@ -10,11 +10,12 @@ class MapBe extends React.Component {
     };
 
     render() {
+      const position =  [this.state.lat, this.state.lng]
         return (
             <div>
                 <LeafletMap
-                    center={[51, 5]}
-                    zoom={9}
+                    center={position}
+                    zoom={7}
                     maxZoom={19}
                     attributionControl={true}
                     zoomControl={true}
