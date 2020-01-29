@@ -1,9 +1,14 @@
 import React from 'react';
-import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
+import L from 'leaflet';
+import { Map as LeafletMap, GeoJSON, Marker, TileLayer, Popup } from 'react-leaflet';
 import PopUp from './PopUp';
 import bivakzones from './bivakzones.json';
 import Icon from './Symbols'
 
+
+const tentIcon = new L.icon({
+  iconUrl: './img/tentIcon.png',
+}) 
 class MapBe extends React.Component {
   state = {
     lat: 50.502,
@@ -53,6 +58,9 @@ class MapBe extends React.Component {
                                 fillColor: "#1a1d62",
                                 fillOpacity: 1,
                             })}>
+                            <Marker
+                            icon={tentIcon}
+                            />
                             <Popup>
                                 <PopUp bivakzone={bivakzone} />
                                 <a href="/page1">{bivakzone.properties.name}</a>
