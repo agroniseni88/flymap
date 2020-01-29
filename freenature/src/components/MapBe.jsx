@@ -16,7 +16,7 @@ class MapBe extends React.Component {
             <div>
                 <LeafletMap
                     center={position}
-                    zoom={7}
+                    zoom={8}
                     maxZoom={19}
                     attributionControl={true}
                     zoomControl={true}
