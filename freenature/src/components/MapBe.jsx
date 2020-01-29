@@ -47,7 +47,12 @@ class MapBe extends React.Component {
                    
                             <GeoJSON
                                 data={bivakzone}
-                              
+                                style={() => ({
+                                  color: '#4a83ec',
+                                  weight: 0.5,
+                                  fillColor: "#1a1d62",
+                                  fillOpacity: 1,
+                              })}
                                >
                                 <Popup>
                                     <PopUp bivakzone={bivakzone} />
