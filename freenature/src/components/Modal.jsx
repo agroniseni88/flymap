@@ -1,27 +1,32 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+const features = ['opening_hours',"reservation","openfire","drinking_water","toilets"];
+function getFeature(i, bivakzone) {
+if(bivakzone.properties[i] === undefined){
+    return("")
+}else{
+    return(<li>{i + ':' + bivakzone.properties[i]}</li>)
+}
+}
 
 const Modal = ({ bivakzone }) => {
-    console.log(bivakzone)
-    return (
+   return(
         <Card>
             <Card.Img bg="info" className="image" variant="top" src={`${bivakzone.properties.image}`} />
             <Card.Body>
                 <Card.Title>{bivakzone.properties.name}</Card.Title>
                 <Card.Text>
+                    
                     <ul>
-                        <li>opening_hours:{bivakzone.properties.opening_hours}</li>
-                        <li>reservation:{bivakzone.properties.reservation}</li>
-                        <li>operator:{bivakzone.properties.operator}</li>
-                        <li>openfire:{bivakzone.properties.openfire}</li>
-                        <li>Website:{bivakzone.properties.website}</li>
-
+                   { features.map((feature) => 
+                      getFeature(feature,bivakzone)
+                   ) }
                     </ul>
                 </Card.Text>
             </Card.Body>
         </Card>
-    )
+   )
 };
 
 export default Modal;
