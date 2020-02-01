@@ -1,22 +1,19 @@
 import React from 'react';
-import MapBe from '../MapBe';
+import DrinkingWater from '../DrinkingWater'
 import Card from 'react-bootstrap/Card';
-//import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+function Water() {
 
-function Home() {
     return (
         <div>
-
             <Card style={{ background: '#138086' }}>
                 <Card.Body className="text-center">
-                    <MapBe />
+                    <DrinkingWater />
                 </Card.Body>
             </Card>
-
-
         </div>
     );
 }
 
-export default Home;
+export default Water;
