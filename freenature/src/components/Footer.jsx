@@ -4,6 +4,7 @@ import { Card, Row, Col, Container, Image } from 'react-bootstrap';
 import ButtonF from './button/ButtonF';
 
 
+
 function Footer() {
     return (
         <div>
@@ -16,13 +17,9 @@ function Footer() {
                         <Col style={{ color: '#fff' }}>
                             <small > © Hack Your Future 2019</small> </Col>
                         <Image src={nature} alt="nat" style={{ width: '50px', height: '50px' }} />
-
                     </Row>
                 </Container>
             </Card.Footer>
-
-
-
         </div>
     )
 }
