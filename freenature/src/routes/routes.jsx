@@ -5,7 +5,6 @@ import Home from '../components/pages/Home';
 import Water from '../components/pages/Water';
 
 
-
 class MyRoutes extends React.Component {
     render() {
         return (

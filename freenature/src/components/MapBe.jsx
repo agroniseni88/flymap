@@ -16,7 +16,7 @@ class MapBe extends React.Component {
             <div>
                 <LeafletMap
                     center={position}
-                    zoom={7}
+                    zoom={8}
                     maxZoom={19}
                     attributionControl={true}
                     zoomControl={true}
@@ -58,7 +58,7 @@ class MapBe extends React.Component {
                                     })}>
                                     <Popup>
                                         <Modal bivakzone={bivakzone} />
-                                        <a href="/page1">{bivakzone.properties.name}</a>
+                                        <a href="http://www.bivakzone.be/">{bivakzone.properties.name}</a>
                                     </Popup>
                                 </GeoJSON>
 
