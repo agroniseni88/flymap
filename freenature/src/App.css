@@ -173,12 +173,12 @@ svg:hover {
   margin: 0 auto;
 }
 
-.leaflet-marker-icon {
-    content : url('./img/tent (1).png');
-   width: 20px;
-    height: 25px;
-}
 
+
+.leaflet-marker-icon {
+    content : url('./img/tent.png');
+
+}
 
 
 
