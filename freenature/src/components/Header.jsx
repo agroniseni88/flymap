@@ -14,11 +14,11 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/"> <Button variant="outline-success"> <i class="fas fa-globe-europe"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i class="fas fa-tint-slash"><i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/"> <Button variant="outline-success"> <i className="fas fa-globe-europe fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog fa-2x "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/gallery"> <Button variant="warning">   <i className="fab fa-envira fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
