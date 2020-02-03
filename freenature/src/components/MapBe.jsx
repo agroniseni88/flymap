@@ -6,7 +6,6 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
-import Icon from './Icon'
 
 
 let tentIcon = L.icon({
@@ -28,7 +27,7 @@ class MapBe extends React.Component {
         const position = [this.state.lat, this.state.lng]
         return (
             <div>
-                <Icon />
+
                 <LeafletMap
                     center={position}
                     zoom={8}
@@ -48,7 +47,6 @@ class MapBe extends React.Component {
                     {
                         bivakzones.features
                             .map((bivakzone) => {
-                                console.log(bivakzone)
                                 if (bivakzone.geometry.type === 'Point') {
                                     return (bivakzone)
 
@@ -61,7 +59,7 @@ class MapBe extends React.Component {
                             })
 
                             .map((bivakzone) => (
-              
+
                                 <GeoJSON
                                     key={bivakzone.id}
                                     data={bivakzone}

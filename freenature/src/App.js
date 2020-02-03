@@ -11,9 +11,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    
       <Router>
         <Header />
         <Routes />
+        
         <Footer />
       </Router>
 

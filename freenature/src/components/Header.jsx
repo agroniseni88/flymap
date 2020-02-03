@@ -1,5 +1,6 @@
 import React from 'react';
 import name from '../img/name.png';
+import Icon from './Icon'
 import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 
 
@@ -8,18 +9,16 @@ import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 export default function Header() {
     return (
         <div>
-
-            <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
+           <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
                 <Navbar bg="light" expand="lg">
                     <Navbar.Brand href="#home">  </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/"> <Button variant="outline-success"> <i className="fas fa-globe-europe"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-tint-slash"><i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/"> <Button variant="outline-success"> <i className="fas fa-globe-europe fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog fa-2x "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/gallery"> <Button variant="warning">   <i className="fab fa-envira fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
+                            <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
@@ -37,6 +36,7 @@ export default function Header() {
                         </Card.Text>
                 </Card.Body>
             </Card>
+            <Icon />
 
         </div>
     )
