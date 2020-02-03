@@ -1,6 +1,6 @@
 import React from 'react';
 import name from '../img/name.png';
-import Icon from './icon'
+import Icon from './Icon'
 import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 
 
@@ -9,7 +9,7 @@ import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 export default function Header() {
     return (
         <div>
-           <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
+            <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
                 <Navbar bg="light" expand="lg">
                     <Navbar.Brand href="#home">  </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

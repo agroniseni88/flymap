@@ -2,7 +2,6 @@
 
 html {
   box-sizing: border-box;
-  
 }
 
 html,
@@ -16,8 +15,7 @@ body {
     background-color: #fff;
     color: #333;
     font-size: 1.5rem;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-   
+    font-family: 'Lato', Arial, Helvetica, sans-serif;   
 }
 
 *,
@@ -145,19 +143,11 @@ svg:hover {
   margin: 0 auto;
 }
 
-
-
 .leaflet-marker-icon {
     content : url('./img/tent.png');
 }
 
-
-
-
 /*it is for Gallery page*/
-
-
-
 #photo_title {
 font-family: 'billabong', 'billabongregular';
 text-align: center;
@@ -178,13 +168,11 @@ color:rgb(4, 7, 41);
     font-style: normal;
 }
 
-
 .photoGrid{
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .figure {
@@ -200,7 +188,6 @@ color:rgb(4, 7, 41);
   width: calc(100% + 4rem);
   margin: -2rem 0rem 0rem -2rem;
 }
-
 
 .button-container {
 display: flex;
