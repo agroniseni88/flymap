@@ -10,7 +10,6 @@ function Footer() {
             <Card.Footer style={{ background: '#138086' }}>
                 <Container>
                     <Row>
-                       
                         <Col style={{ color: '#fff' }}>
                             <small > © Hack Your Future 2019</small> </Col>
                         <Image src={nature} alt="nat" style={{ width: '50px', height: '50px' }} />

@@ -13,9 +13,6 @@ class MyRoutes extends React.Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/water" component={Water} />
                 <Route exact path="/Gallery" component={Gallery} />
-                {/*  <Route exact path="/dog" component={dog} /> */}
-                {/*  <Route exact path="/wc" component={Wc} /> */}
-                {/*  <Route exact path="/nofire" component={NoFire} /> */}
                 <Route path="*" component={NotFound} />
             </Switch>
         );
