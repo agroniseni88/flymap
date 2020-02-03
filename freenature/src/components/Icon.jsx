@@ -45,10 +45,11 @@ handleClick(e){
             
 
             <button  
-             style={{backgroundColor: isGreen?  'green':'red'}}
+             style={{backgroundColor: isGreen?  'green':'white'}}
              onClick={this.handleClick} 
              className={this.state.button ? "buttonTrue": "buttonFalse"} >
                 <i className="fas fa-dog fa-2x"> </i>
+                
             </button>
         
 
@@ -73,11 +74,11 @@ handleClick(e){
 
 
 
-    <h1 style={{fontSize: '14px', backgroundColor: isGreen?  'green':'red'}}> {this.state.text}</h1>
     
 
         </div>
        )
+       
    }
 }
 
