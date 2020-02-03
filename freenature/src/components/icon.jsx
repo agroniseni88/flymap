@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 class Icon extends Component{
     constructor(props){
         super(props)
