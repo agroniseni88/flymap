@@ -50,25 +50,25 @@ handleClick(e){
              style={{backgroundColor: isGreen?  'green':'red'}}
              onClick={this.handleClick} 
              className={this.state.button ? "buttonTrue": "buttonFalse"} >
-                <i class="fas fa-dog fa-2x"> </i>
+                <i className="fas fa-dog fa-2x"> </i>
             </button>
         
 
             <button 
             style={{
             margin: '18px',}}>
-                <i class="fas fa-toilet fa-2x"> </i>
+                <i className="fas fa-toilet fa-2x"> </i>
             </button>
             
             <button 
             style={{
             margin: '18px',}}>
-                <i class="fas fa-fire fa-2x"> </i>
+                <i className="fas fa-fire fa-2x"> </i>
             </button>
 
             <button 
             style={{
-            margin: '18px',}} >              <i class="fas fa-bicycle fa-2x"> </i>
+            margin: '18px',}} >              <i className="fas fa-bicycle fa-2x"> </i>
             </button>
 
             
