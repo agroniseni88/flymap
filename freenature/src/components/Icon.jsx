@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React, {Component} from 'react';
-=======
 import React, { Component } from 'react';
->>>>>>> tam
 
 
 class Icon extends Component {
@@ -14,25 +10,6 @@ class Icon extends Component {
 
         }
         this.handleClick = this.handleClick.bind(this);
-<<<<<<< HEAD
-    }   
-
-handleClick(e){
-    
-    var txt = "Dog: no preferences";
-    if(this.state.preference === true) {
-        txt = "Dogs: allowed";
-         
-    }else if(this.state.preference === false) {
-        txt = "Dogs: not allowed"; 
-         
-    
-    }else{
-        this.setState.preference = 0;   
-    
-        
-=======
->>>>>>> tam
     }
 
     handleClick(e) {
