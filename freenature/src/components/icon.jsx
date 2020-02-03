@@ -20,7 +20,7 @@ handleClick(e){
          
     }else if(this.state.preference === false) {
         txt = "Dogs: not allowed"; 
-        console.log(bivakzones)
+        // console.log(bivakzones)
          
     
     }else{
