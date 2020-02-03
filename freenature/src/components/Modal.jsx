@@ -11,33 +11,27 @@ if(bivakzone.properties[i] === undefined){
 }
 
 const Modal = ({ bivakzone }) => {
-   return(
-        <Card>
-            <Card.Img bg="info" className="image" variant="top" src={`${bivakzone.properties.image}`} />
-            <Card.Body>
-                <Card.Title>{bivakzone.properties.name}</Card.Title>
-                <Card.Text>
-                    
-                    <ul>
-                   { features.map((feature) => 
-                      getFeature(feature,bivakzone)
-                   ) }
-                   {
-                       bivakzone.properties.map((bivakzone) => {
-                          if(bivakzone.properties.openfire === 'yes'){
-                              return(<i class="fas fa-fire">{}</i>)
-                          } 
-                       }
-                       )
-                   }
-                    </ul>
-                </Card.Text>
-            </Card.Body>
-        </Card>
-   )
-};
-
-export default Modal;
+    return(
+         <Card>
+             <Card.Img bg="info" className="image" variant="top" src={`${bivakzone.properties.image}`} />
+             <Card.Body>
+                 <Card.Title>{bivakzone.properties.name}</Card.Title>
+                 <Card.Text>
+                     
+                     <ul>
+                    { features.map((feature) => 
+                       getFeature(feature,bivakzone)
+                    ) }
+                     </ul>
+                 </Card.Text>
+             </Card.Body>
+         </Card>
+    )
+ };
+ 
+ export default Modal;
+ 
+ 
 
 
 

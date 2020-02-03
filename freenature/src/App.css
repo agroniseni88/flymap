@@ -2,12 +2,12 @@
 
 html {
   box-sizing: border-box;
- /* font-size: 62.5%;*/
+    width: 100vw;
 }
 
 html,
 body {
-  height: 100%; 
+  height: 80%; 
 }
 
 body {
@@ -17,13 +17,14 @@ body {
     color: #333;
     font-size: 1.5rem;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+  width: 100vw;   
 }
 
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;  
 }
 
 #mapid {
@@ -62,19 +63,17 @@ a:hover {
   align-items: center;
 }
 
-.app {
-  height: 100vh;
-}
+
 
 /*leaflet map */
 
 .leaflet-container {
-       
-    height: 800px;
-    width: 1000px;
+    height: 500px;
+    width: 100vw;
 }
 
 
+/*
 @media screen and (max-width: 992px) {
   .leaflet-container {       
     height: 400px;
@@ -98,7 +97,7 @@ a:hover {
     width: 100%;
 }
 }
-
+*/
 
 
 svg {
@@ -120,30 +119,10 @@ svg:hover {
 
 #mapid { height: 180px; }
 
-
-/*base map*/
-
-.basemaps-container {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  height: auto;
-  width: auto;
-  border-radius: 4px;
-  background-color: #fff;
-}
-
-.basemaps-container select {
-  width: 200px;
-  height: 20px;
-}
-
-
 /*button colors*/
 
 .btn {
-  background-color: pink;
+  background-color: #138086;
   border: none;
   color: black;
   padding: 16px 32px;
@@ -155,25 +134,23 @@ svg:hover {
 }
 
 .btn:hover {
-  background-color: rgb(233, 211, 16);
+  background-color: rgb(3, 192, 82);
   color: white;
 }
 
-/*button bisycle*/
+/*button bisycle in footer*/
 
 #flex_button{
  display:flex;
 }
 .btn_button{
   padding: 40px;
- 
  flex-direction: row;
 
 }
 
 .box_button {
- 
-  background-color: #ff7890 ;
+  background-color: #7dff78 ;
   width: 2rem;
   height: 2rem;
   box-shadow: 0 0 0 #d3ad06;
@@ -188,7 +165,7 @@ svg:hover {
 }
 .box_button:hover {
   transition: all ease-in 0.3s;
-  box-shadow: 4px 4px 0px  #e5e903 ;
+  box-shadow: 4px 4px 0px  #7a03e9 ;
 }
 .box_button .fas {
   transform: rotate(-45deg);
