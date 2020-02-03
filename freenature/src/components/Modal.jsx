@@ -22,6 +22,14 @@ const Modal = ({ bivakzone }) => {
                    { features.map((feature) => 
                       getFeature(feature,bivakzone)
                    ) }
+                   {
+                       bivakzone.properties.map((bivakzone) => {
+                          if(bivakzone.properties.openfire === 'yes'){
+                              return(<i class="fas fa-fire">{}</i>)
+                          } 
+                       }
+                       )
+                   }
                     </ul>
                 </Card.Text>
             </Card.Body>
