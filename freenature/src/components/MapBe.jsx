@@ -49,7 +49,7 @@ class MapBe extends React.Component {
                             })
 
                             .map((bivakzone) => (
-
+              
                                 <GeoJSON
                                     key={bivakzone.id}
                                     data={bivakzone}
