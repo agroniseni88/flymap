@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import bivakzones from '../components/bivakzones.json';
 
 class Icon extends Component{
     constructor(props){
