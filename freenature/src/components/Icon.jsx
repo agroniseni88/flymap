@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import bivakzones from '../components/bivakzones.json';
 
 class Icon extends Component{
     constructor(props){
@@ -20,7 +19,6 @@ handleClick(e){
          
     }else if(this.state.preference === false) {
         txt = "Dogs: not allowed"; 
-        // console.log(bivakzones)
          
     
     }else{

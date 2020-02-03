@@ -143,6 +143,14 @@ svg:hover {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+ /*.leaflet-marker-icon {
+    content : url('./img/tent.png');
+} */
+
+
+>>>>>>> 8faa31b894ce97b77bda6aa3a1a4d8dbd2183fe2
 .leaflet-marker-icon {
     content : url('./img/tent.png');
 }
