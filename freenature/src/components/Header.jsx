@@ -19,7 +19,6 @@ export default function Header() {
                             <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog fa-2x "> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
                             <Nav.Link href="/gallery"> <Button variant="warning">   <i className="fab fa-envira fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
                             <Nav.Link href="/404"> <Button variant="warning">   <i className="fas fa-star fa-2x"> <i className="fas fa-map-marked-alt"></i></i></Button></Nav.Link>
-
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
