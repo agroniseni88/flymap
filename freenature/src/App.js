@@ -1,27 +1,29 @@
-import React from 'react'
-import Maps from './components/map'
-import Ic from './components/icons'
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Routes from './routes/routes';
+import { BrowserRouter as Router } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './App.css';
 
 
-class App extends React.Component {
-  render(){
-    return(
-     <div>
-
-         <Maps /> 
-         <Ic />
-     
-     
-     </div>
-        
-         
-        
-       
+function App() {
+  return (
+    <div className="App">
     
-     
-    )
-  }
+      <Router>
+        <Header />
+        <Routes />
+        
+        <Footer />
+      </Router>
+
+    </div>
+  );
 }
 
 export default App;
+
+
 
