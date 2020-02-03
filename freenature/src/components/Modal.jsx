@@ -16,7 +16,6 @@ const Modal = ({ bivakzone }) => {
                         <li>operator:{bivakzone.properties.operator}</li>
                         <li>openfire:{bivakzone.properties.openfire}</li>
                         <li>Website:{bivakzone.properties.website}</li>
-
                     </ul>
                 </Card.Text>
             </Card.Body>
