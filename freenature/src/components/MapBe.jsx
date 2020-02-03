@@ -6,7 +6,7 @@ import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
-import Icon from './icon'
+import Icon from './Icon'
 
 
 let tentIcon = L.icon({
