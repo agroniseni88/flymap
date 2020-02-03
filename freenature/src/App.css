@@ -64,40 +64,12 @@ a:hover {
 }
 
 
-
 /*leaflet map */
 
 .leaflet-container {
     height: 500px;
     width: 100%;
 }
-
-
-/*
-@media screen and (max-width: 992px) {
-  .leaflet-container {       
-    height: 400px;
-    width: 600px;
-   }
-
-.image {
-    width: 100%;
-}
-}
-
-
-@media screen and (max-width: 600px) {
- .leaflet-container {         
-    height: 400px;
-    width: 400px;
-    border: 2px coral solid;
-}
-
-.image {
-    width: 100%;
-}
-}
-*/
 
 
 svg {
@@ -179,11 +151,6 @@ svg:hover {
     content : url('./img/tent.png');
 
 }
-
-
-
-
-
 
 
 
