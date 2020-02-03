@@ -8,23 +8,6 @@ import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 export default function Header() {
     return (
         <div>
-<<<<<<< HEAD
-            <Container  >
-                
-                <Card style={{ border: '2px #138086 solid', padding: '4px' }}>
-                    <Row>
-                        <Col md={{ span: 6, offset: 3 }}>
-                            <Image src={log2} thumbnail alt="name for website" style={{ padding: '5px', width: "500px" }} ></Image>
-                        </Col>
-                    </Row>
-                    <Card.Body>
-                        <Card.Title>
-                            <h2>Primary Card Title</h2>
-                        </Card.Title>
-                        <Card.Text>
-                            Wat is paalkamperen of bivakkeren? Kort verblijf en luxeloos, discreet overnachten  op een aangeduide plaats (gemarkeerd met een paal of pomp) in een natuurlijke omgevin
-                            <small>Lorem ipsum dolor sit amet consectetur adipisicing.</small>
-=======
 
             <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
                 <Navbar bg="light" expand="lg">
@@ -51,7 +34,6 @@ export default function Header() {
                     </Card.Title>
                     <Card.Text>
                         The Pole campgrounds are not intended to attract casual holidaymakers such as picnickers, let alone youngsters. They are peace and quiet places, aimed at cyclists, hikers, hikers, nature lovers or just peace seekers.
->>>>>>> 95f50618d1418123f5dcfecb1037317bea555de6
                         </Card.Text>
                 </Card.Body>
             </Card>
