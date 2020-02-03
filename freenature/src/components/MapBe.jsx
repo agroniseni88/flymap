@@ -36,7 +36,7 @@ class MapBe extends React.Component {
                     {
                         bivakzones.features
                             .map((bivakzone) => {
-                                console.log(bivakzone)
+                                
                                 if (bivakzone.geometry.type === 'Point') {
                                     return (bivakzone)
 

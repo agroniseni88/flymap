@@ -1,6 +1,6 @@
 import React from 'react';
 import name from '../img/name.png';
-import Icon from './icon'
+import Icon from './Icon'
 import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 
 
