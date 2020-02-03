@@ -3,6 +3,8 @@ import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
+import Icon from './icon'
+
 
 class MapBe extends React.Component {
     state = {
@@ -14,6 +16,7 @@ class MapBe extends React.Component {
         const position = [this.state.lat, this.state.lng]
         return (
             <div>
+                <Icon />
                 <LeafletMap
                     center={position}
                     zoom={8}

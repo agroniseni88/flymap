@@ -2,10 +2,12 @@ import React from 'react';
 import log2 from '../img/log2.png';
 import {Card, Col, Container, Image, Row} from 'react-bootstrap';
 
+
 export default function Header() {
     return (
         <div>
             <Container  >
+                
                 <Card style={{ border: '2px #138086 solid', padding: '4px' }}>
                     <Row>
                         <Col md={{ span: 6, offset: 3 }}>
