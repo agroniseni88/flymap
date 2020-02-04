@@ -11,8 +11,8 @@ import bivakzones from './bivakzones.json';
 let tentIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow,
-    iconSize: [24,36],
-    iconAnchor: [12,36]
+    iconSize: [24,30],
+    iconAnchor: [12,30]
   });
 
   L.Marker.prototype.options.icon = tentIcon; 
