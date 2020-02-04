@@ -6,7 +6,6 @@ class FilterIcon extends Component {
         this.state = {
             preference: false,
             color: false
-
         }
         this.handleClick = this.handleClick.bind(this);
     }
@@ -16,15 +15,10 @@ class FilterIcon extends Component {
         var txt = "Dog: no preferences";
         if (this.state.preference === true) {
             txt = "Dogs: allowed";
-
         } else if (this.state.preference === false) {
             txt = "Dogs: not allowed";
-
-
         } else {
             this.setState.preference = 0;
-
-
         }
 
         this.setState({
@@ -32,24 +26,16 @@ class FilterIcon extends Component {
             color: !this.state.color,
             text: txt
         })
-
-
     }
 
     handleClick1(e) {
-
         var txt = "Dog: no preferences";
         if (this.state.preference === true) {
             txt = "Dogs: allowed";
-
         } else if (this.state.preference === false) {
             txt = "Dogs: not allowed";
-
-
         } else {
             this.setState.preference = 0;
-
-
         }
 
         this.setState({
@@ -57,8 +43,6 @@ class FilterIcon extends Component {
             color: !this.state.color,
             text: txt
         })
-
-
     }
 
     render() {
@@ -73,40 +57,25 @@ class FilterIcon extends Component {
                 marginLeft: '50px',
                 borderRadius: '16px'
             }}>
-
-
-
-
-                <button
-                    style={{
-                        backgroundColor: isGreen ? 'green' : 'white',
-                        borderRadius: '14px',
-                        height: '60px',
-                        width: '80px',
-                    }}
+                <button style={{
+                    backgroundColor: isGreen ? 'green' : 'white',
+                    borderRadius: '14px',
+                    height: '60px',
+                    width: '80px',
+                }}
                     onClick={this.handleClick}
                     className={this.state.button ? "buttonTrue" : "buttonFalse"} >
-                    <i className="fas fa-dog fa-2x"> </i>
-
+                    <i className="fas fa-dog fa-2x"></i>
                 </button>
-
-
                 <button
                     style={{
-                        margin: '18px',
-                        height: '60px',
-                        width: '80px',
-                        opacity: 2,
-                        borderRadius: '14px'
+                        margin: '18px', height: '60px', width: '80px', opacity: 2, borderRadius: '14px'
                     }}
-
                     onClick={this.handleClick2}
                     className={this.state.button ? "buttonTrue" : "buttonFalse"}
-
                 >
                     <i className="fas fa-toilet fa-2x"> </i>
                 </button>
-
                 <button
                     style={{
                         margin: '18px',
@@ -116,25 +85,16 @@ class FilterIcon extends Component {
                     }}>
                     <i className="fas fa-fire fa-2x"> </i>
                 </button>
-
                 <button
                     style={{
                         margin: '18px',
                         height: '60px',
                         width: '80px',
                         borderRadius: '14px'
-                    }} >              <i className="fas fa-bicycle fa-2x"> </i>
+                    }} ><i className="fas fa-bicycle fa-2x"> </i>
                 </button>
-
-
-
-
-
-
-
             </div>
         )
-
     }
 }
 

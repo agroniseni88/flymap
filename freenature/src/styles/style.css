@@ -46,21 +46,11 @@ svg:hover {
  }
 
 
-
- /*.leaflet-marker-icon {
-    content : url('./img/tent.png');
-} */
-
-
-/* .leaflet-marker-icon {
-    content : url('./img/tent.png');
-} */
-
 /*it is for Gallery page*/
 #photo_title {
 font-family: 'billabong', 'billabongregular';
 text-align: center;
-font-size: 13rem;
+font-size: 8rem;
 font-weight: 100;
 margin:2rem 0;
 letter-spacing: -1;
@@ -84,8 +74,7 @@ color:rgb(4, 7, 41);
   flex-wrap: wrap;
 }
 
-.figure {
-  
+.figure {  
   flex-basis: calc(33.333% - 4rem);
   border: 1px solid #d3d3d3;
   padding: 2rem;

@@ -7,7 +7,6 @@ import bivakzones from './bivakzones.json';
 import L from 'leaflet';
 
 
-
 let tentIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow,
@@ -16,7 +15,6 @@ let tentIcon = L.icon({
 });
 
 L.Marker.prototype.options.icon = tentIcon;
-
 class MapBe extends React.Component {
     state = {
         lat: 50.502,
@@ -75,7 +73,6 @@ class MapBe extends React.Component {
                                         <a href="http://www.bivakzone.be/">{bivakzone.properties.name}</a>
                                     </Popup>
                                 </GeoJSON>
-
                             ))
                     }
                 </LeafletMap>
