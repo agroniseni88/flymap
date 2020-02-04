@@ -43,7 +43,6 @@ class Icon extends Component {
         return (
             <div >
 
-<<<<<<< HEAD
 
 
 
@@ -85,52 +84,6 @@ class Icon extends Component {
             </div>
         )
     }
-=======
-   render(){
-    const isGreen = this.state.color;
-    return (
-        <div >
-            
-            
-            
-
-            <button  
-             style={{backgroundColor: isGreen?  'green':'white'}}
-             onClick={this.handleClick} 
-             className={this.state.button ? "buttonTrue": "buttonFalse"} >
-                <i className="fas fa-dog fa-2x"> </i>
-                
-            </button>
-        
-
-            <button 
-            style={{
-            margin: '18px',}}>
-                <i className="fas fa-toilet fa-2x"> </i>
-            </button>
-            
-            <button 
-            style={{
-            margin: '18px',}}>
-                <i className="fas fa-fire fa-2x"> </i>
-            </button>
-
-            <button 
-            style={{
-            margin: '18px',}} >              <i className="fas fa-bicycle fa-2x"> </i>
-            </button>
-
-            
-
-
-
-    
-
-        </div>
-       )
-       
-   }
->>>>>>> refactoring
 }
 
 export default Icon;
