@@ -36,6 +36,31 @@ handleClick(e){
           
 }
 
+handleClick1(e){
+    
+    var txt = "Dog: no preferences";
+    if(this.state.preference === true) {
+        txt = "Dogs: allowed";
+         
+    }else if(this.state.preference === false) {
+        txt = "Dogs: not allowed"; 
+         
+    
+    }else{
+        this.setState.preference = 0;   
+    
+        
+    }
+
+    this.setState({
+        preference : this.state.preference + 1,
+        color: !this.state.color,
+        text: txt
+      })
+      
+          
+}
+
    render(){
     const isGreen = this.state.color;
     return (
@@ -71,7 +96,12 @@ handleClick(e){
             height: '60px',
             width: '80px',
             opacity: 2,
-            borderRadius: '14px'}}>
+            borderRadius: '14px'}}
+
+            onClick={this.handleClick2}
+            className={this.state.button ? "buttonTrue": "buttonFalse"} 
+            
+            >
                 <i className="fas fa-toilet fa-2x"> </i>
             </button>
             
