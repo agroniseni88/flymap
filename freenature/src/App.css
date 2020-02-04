@@ -1,13 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+html,
 body {
-  margin: 0px;
-  width: 100vw;
-  height: 100vh;
+  height: 80%; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5rem;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;  
+}
+
+#mapid {
+    height: 180px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.app-header {
+  width: 100%;
+  background: #138086;
+  display: flex;
+  align-items: center;
+}
+
+
+/*leaflet map */
+
+.leaflet-container {
+    height: 500px;
+    width: 100%;
+}
+
+
+svg {
+  width: 70px;
+  height: 70px;
+}
+
+svg:hover {
+    fill: coral;
+}
+.app-header {
+    width: 100%;
+    height: 10rem;
+    background: rgba(196, 196, 196, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+#mapid { height: 180px; }
+
+/*button colors*/
+
+.btn {
+  background-color: #138086;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition: 0.3s;
+   border-radius:40% 0;
+}
+
+.btn:hover {
+  background-color: rgb(3, 192, 82);
+  color: white;
 }
  #root {
    height: 100%;
  }
 
+/*button bisycle in footer*/
 
-.map {
-  height: 500px;
+#flex_button{
+ display:flex;
+}
+.btn_button{
+  padding: 40px;
+ flex-direction: row;
+
+}
+
+.box_button {
+  background-color: #7dff78 ;
+  width: 2rem;
+  height: 2rem;
+  box-shadow: 0 0 0 #d3ad06;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 2rem;
+  transform: rotate(45deg) scale(2);
+}
+.box_button:hover {
+  transition: all ease-in 0.3s;
+  box-shadow: 4px 4px 0px  #7a03e9 ;
+}
+.box_button .fas {
+  transform: rotate(-45deg);
+  color: rgb(36, 40, 65);
+  margin: 0 auto;
+}
+
+ /*.leaflet-marker-icon {
+    content : url('./img/tent.png');
+} */
+
+
+/* .leaflet-marker-icon {
+    content : url('./img/tent.png');
+} */
+
+/*it is for Gallery page*/
+#photo_title {
+font-family: 'billabong', 'billabongregular';
+text-align: center;
+font-size: 13rem;
+font-weight: 100;
+margin:2rem 0;
+letter-spacing: -1;
+color:rgb(4, 7, 41);
+}
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.photoGrid{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.figure {
+  
+  flex-basis: calc(33.333% - 4rem);
+  border: 1px solid #d3d3d3;
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+.photo{
+  width: calc(100% + 4rem);
+  margin: -2rem 0rem 0rem -2rem;
+}
+
+.button-container {
+display: flex;
+justify-content: center;
+}
+
+.remove-button{
+flex-basis: 48%;
+color:red;
+font-size: 15px;
+border: 2px solid #f2f2f2;
+background: #fff;
+line-height: 2;
+padding: 5px;
 }
