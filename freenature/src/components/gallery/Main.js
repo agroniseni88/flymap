@@ -4,26 +4,22 @@ import PhotoWall from './PhotoWall'
 import AddPhoto from './AddPhoto';
 import { Route } from 'react-router-dom';
 
-
 class Main extends Component {
     constructor() {
         super()
         this.state = {
             posts: [{
-
-                id: 0,
+                id: '0',
                 description: 'bivakzone 1',
                 imageLink: 'http://www.bivakzone.be/images/steenberg/steenberg.jpg'
             },
             {
-
-                id: 1,
+                id: '1',
                 description: 'bivakzone 2',
                 imageLink: 'https://i.picsum.photos/id/256/500/500.jpg'
             },
             {
-
-                id: 2,
+                id: '2',
                 description: 'bivakzone 3 ',
                 imageLink: 'https://i.picsum.photos/id/6/800/800.jpg'
             },
@@ -37,13 +33,10 @@ class Main extends Component {
                 description: 'bibvakzone 5',
                 imageLink: 'http://www.bivakzone.be/images/vinne/paalcamping_vinne.jpg'
             }
-
             ]
         }
         this.removePhoto = this.removePhoto.bind(this);
     }
-
-
 
 
     removePhoto(postRemoved) {

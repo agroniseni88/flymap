@@ -1,5 +1,5 @@
 import React from 'react';
-import nature from '../img/nature.png';
+import nature from '../image/nature.png';
 import { Card, Row, Col, Container, Image } from 'react-bootstrap';
 
 

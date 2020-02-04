@@ -10,28 +10,21 @@ function getFeature(i, bivakzone) {
     }
 }
 
+
 const Modal = ({ bivakzone }) => {
     return (
         <Card>
             <Card.Img bg="info" className="image" variant="top" src={`${bivakzone.properties.image}`} />
             <Card.Body>
                 <Card.Title>{bivakzone.properties.name}</Card.Title>
-
                 <ul>
                     {features.map((feature) =>
                         getFeature(feature, bivakzone)
                     )}
                 </ul>
-
             </Card.Body>
         </Card>
     )
 };
 
 export default Modal;
-
-
-
-
-
-

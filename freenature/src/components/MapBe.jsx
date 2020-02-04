@@ -1,22 +1,20 @@
 import React from 'react';
 import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
-import L from 'leaflet';
-import icon from '../img/tentIcon.png';
+import icon from '../image/tentIcon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
-
+import L from 'leaflet';
 
 
 let tentIcon = L.icon({
     iconUrl: icon,
     shadowUrl: iconShadow,
-    iconSize: [24,36],
-    iconAnchor: [12,36]
-  });
+    iconSize: [24, 30],
+    iconAnchor: [12, 30]
+});
 
-  L.Marker.prototype.options.icon = tentIcon; 
-
+L.Marker.prototype.options.icon = tentIcon;
 class MapBe extends React.Component {
     state = {
         lat: 50.502,
@@ -75,7 +73,6 @@ class MapBe extends React.Component {
                                         <a href="http://www.bivakzone.be/">{bivakzone.properties.name}</a>
                                     </Popup>
                                 </GeoJSON>
-
                             ))
                     }
                 </LeafletMap>
@@ -85,4 +82,3 @@ class MapBe extends React.Component {
 }
 
 export default MapBe;
-

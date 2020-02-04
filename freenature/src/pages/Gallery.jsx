@@ -1,16 +1,15 @@
 import React from 'react';
-import MapBe from '../MapBe';
 import Card from 'react-bootstrap/Card';
-//import { Container } from 'react-bootstrap';
+import Main from '../components/gallery/Main'
 
 
-function Home() {
+function Gallery() {
     return (
         <div>
 
-            <Card style={{ background: '#138086' }}>
+            <Card style={{ background: '#fff' }}>
                 <Card.Body className="text-center">
-                    <MapBe />
+                    <Main />
                 </Card.Body>
             </Card>
 
@@ -19,4 +18,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Gallery;

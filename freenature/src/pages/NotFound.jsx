@@ -1,5 +1,5 @@
 import React from 'react';
-import error from '../img/error.jpg';
+import error from '../image/error.jpg';
 import { Row, Col } from 'react-bootstrap';
 
 export default function NotFound() {
