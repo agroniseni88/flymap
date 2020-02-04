@@ -1,5 +1,5 @@
 import React from 'react';
-import name from '../img/name.png';
+import name from '../image/name.png';
 import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
 import Icon from './Icon';
 

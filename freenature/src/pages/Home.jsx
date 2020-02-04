@@ -1,5 +1,5 @@
 import React from 'react';
-import MapBe from '../MapBe';
+import MapBe from '../components/MapBe';
 import Card from 'react-bootstrap/Card';
 //import { Container } from 'react-bootstrap';
 
