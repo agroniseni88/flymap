@@ -1,11 +1,11 @@
 import React from 'react';
 import { GeoJSON, Map as LeafletMap, Popup, TileLayer } from 'react-leaflet';
-import L from 'leaflet';
 import icon from '../image/tentIcon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import Modal from './Modal';
 import bivakzones from './bivakzones.json';
-import filter from '../logic/filter'
+import L from 'leaflet';
+
 
 
 let tentIcon = L.icon({
@@ -85,4 +85,3 @@ class MapBe extends React.Component {
 }
 
 export default MapBe;
-

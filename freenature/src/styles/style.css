@@ -1,16 +1,10 @@
-/*leaflet map */
-
-
-#mapid {
-    height: 180px;
-}
-
+/*React-leaflet styles*/
+#mapid { height: 180px; }
 
 .leaflet-container {
     height: 500px;
     width: 100%;
 }
-
 
 svg {
   width: 70px;
@@ -28,8 +22,6 @@ svg:hover {
     align-items: center;
     padding: 0 4rem;
 }
-
-#mapid { height: 180px; }
 
 /*button colors*/
 
@@ -53,40 +45,7 @@ svg:hover {
    height: 100%;
  }
 
-/*button bisycle in footer*/
 
-#flex_button{
- display:flex;
-}
-.btn_button{
-  padding: 40px;
- flex-direction: row;
-
-}
-
-.box_button {
-  background-color: #7dff78 ;
-  width: 2rem;
-  height: 2rem;
-  box-shadow: 0 0 0 #d3ad06;
-  transition: all ease-in 0.3s;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  margin-left: 2rem;
-  transform: rotate(45deg) scale(2);
-}
-.box_button:hover {
-  transition: all ease-in 0.3s;
-  box-shadow: 4px 4px 0px  #7a03e9 ;
-}
-.box_button .fas {
-  transform: rotate(-45deg);
-  color: rgb(36, 40, 65);
-  margin: 0 auto;
-}
 
  /*.leaflet-marker-icon {
     content : url('./img/tent.png');

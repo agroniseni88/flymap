@@ -1,10 +1,7 @@
 import React from 'react';
 import name from '../image/name.png';
 import { Card, Col, Image, Row, Nav, Navbar, Button } from 'react-bootstrap';
-import Icon from './Icon';
-
-
-
+import FilterIcon from './FilterIcon';
 
 export default function Header() {
     return (
@@ -36,7 +33,7 @@ export default function Header() {
                         </Card.Text>
                 </Card.Body>
             </Card>
-            <Icon />
+            <FilterIcon />
         </div>
     )
 }
