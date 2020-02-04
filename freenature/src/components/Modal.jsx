@@ -10,6 +10,7 @@ function getFeature(i, bivakzone) {
     }
 }
 
+
 const Modal = ({ bivakzone }) => {
     return (
         <Card>

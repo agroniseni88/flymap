@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Main from '../gallery/Main'
+import Main from '../components/gallery/Main'
 
 
 function Gallery() {
