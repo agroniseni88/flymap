@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Title from './Title'
 import PhotoWall from './PhotoWall'
-import AddPhoto from './AddPhoto';
 import { Route } from 'react-router-dom';
 
 class Main extends Component {
@@ -47,11 +46,6 @@ class Main extends Component {
     }
 
 
-    addPhoto(postSubmitted) {
-        this.setState(state => ({
-            posts: state.posts.concat([postSubmitted])
-        }))
-    }
 
 
     componentDidUpdate(prevProps, prevState) {
@@ -68,16 +62,6 @@ class Main extends Component {
                         <Title title={'PhotoWall'} />
                         <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto} onNavigate={this.navigate} />
                     </div>
-                )} />
-
-                <Route exact path="/p" render={({ history }) => (
-
-                    <AddPhoto onAddPhoto={(addedPost) => {
-
-                        this.addPhoto(addedPost)
-                        history.push('/gallery')
-                    }} />
-
                 )} />
 
             </div>

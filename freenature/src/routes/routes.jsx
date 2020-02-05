@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Gallery from '../pages/Gallery';
 
 
+
 class MyRoutes extends React.Component {
     render() {
         return (

@@ -1,3 +1,10 @@
+/*header*/
+#name_image {
+   box-shadow:0 0 5px 5px rgba(85, 87, 131, 0.5);
+    border-radius: 35px;
+    border:none;
+}
+
 /*React-leaflet styles*/
 #mapid { height: 180px; }
 
@@ -26,9 +33,9 @@ svg:hover {
 /*button colors*/
 
 .btn {
-  background-color: #138086;
+  background-color:#ED7F61;
   border: none;
-  color: black;
+  color: rgb(19, 18, 37);
   padding: 16px 32px;
   text-align: center;
   font-size: 18px;
@@ -38,8 +45,8 @@ svg:hover {
 }
 
 .btn:hover {
-  background-color: rgb(3, 192, 82);
-  color: white;
+  background-color: rgb(187, 236, 153);
+  color: rgb(51, 46, 46);
 }
  #root {
    height: 100%;
@@ -72,6 +79,7 @@ color:rgb(4, 7, 41);
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .figure {  
@@ -80,11 +88,14 @@ color:rgb(4, 7, 41);
   padding: 2rem;
   flex-grow: 1;
   margin: 0rem 2rem 2rem 2rem;
+    box-shadow: 0px 14px 50px rgba(34, 35, 58, 0.5);
+    border-radius: 25px;
 }
 
 .photo{
   width: calc(100% + 4rem);
   margin: -2rem 0rem 0rem -2rem;
+   border-radius:25px 25px  0px 0;
 }
 
 .button-container {
