@@ -1,33 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
+// import { Popup } from 'react-leaflet';
+import getFeature from './filterer';
+//import renderBivakzone from './renderBivakzone'
+import bivakzone from './bivakzones.json'
 
 const features = ['opening_hours', "reservation", "openfire", "drinking_water", "toilets"];
-function getFeature(i, bivakzone) {
-    if (bivakzone.properties[i] === undefined) {
-        return ("")
-    } else {
-        return (<li>{i + ':' + bivakzone.properties[i]}</li>)
-    }
-}
-
-
-const Modal = ({ bivakzone }) => {
+const featt = getFeature();
+console.log(featt)
+class Modal extends Component {
+   
+    render() { 
+       
     return (
+        <div>
         <Card>
-            <Card.Img bg="info" className="image" variant="top" src={`${bivakzone.properties.image}`} />
-            <Card.Body>
-                <Card.Title>{bivakzone.properties.name}</Card.Title>
+            
+                   {    
+                        features
+                   .map((feature) => {console.log(feature)
+                     return (<li>{feature+ ':' + getFeature(bivakzone.features, feature)}</li>)})
+                           // .map(b => <li>{feature + ':' + bivakzone.properties[i]}</li>)
 
-                <ul>
-                    {features.map((feature) =>
-                        getFeature(feature, bivakzone)
-                    )}
-                </ul>
-
-            </Card.Body>
+                    } 
         </Card>
+        </div>
     )
-};
+} };
 
 export default Modal;
 
@@ -36,3 +35,20 @@ export default Modal;
 
 
 
+/* <ul>
+{features.map((feature) =>
+    getFeature(feature, bivakzone)
+)}
+</ul>
+
+
+function getFeature(i, bivakzone) {
+    if (bivakzone.properties[i] === undefined) {
+        return ("")
+    } else {
+        return (<li>{i + ':' + bivakzone.properties[i]}</li>)
+    }
+}
+getFeatures(bivakzones.features, "drınkıng_water")
+
+*/
