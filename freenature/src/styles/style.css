@@ -1,0 +1,114 @@
+/*React-leaflet styles*/
+#mapid { height: 180px; }
+
+.leaflet-container {
+    height: 500px;
+    width: 100%;
+}
+
+svg {
+  width: 70px;
+  height: 70px;
+}
+
+svg:hover {
+    fill: coral;
+}
+.app-header {
+    width: 100%;
+    height: 10rem;
+    background: rgba(196, 196, 196, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+/*button colors*/
+
+.btn {
+  background-color: #138086;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition: 0.3s;
+   border-radius:40% 0;
+}
+
+.btn:hover {
+  background-color: rgb(3, 192, 82);
+  color: white;
+}
+ #root {
+   height: 100%;
+ }
+
+
+
+ /*.leaflet-marker-icon {
+    content : url('./img/tent.png');
+} */
+
+
+/* .leaflet-marker-icon {
+    content : url('./img/tent.png');
+} */
+
+/*it is for Gallery page*/
+#photo_title {
+font-family: 'billabong', 'billabongregular';
+text-align: center;
+font-size: 13rem;
+font-weight: 100;
+margin:2rem 0;
+letter-spacing: -1;
+color:rgb(4, 7, 41);
+}
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.photoGrid{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.figure {
+  
+  flex-basis: calc(33.333% - 4rem);
+  border: 1px solid #d3d3d3;
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+.photo{
+  width: calc(100% + 4rem);
+  margin: -2rem 0rem 0rem -2rem;
+}
+
+.button-container {
+display: flex;
+justify-content: center;
+}
+
+.remove-button{
+flex-basis: 48%;
+color:red;
+font-size: 15px;
+border: 2px solid #f2f2f2;
+background: #fff;
+line-height: 2;
+padding: 5px;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Photo(props) {
+function Carts(props) {
     const post = props.post
 
     return <figure className='figure'>
@@ -14,4 +14,4 @@ function Photo(props) {
 }
 
 
-export default Photo;
+export default Carts;
