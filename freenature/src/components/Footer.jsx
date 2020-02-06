@@ -1,6 +1,6 @@
 import React from 'react';
-import nature from '../image/nature.png';
-import { Card, Row, Col, Container, Image } from 'react-bootstrap';
+
+import { Card, Row, Col, Container } from 'react-bootstrap';
 
 
 
@@ -11,8 +11,8 @@ function Footer() {
                 <Container>
                     <Row>
                         <Col style={{ color: '#fff' }}>
-                            <small > © Hack Your Future 2019</small> </Col>
-                        <Image src={nature} alt="nat" style={{ width: '50px', height: '50px' }} />
+                            <small > © Hack Your Future 2019</small>
+                        </Col>
                     </Row>
                 </Container>
             </Card.Footer>

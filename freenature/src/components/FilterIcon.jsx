@@ -74,7 +74,7 @@ class FilterIcon extends Component {
                     onClick={this.handleClick2}
                     className={this.state.button ? "buttonTrue" : "buttonFalse"}
                 >
-                    <i className="fas fa-toilet fa-2x"> </i>
+                    <i className="fas fa-toilet fa-2x" > </i>
                 </button>
                 <button
                     style={{
@@ -93,6 +93,7 @@ class FilterIcon extends Component {
                         borderRadius: '14px'
                     }} ><i className="fas fa-bicycle fa-2x"> </i>
                 </button>
+
             </div>
         )
     }

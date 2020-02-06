@@ -1,66 +1,54 @@
-import React, { Component } from 'react'
-import Title from './Title'
-import PhotoWall from './PhotoWall'
+import React, { Component } from 'react';
+import Title from './Title';
 import { Route } from 'react-router-dom';
+import bivakzones from '../bivakzones.json';
+import { Card, Container, Col } from 'react-bootstrap';
 
 class Main extends Component {
-    constructor() {
-        super()
-        this.state = {
-            posts: [{
-                id: '0',
-                description: 'bivakzone 1',
-                imageLink: 'http://www.bivakzone.be/images/steenberg/steenberg.jpg'
-            },
-            {
-                id: '1',
-                description: 'bivakzone 2',
-                imageLink: 'https://i.picsum.photos/id/256/500/500.jpg'
-            },
-            {
-                id: '2',
-                description: 'bivakzone 3 ',
-                imageLink: 'https://i.picsum.photos/id/6/800/800.jpg'
-            },
-            {
-                id: 3,
-                description: 'bibvakzone 4',
-                imageLink: 'http://www.bivakzone.be/images/steenberg/meerdaalwoud1.jpg'
-            },
-            {
-                id: 4,
-                description: 'bibvakzone 5',
-                imageLink: 'http://www.bivakzone.be/images/vinne/paalcamping_vinne.jpg'
-            }
-            ]
-        }
-        this.removePhoto = this.removePhoto.bind(this);
-    }
-
-
-    removePhoto(postRemoved) {
-        console.log(postRemoved.description)
-        this.setState((state) => ({
-            posts: state.posts.filter(post => post !== postRemoved)
-        }))
-    }
-
-
-
-
-    componentDidUpdate(prevProps, prevState) {
-        console.log(prevState.posts)
-        console.log(this.state)
-    }
 
     render() {
-        console.log(this.state.posts)
+
+        console.log(bivakzones.features[2])
         return (
-            <div>
+            <div >
                 <Route exact path="/gallery" render={() => (
                     <div>
                         <Title title={'PhotoWall'} />
-                        <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto} onNavigate={this.navigate} />
+
+                        {
+                            bivakzones.features
+                                .map((bivakzone) => {
+                                    if (bivakzone.geometry.type === 'Point') {
+                                        return (bivakzone)
+
+                                    } else {
+                                        bivakzone.geometry.coordinates =
+                                            bivakzone.geometry.coordinates[0][0]
+                                        bivakzone.geometry.type = 'Point'
+                                        return (bivakzone)
+                                    }
+                                })
+
+                                .map((bivakzone) => (
+                                    <ul bivakzone={bivakzone} className='figure'>
+                                        <Container >
+                                            <Col>
+                                                <Card style={{ width: '18rem' }}>
+
+
+                                                    <Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} thumbnail />
+                                                    <Card.Title>{bivakzone.properties.name}</Card.Title>
+                                                    <a href={bivakzone.properties.website}><i class="fas fa-map-marked-alt"></i></a>
+                                                </Card>
+                                            </Col>
+                                        </Container>
+
+                                    </ul>
+                                ))
+                        }
+
+
+
                     </div>
                 )} />
 

@@ -5,10 +5,10 @@ import Main from '../components/gallery/Main'
 
 function Gallery() {
     return (
-        <div>
+        <div >
 
-            <Card style={{ background: '#fff' }}>
-                <Card.Body className="text-center">
+            <Card style={{ background: '#fff' }} className='photoGrid'>
+                <Card.Body >
                     <Main />
                 </Card.Body>
             </Card>
