@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Title from './Title';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import bivakzones from '../bivakzones.json';
 import { Card, Container, Col } from 'react-bootstrap';
 
@@ -36,7 +36,7 @@ class Main extends Component {
                                                 <Card style={{ width: '18rem' }}>
 
 
-                                                    <Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} thumbnail />
+                                                    <Link to='/'><Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} thumbnail /></Link>
                                                     <Card.Title>{bivakzone.properties.name}</Card.Title>
                                                     <a href={bivakzone.properties.website}><i class="fas fa-map-marked-alt"></i></a>
                                                 </Card>
