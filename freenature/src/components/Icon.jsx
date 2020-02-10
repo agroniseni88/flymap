@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Bivak from './bivakzones.json';
+
 
 class Icon extends Component{
     constructor(props){
@@ -9,7 +11,16 @@ class Icon extends Component{
                   
         } 
         this.handleClick = this.handleClick.bind(this);
-    }   
+    }  
+    add() {
+
+        const      agron =   Bivak.features
+        .filter((Find) => Find.properties.toilets === 'yes')
+         
+        console.log(agron)
+ 
+    }  
+   
 
 handleClick(e){
     
@@ -35,34 +46,10 @@ handleClick(e){
       
           
 }
-
-handleClick1(e){
-    
-    var txt = "Dog: no preferences";
-    if(this.state.preference === true) {
-        txt = "Dogs: allowed";
-         
-    }else if(this.state.preference === false) {
-        txt = "Dogs: not allowed"; 
-         
-    
-    }else{
-        this.setState.preference = 0;   
-    
-        
-    }
-
-    this.setState({
-        preference : this.state.preference + 1,
-        color: !this.state.color,
-        text: txt
-      })
-      
-          
-}
-
-   render(){
+   
+render(){
     const isGreen = this.state.color;
+   
     return (
         <div style={{
             display: 'flex',
@@ -75,51 +62,52 @@ handleClick1(e){
         }}>
             
             
-            
-
-            <button  
+    <button  
              style={{backgroundColor: isGreen?  'green':'white',
                borderRadius: '14px',
                height: '60px',
             width: '80px',
             }}
+            
              onClick={this.handleClick} 
              className={this.state.button ? "buttonTrue": "buttonFalse"} >
                 <i className="fas fa-dog fa-2x"> </i>
+
                 
-            </button>
+    </button>
+    <button  
+             style={{backgroundColor: isGreen?  'green':'white',
+               borderRadius: '14px',
+               height: '60px',
+            width: '80px',
+            }}
+            
+             onClick={this.add} 
+             className={this.state.button ? "buttonTrue": "buttonFalse"} >
+                <i className="fas fa-toilet fa-2x"> </i>
+
+                
+    </button>
+            
+           
         
 
-            <button 
-            style={{
-            margin: '18px',
-            height: '60px',
-            width: '80px',
-            opacity: 2,
-            borderRadius: '14px'}}
-
-            onClick={this.handleClick2}
-            className={this.state.button ? "buttonTrue": "buttonFalse"} 
-            
-            >
-                <i className="fas fa-toilet fa-2x"> </i>
-            </button>
             
             <button 
-            style={{
-            margin: '18px',
-            height: '60px',
-            width: '80px',
-            borderRadius: '14px'}}>
-                <i className="fas fa-fire fa-2x"> </i>
+                style={{
+                    margin: '18px',
+                    height: '60px',
+                    width: '80px',
+                    borderRadius: '14px'}}>
+                        <i className="fas fa-fire fa-2x"> </i>
             </button>
 
             <button 
-            style={{
-            margin: '18px',
-            height: '60px',
-            width: '80px',
-            borderRadius: '14px'}} >              <i className="fas fa-bicycle fa-2x"> </i>
+                 style={{
+                    margin: '18px',
+                    height: '60px',
+                    width: '80px',
+                    borderRadius: '14px'}} ><i sssclassName="fas fa-bicycle fa-2x"></i>
             </button>
 
             

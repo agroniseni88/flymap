@@ -21,9 +21,17 @@ export default function Header() {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <Row style={{ display: "flex"}}>
+                 {/* logo on main page */}
+                <Row style={{ paddingLeft: '350px', }}>
                     <Col md={{ span: 6, offset: 3}}>
-                        <Image src={name} thumbnail alt="name for website" style={{ width: "300px"}} ></Image>
+                        <Image src={name} thumbnail alt="name for website" 
+                            style={{
+                                 width: "300px",
+                                 height: '100px',
+                                 display: 'flex',
+                                 
+                                 
+                                 }} ></Image>
                     </Col>
                 </Row>
 
