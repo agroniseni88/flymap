@@ -30,20 +30,20 @@ class Main extends Component {
                                 }).sort()
 
                                 .map((bivakzone) => (
-                                    <ul bivakzone={bivakzone} className='figure'>
+                                    <ul bivakzone={bivakzone} className='figure' key={bivakzone.id}>
                                         <Container >
                                             <Col>
                                                 <Card style={{ width: '18rem' }}>
 
 
-                                                    <Link to='/'><Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} thumbnail /></Link>
+                                                    <Link to='/'><Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} /></Link>
                                                     <Card.Title>{bivakzone.properties.name}</Card.Title>
                                                     <ListGroup variant="flush">
                                                         <ListGroupItem>opening hours : {bivakzone.properties.opening_hours}</ListGroupItem>
                                                         <ListGroupItem>reservation : {bivakzone.properties.reservation}</ListGroupItem>
                                                         <ListGroupItem>{bivakzone.properties.maxstay}</ListGroupItem>
                                                     </ListGroup>
-                                                    <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i class="fas fa-seedling"></i>see Website</Card.Link>
+                                                    <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
 
                                                 </Card>
                                             </Col>

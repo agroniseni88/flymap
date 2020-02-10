@@ -44,7 +44,7 @@ class Header extends Component {
                             </Nav>
 
                             <Nav >
-                                <Nav.Link href="/gallery" ><i class="far fa-images"></i> Gallery  /</Nav.Link>
+                                <Nav.Link href="/gallery" ><i className="far fa-images"></i> Gallery  /</Nav.Link>
                                 <LanguageToggle />
 
                             </Nav>
