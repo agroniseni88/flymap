@@ -51,10 +51,11 @@ svg:hover {
 font-family: 'billabong', 'billabongregular';
 text-align: center;
 font-size: 8rem;
-font-weight: 100;
+font-weight: 80;
 margin:2rem 0;
 letter-spacing: -1;
 color:rgb(4, 7, 41);
+
 }
 
 @font-face {
@@ -73,6 +74,7 @@ color:rgb(4, 7, 41);
   display: flex;
   flex-wrap: wrap;
   
+  
 }
 
 .figure {  
@@ -83,6 +85,7 @@ color:rgb(4, 7, 41);
   margin: 0rem 2rem 2rem 2rem;
   box-shadow: 0px 10px 10px rgba(83, 91, 236, 0.5);
   border-radius: 25px;
+  line-height: 1.2;
 }
 
 .photo{
