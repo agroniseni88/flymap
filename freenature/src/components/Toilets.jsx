@@ -1,15 +1,16 @@
 import React from 'react';
 import { Map as LeafletMap, GeoJSON, TileLayer, Popup } from 'react-leaflet';
-import PopUp from './PopUp';
+import Modal from './Modal';
 import bivakzones from './bivakzones.json';
+
 
 export default function Marker() {
     return (
         <div>
-            <h1>Nofire on area</h1>
+
             <LeafletMap
                 center={[51, 5]}
-                zoom={9}
+                zoom={8}
                 maxZoom={19}
                 attributionControl={true}
                 zoomControl={true}
@@ -19,27 +20,27 @@ export default function Marker() {
                 animate={true}
                 easeLinearity={0.35}
             >
-                <TileLayer url='https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png' attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
+                 <TileLayer url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
+                        attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
+                    />
                 {
                     bivakzones.features
-                     .filter((bivak) => bivak.properties.toilets === 'yes')
-                    
-                    
-                    .map ((bivak) => (
-                        <GeoJSON
-                            data={bivak}
-                            style={() => ({
-                                color: '#4a83ec',
-                                weight: 0.5,
-                                fillColor: "#1a1d62",
-                                fillOpacity: 1,
-                            })}>
-                            <Popup>
-                                <PopUp bivakzone={bivak} />
-                                <a href="/page1">{bivak.properties.name}</a>
-                            </Popup>
-                        </GeoJSON>
-                    ))
+                        .filter((bivak) => bivak.properties.toilets === 'yes')
+                        .map((bivak) => (
+                            <GeoJSON
+                                key={bivak.id}
+                                data={bivak}
+                                style={() => ({
+                                    color: '#4a83ec',
+                                    weight: 0.5,
+                                    fillColor: "#1a1d62",
+                                    fillOpacity: 1,
+                                })}>
+                                <Popup>
+                                    <Modal bivakzone={bivak} />
+                                </Popup>
+                            </GeoJSON>
+                        ))
                 }
             </LeafletMap>
         </div>

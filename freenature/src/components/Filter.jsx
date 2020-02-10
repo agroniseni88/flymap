@@ -4,13 +4,21 @@ import Modal from './Modal';
 import bivakzones from './bivakzones.json';
 
 
-export default function Marker() {
+class Marker extends Component {
+    state = {
+        features: [
+            {featureId:1, feature:"openfire"},
+            {featureId:2, feature:"drinking_water"},
+            {featureId:3, feature:"toilets"}
+        ]
+        }
+        render() {
     return (
         <div>
 
             <LeafletMap
                 center={[51, 5]}
-                zoom={8}
+                zoom={9}
                 maxZoom={19}
                 attributionControl={true}
                 zoomControl={true}
@@ -25,7 +33,7 @@ export default function Marker() {
                     />
                 {
                     bivakzones.features
-                        .filter((bivak) => bivak.properties.drinking_water === 'yes')
+                        .filter((bivak) => bivak.properties.openfire === 'yes')
                         .map((bivak) => (
                             <GeoJSON
                                 key={bivak.id}
@@ -45,4 +53,4 @@ export default function Marker() {
             </LeafletMap>
         </div>
     )
-}
+} }

@@ -10,7 +10,7 @@ export default function Marker() {
 
             <LeafletMap
                 center={[51, 5]}
-                zoom={8}
+                zoom={9}
                 maxZoom={19}
                 attributionControl={true}
                 zoomControl={true}
@@ -25,7 +25,7 @@ export default function Marker() {
                     />
                 {
                     bivakzones.features
-                        .filter((bivak) => bivak.properties.drinking_water === 'yes')
+                        .filter((bivak) => bivak.properties.openfire === 'yes')
                         .map((bivak) => (
                             <GeoJSON
                                 key={bivak.id}
