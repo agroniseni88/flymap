@@ -50,7 +50,7 @@ class Main extends Component {
                                         </Container>
 
                                     </ul>
-                                )).sort()
+                                ))
                         }
 
                     </div>
