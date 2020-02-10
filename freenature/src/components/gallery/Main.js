@@ -13,7 +13,7 @@ class Main extends Component {
             <div >
                 <Route exact path="/gallery" render={() => (
                     <div>
-                        <Title title={'PhotoWall'} />
+                        <Title title={'Bivakzone Gallery'} />
 
                         {
                             bivakzones.features
