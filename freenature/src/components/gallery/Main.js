@@ -27,7 +27,7 @@ class Main extends Component {
                                         bivakzone.geometry.type = 'Point'
                                         return (bivakzone)
                                     }
-                                })
+                                }).sort()
 
                                 .map((bivakzone) => (
                                     <ul bivakzone={bivakzone} className='figure'>
@@ -44,7 +44,7 @@ class Main extends Component {
                                         </Container>
 
                                     </ul>
-                                ))
+                                )).sort()
                         }
 
 
