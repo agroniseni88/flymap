@@ -71,8 +71,7 @@ class MapBe extends React.Component {
                                     })}
                                     icon={tentIcon}>
                                     <Popup>
-                                        <Modal bivakzone={bivakzone} />
-                                        <a href="http://www.bivakzone.be/">{bivakzone.properties.name}</a>
+                                        <Modal bivakzone={bivakzone} />   
                                     </Popup>
                                 </GeoJSON>
 
