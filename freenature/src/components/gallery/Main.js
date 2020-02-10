@@ -39,9 +39,9 @@ class Main extends Component {
                                                     <Link to='/'><Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} thumbnail /></Link>
                                                     <Card.Title>{bivakzone.properties.name}</Card.Title>
                                                     <ListGroup variant="flush">
-                                                        <ListGroupItem>Cras justo odio</ListGroupItem>
-                                                        <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                                                        <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                                                        <ListGroupItem>opening hours : {bivakzone.properties.opening_hours}</ListGroupItem>
+                                                        <ListGroupItem>reservation : {bivakzone.properties.reservation}</ListGroupItem>
+                                                        <ListGroupItem>{bivakzone.properties.maxstay}</ListGroupItem>
                                                     </ListGroup>
                                                     <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i class="fas fa-seedling"></i>see Website</Card.Link>
 
@@ -52,8 +52,6 @@ class Main extends Component {
                                     </ul>
                                 )).sort()
                         }
-
-
 
                     </div>
                 )} />

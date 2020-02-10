@@ -27,12 +27,7 @@ class Menu extends React.Component {
         return (
             <Card.Body>
                 <Card.Title>
-
-
-
                     <Translate id="menu.title">Depending on the owner of the site on which a bivouac zone is located, there may be some limitations.</Translate>
-
-
                 </Card.Title>
                 <LanguageToggle />
             </Card.Body>

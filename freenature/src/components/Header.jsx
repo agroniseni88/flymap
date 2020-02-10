@@ -29,7 +29,7 @@ class Header extends Component {
 
 
             <div>
-                <Card style={{ border: '3px #138086 solid', padding: '4px' }}>
+                <Card style={{ border: '3px #1c4327 solid', padding: '4px' }}>
                     <Row>
                         <Col md={{ span: 6, offset: 3 }}>
                             <Image src={freenature} alt="name for website" style={{ padding: '5px', width: "500px" }} ></Image>
@@ -41,11 +41,14 @@ class Header extends Component {
                             <Nav className="mr-auto">
                                 <Nav.Link href="/"> <Button variant="warning"> <i className="fas fa-globe-europe fa-2x"> </i></Button></Nav.Link>
                                 <Nav.Link href="/water"> <Button variant="warning">   <i className="fas fa-dog fa-2x "> </i></Button></Nav.Link>
-                                <Nav.Link href="/gallery"> <Button variant="warning">  Gallery </Button></Nav.Link>
+                            </Nav>
 
+                            <Nav >
+                                <Nav.Link href="/gallery" ><i class="far fa-images"></i> Gallery  /</Nav.Link>
+                                <LanguageToggle />
 
                             </Nav>
-                            <LanguageToggle />
+
                         </Navbar.Collapse>
 
                     </Navbar>
