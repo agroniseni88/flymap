@@ -69,7 +69,7 @@ class MapBe extends React.Component {
                                     })}
                                     icon={tentIcon}>
                                     <Popup>
-                                        <Modal bivakzone={bivakzone} />   
+                                        <Modal bivakzone={bivakzone} />
                                     </Popup>
                                 </GeoJSON>
                             ))

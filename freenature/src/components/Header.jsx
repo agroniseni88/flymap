@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import freenature from "../image/freenature.png";
-import { Card, Col, Image, Row, Nav, Navbar, Button } from "react-bootstrap";
+import { Card, Col, Image, Row, Nav, Navbar } from "react-bootstrap";
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
 import globalTranslations from "../components/en/language.json";
 import LanguageToggle from "../components/en/LanguageToggle";
 import { Translate } from "react-localize-redux";
-
+import Example from '../components/toolTips/Tooltips';
+import ExampleWater from '../components/toolTips/ToolWater';
+import ExampleFire from '../components/toolTips/ToolFire';
 
 
 class Header extends Component {
@@ -30,6 +32,7 @@ class Header extends Component {
       <div>
         <Card style={{ border: "3px #138086 solid", padding: "4px" }}>
           <Row>
+
             <Col md={{ span: 6, offset: 3 }}>
               <Nav.Link href="/">
                 <Image
@@ -40,8 +43,16 @@ class Header extends Component {
               </Nav.Link>
             </Col>
           </Row>
+
           <Navbar bg="light" expand="lg">
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <p>
+              <Translate id="menu.title">
+                Depending on the owner of the site on which a bivouac zone is
+                located, there may be some limitations.
+            </Translate>
+            </p>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
               </Nav>
@@ -51,27 +62,20 @@ class Header extends Component {
               <LanguageToggle />
             </Navbar.Collapse>
           </Navbar>
-          <Navbar.Brand href="/">
-            <Translate id="menu.title">
-              Depending on the owner of the site on which a bivouac zone is
-              located, there may be some limitations.
-            </Translate>
-          </Navbar.Brand>
+
           <Row>
             <Nav.Link href="/water">
-              <Button>
-                <i className="fas fa-glass-whiskey fa-2x "> </i>
-              </Button>
+
+              <ExampleWater />
+
             </Nav.Link>
             <Nav.Link href="/toilets">
-              <Button>
-                <i className="fas fa-toilet fa-2x "> </i>
-              </Button>
+              <Example />
             </Nav.Link>
             <Nav.Link href="/fire">
-              <Button>
-                <i className="fas fa-fire fa-2x "> </i>
-              </Button>
+
+              <ExampleFire />
+
             </Nav.Link>
           </Row>
         </Card>

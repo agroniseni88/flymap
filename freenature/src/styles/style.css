@@ -9,8 +9,8 @@
 /*button colors*/
 
 .btn {
-  background-color:#f5faf8;
-  border: 2px solid #044A18;
+  background-color:#e2ecea;
+  border: 2px solid #1c4327;
   color: rgb(27, 37, 18);
   padding: 14px 28px;
   text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .btn:hover {
-  background-color:#1c4327;
+  background-color:#00709c;
   color: #fff;
 }
 

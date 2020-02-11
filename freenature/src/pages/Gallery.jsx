@@ -7,6 +7,8 @@ function Gallery() {
     return (
         <div >
 
+
+
             <Card style={{ background: '#fff' }} className='photoGrid'>
                 <Card.Body >
                     <Main />
