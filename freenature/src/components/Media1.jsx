@@ -10,7 +10,8 @@ export default function Media1() {
 
             <Row>
                 <Col xs={12} md={8}><MapBe /></Col>
-                <Col sm={4}>
+
+                <Col sm={4} style={{ overflowY: ' scroll', backgroundColor: 'lightblue', height: '600px' }}>
                     {
                         bivakzones.features
                             .map((bivakzone) => {
@@ -29,7 +30,7 @@ export default function Media1() {
 
 
 
-                                <ul className="list-unstyled" bivakzone={bivakzone} key={bivakzone.id}>
+                                <ul className="list-unstyled" bivakzone={bivakzone} key={bivakzone.id}  >
                                     <Media as="li" >
 
                                         <img
@@ -42,15 +43,12 @@ export default function Media1() {
                                         />
                                         <Media.Body >
 
-                                            <h5>   {bivakzone.properties.name}</h5>
+                                            <h5>   {bivakzone.properties.name}    </h5>
                                             <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
 
                                         </Media.Body>
                                     </Media>
-                                    <hr />
-                                    <br />
-
-
+                                    <hr /><hr />
 
                                 </ul>
 
