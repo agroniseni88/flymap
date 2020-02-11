@@ -17,7 +17,7 @@ let tentIcon = L.icon({
 L.Marker.prototype.options.icon = tentIcon;
 class MapBe extends React.Component {
     state = {
-        lat: 50.502,
+        lat: 50.6,
         lng: 4.34878,
     };
 

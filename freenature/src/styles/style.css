@@ -9,15 +9,14 @@
 /*button colors*/
 
 .btn {
-  background-color:#b2d0d5;
-  border: 2px solid #1c4327;
+  background-color:#f5faf8;
+  border: 2px solid #044A18;
   color: rgb(27, 37, 18);
   padding: 14px 28px;
   text-align: center;
   font-size: 18px;
   margin: 4px 2px;
   transition: 0.3s;
-   border-radius:40% 0;
 }
 
 .btn:hover {

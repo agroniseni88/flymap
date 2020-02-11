@@ -35,7 +35,7 @@ class Header extends Component {
                 <Image
                   src={freenature}
                   alt="name for website"
-                  style={{ padding: "5px", width: "500px" }}
+                  style={{marginLeft:'100px', padding: "0px", width: "400px" }}
                 ></Image>
               </Nav.Link>
             </Col>
@@ -59,17 +59,17 @@ class Header extends Component {
           </Navbar.Brand>
           <Row>
             <Nav.Link href="/water">
-              <Button variant="warning">
+              <Button>
                 <i className="fas fa-glass-whiskey fa-2x "> </i>
               </Button>
             </Nav.Link>
             <Nav.Link href="/toilets">
-              <Button variant="warning" id='toilet'>
+              <Button>
                 <i className="fas fa-toilet fa-2x "> </i>
               </Button>
             </Nav.Link>
             <Nav.Link href="/fire">
-              <Button variant="warning">
+              <Button>
                 <i className="fas fa-fire fa-2x "> </i>
               </Button>
             </Nav.Link>

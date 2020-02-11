@@ -21,7 +21,7 @@ class Modal extends Component {
               if (Object.keys(result).length !== 0) {
                 return (
                   <div>
-                    {Object.entries(result).map(function (entry) {
+                    {Object.entries(result).map((entry) => {
                       if (entry[0] === "openfire" && entry[1] === "yes") {
                         return <i className="fas fa-fire"></i>;
                       } else if (entry[0] === "openfire" && entry[1] === "no") {
