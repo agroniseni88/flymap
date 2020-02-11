@@ -9,7 +9,7 @@
 /*button colors*/
 
 .btn {
-  background-color:#b2d0d5;
+  background-color:#0df1b8;
   border: 2px solid #1c4327;
   color: rgb(27, 37, 18);
   padding: 14px 28px;
@@ -21,7 +21,7 @@
 }
 
 .btn:hover {
-  background-color:#1c4327;
+  background-color:#00709c;
   color: #fff;
 }
 

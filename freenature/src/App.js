@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 import Routes from './routes/routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +16,7 @@ function App() {
       <Router>
         <LocalizeProvider>    <Header /> </LocalizeProvider>
         <Routes />
-        <Footer />
+
       </Router>
 
     </div>
