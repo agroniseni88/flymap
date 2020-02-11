@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import freenature from "../image/freenature.png";
-import { Card, Col, Image, Row, Nav, Navbar } from "react-bootstrap";
+import { Card, Col, Image, Row, Nav, Navbar, Button } from "react-bootstrap";
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
 import globalTranslations from "../components/en/language.json";
@@ -38,7 +38,7 @@ class Header extends Component {
                 <Image
                   src={freenature}
                   alt="name for website"
-                  style={{marginLeft:'100px', padding: "0px", width: "400px" }}
+                  style={{ marginLeft: '100px', padding: "0px", width: "400px" }}
                 ></Image>
               </Nav.Link>
             </Col>
@@ -64,18 +64,17 @@ class Header extends Component {
           </Navbar>
 
           <Row>
+            <Nav.Link href="/">
+              <Button variant="outline-info"> ALL zones</Button>
+            </Nav.Link>
             <Nav.Link href="/water">
-
               <ExampleWater />
-
             </Nav.Link>
             <Nav.Link href="/toilets">
               <Example />
             </Nav.Link>
             <Nav.Link href="/fire">
-
               <ExampleFire />
-
             </Nav.Link>
           </Row>
         </Card>

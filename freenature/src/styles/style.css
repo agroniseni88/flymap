@@ -17,11 +17,14 @@
   font-size: 18px;
   margin: 4px 2px;
   transition: 0.3s;
+   border-radius:40% 0;
+   width: 150px;
+   height: 60px;
 }
 
 .btn:hover {
-  background-color:#00709c;
-  color: #fff;
+  background-color:#eaee0b;
+  color: rgb(6, 114, 54);
 }
 
  #root {

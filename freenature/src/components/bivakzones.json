@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2020-01-28T13:40:02Z",
+  "timestamp": "2020-02-11T20:01:02Z",
   "features": [
     {
       "type": "Feature",
@@ -94,15 +94,29 @@
       "properties": {
         "@id": "way/332573121",
         "backcountry": "yes",
+        "bicycle": "yes",
         "camp_site": "basic",
+        "capacity": "10",
         "caravans": "no",
-        "description": "site voor paalkamperen",
+        "description": "there is no washing water ",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/spoor/bivakzonehetspoor3.jpg",
+        "image:1": "http://www.bivakzone.be/images/spoor/bivakzonehetspoor1.jpg",
+        "image:2": "http://www.bivakzone.be/images/spoor/bivakzonehetspoor2.jpg",
         "landuse": "grass",
+        "maxstay": "48 hours",
+        "maxtents": "3",
         "motor_vehicle": "no",
-        "name": "Bivakzone Het Spoor / La Trace",
+        "name": "Het Spoor Meerdaalwoud (Bierbeek)",
+        "openfire": "yes",
+        "operator": "the Flemish Agency for Nature and Forests in collaboration with Boshuis Het Spoor",
+        "reservation": "no",
         "start_date": "2014-07",
         "tents": "yes",
+        "toilets": "no",
         "tourism": "camp_site",
+        "url": "http://www.boshuishetspoor.be/",
         "website": "http://www.bivakzone.be/het-spoor-meerdaal.html"
       },
       "geometry": {
@@ -276,6 +290,71 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/522701725",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/getedraak/bivakzone_getedraak3.jpg",
+        "image:1": "http://www.bivakzone.be/images/getedraak/bivakzone_getedraak.jpg",
+        "image:2": "http://www.bivakzone.be/images/getedraak/vuurpunt.jpg",
+        "image:3": "http://www.bivakzone.be/images/getedraak/bivakzone_getedraak2.jpg",
+        "maxstay": "24 hours",
+        "maxtents": "4",
+        "motor_vehicle": "no",
+        "name": "De Getedraak - Drieslinter",
+        "openfire": "yes",
+        "operator": "the town of Linter, in cooperation with other organizations",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/getedraak-drieslinter.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0367667,
+              50.8378093
+            ],
+            [
+              5.0371215,
+              50.8371074
+            ],
+            [
+              5.0376703,
+              50.8371406
+            ],
+            [
+              5.038058,
+              50.8371883
+            ],
+            [
+              5.0378575,
+              50.8374498
+            ],
+            [
+              5.0384358,
+              50.8376386
+            ],
+            [
+              5.0379248,
+              50.8382975
+            ],
+            [
+              5.0367667,
+              50.8378093
+            ]
+          ]
+        ]
+      },
+      "id": "way/522701725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/608518368",
         "backcountry": "yes",
         "bicycle": "yes",
@@ -394,299 +473,6 @@
         ]
       },
       "id": "way/647873466"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/762874436",
-        "access": "customers",
-        "backcountry": "yes",
-        "bicycle": "yes",
-        "camp_site": "basic",
-        "capacity": "10",
-        "caravans": "no",
-        "charge": "2 EUR/night/person",
-        "description": "Reservation required by sending a mail or SMS a few days in advance, otherwise the cost is 15 EUR/night/person",
-        "description:reservation": "Reserve at least a few days in advance at vzw Brunehaut by SMS, you will then receive details for bank transfer + proof that can be presented on the spot when checked by competent authorities.",
-        "drinking_water": "no",
-        "email": "brunehautvzw@gmail.com",
-        "fee": "yes",
-        "image": "http://www.bivakzone.be/images/brunehaut/bivakzone_brunehaut.jpg",
-        "maxstay": "2 nights",
-        "maxtents": "3",
-        "motor_vehicle": "no",
-        "name": "Aire de Bivouac Brunehaut / Bivakzone Brunehaut",
-        "openfire": "yes",
-        "opening_hours": "24/7",
-        "operator": "VZW Brunehaut",
-        "payment:wire_transfer": "yes",
-        "phone": "+32 473 43 77 93",
-        "reservation": "required",
-        "toilets": "yes",
-        "tourism": "camp_site",
-        "website": "http://www.bivakzone.be/brunehaut-hargimont.html"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.3226954,
-              50.180832
-            ],
-            [
-              5.3224867,
-              50.1808544
-            ],
-            [
-              5.3224183,
-              50.1807586
-            ],
-            [
-              5.3223241,
-              50.1806415
-            ],
-            [
-              5.3221948,
-              50.1805255
-            ],
-            [
-              5.3220303,
-              50.1804486
-            ],
-            [
-              5.3219176,
-              50.180509
-            ],
-            [
-              5.3217975,
-              50.1804368
-            ],
-            [
-              5.3219786,
-              50.1803327
-            ],
-            [
-              5.3223204,
-              50.1803374
-            ],
-            [
-              5.3226141,
-              50.1803209
-            ],
-            [
-              5.322664,
-              50.1803386
-            ],
-            [
-              5.3227712,
-              50.1804084
-            ],
-            [
-              5.3228913,
-              50.1805658
-            ],
-            [
-              5.322919,
-              50.1807006
-            ],
-            [
-              5.3228248,
-              50.1807917
-            ],
-            [
-              5.3226954,
-              50.180832
-            ]
-          ]
-        ]
-      },
-      "id": "way/762874436"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/765431040",
-        "backcountry": "yes",
-        "bicycle": "yes",
-        "camp_site": "basic",
-        "capacity": "10",
-        "description:reservation": "By hanging a piece of paper on the notice board in advance. Especially during holiday periods and weekends it is better to reserve.",
-        "drinking_water": "no",
-        "fee": "no",
-        "image": "http://www.bivakzone.be/images/traqueurs/traqueurs.jpg",
-        "maxstay": "48 hours",
-        "maxtents": "3",
-        "motor_vehicle": "no",
-        "name": "Aire de Bivouac des Traqueurs",
-        "opening_hours": "16:00-10:00",
-        "operator": "Département de la Nature et des Forêts",
-        "reservation": "recommended",
-        "toilets": "no",
-        "tourism": "camp_site",
-        "website": "http://www.bivakzone.be/traqueurs-nassogne.html"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.369824,
-              50.1252649
-            ],
-            [
-              5.3698685,
-              50.1251913
-            ],
-            [
-              5.3699993,
-              50.125227
-            ],
-            [
-              5.369934,
-              50.1252917
-            ],
-            [
-              5.369824,
-              50.1252649
-            ]
-          ]
-        ]
-      },
-      "id": "way/765431040"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/765434484",
-        "backcountry": "yes",
-        "camp_site": "basic",
-        "capacity": "10",
-        "drinking_water": "no",
-        "fee": "no",
-        "maxstay": "16 hr",
-        "motor_vehicle": "no",
-        "name": "Aire de bivouac du Golet",
-        "opening_hours": "16:00-10:00",
-        "operator": "bivakzone",
-        "reservation": "not required",
-        "toilets": "no",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.4769177,
-              50.0672711
-            ],
-            [
-              5.4768745,
-              50.0671553
-            ],
-            [
-              5.4768821,
-              50.0670588
-            ],
-            [
-              5.4769779,
-              50.0670637
-            ],
-            [
-              5.4770492,
-              50.0670792
-            ],
-            [
-              5.4771004,
-              50.0671243
-            ],
-            [
-              5.4770873,
-              50.0672757
-            ],
-            [
-              5.4769177,
-              50.0672711
-            ]
-          ]
-        ]
-      },
-      "id": "way/765434484"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/765439965",
-        "backcountry": "yes",
-        "camp_site": "basic",
-        "capacity": "10",
-        "drinking_water": "no",
-        "maxstay": "16 hours",
-        "motor_vehicle": "no",
-        "name": "Bivouac de Gives",
-        "opening_hours": "16:00-10:00",
-        "operator": "bivakzone",
-        "reservation": "not required",
-        "toilets": "no",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.6385254,
-              50.0686575
-            ],
-            [
-              5.6385331,
-              50.0686389
-            ],
-            [
-              5.6385418,
-              50.0686181
-            ],
-            [
-              5.6385534,
-              50.0685902
-            ],
-            [
-              5.6386466,
-              50.0685288
-            ],
-            [
-              5.6387376,
-              50.0685423
-            ],
-            [
-              5.6388495,
-              50.0685805
-            ],
-            [
-              5.6389614,
-              50.0686186
-            ],
-            [
-              5.6388192,
-              50.0688027
-            ],
-            [
-              5.6386813,
-              50.0687345
-            ],
-            [
-              5.638596,
-              50.0686924
-            ],
-            [
-              5.6385254,
-              50.0686575
-            ]
-          ]
-        ]
-      },
-      "id": "way/765439965"
     },
     {
       "type": "Feature",
@@ -933,6 +719,104 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/767357174",
+        "backcountry": "yes",
+        "camp_site": "basic",
+        "capacity": "10",
+        "drinking_water": "no",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/meetshoven/bivakzone_meetshoven1.jpg",
+        "image:1": "http://www.bivakzone.be/images/meetshoven/bivakzone_meetshoven2.jpg",
+        "image:2": "http://www.bivakzone.be/images/meetshoven/bivakzone_meetshoven3.jpg",
+        "image:3": "http://www.bivakzone.be/images/meetshoven/vuurkorf.jpg",
+        "maxstay": "48 hours",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Meetshovenbos (Aarschot)",
+        "openfire": "yes",
+        "operator": "the Flemish Agency for Nature and Forests",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.bivakzone.be/meetshoven-aarschot.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.8143325,
+              50.9971088
+            ],
+            [
+              4.8144216,
+              50.9968053
+            ],
+            [
+              4.8149112,
+              50.9968987
+            ],
+            [
+              4.8149087,
+              50.9971312
+            ],
+            [
+              4.8148748,
+              50.9971824
+            ],
+            [
+              4.8144189,
+              50.9971081
+            ],
+            [
+              4.8143325,
+              50.9971088
+            ]
+          ]
+        ]
+      },
+      "id": "way/767357174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1390806829",
+        "access": "yes",
+        "backcountry": "yes",
+        "bicycle": "yes",
+        "camp_site": "basic",
+        "description": "Natuurkampeerterrein Fort Sint Livinus ''Vrij kamperen.",
+        "dog": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "image": "http://www.bivakzone.be/images/fortlivinus/infobord.jpg",
+        "image1": "http://www.bivakzone.be/images/fortlivinus/fortlivinus3.jpg",
+        "image2": "http://www.bivakzone.be/images/fortlivinus/fortlivinus2.jpg",
+        "image3": "http://www.bivakzone.be/images/fortlivinus/wandelenfietsborden.jpg",
+        "maxstay": "72hrs",
+        "maxtents": "3",
+        "motor_vehicle": "no",
+        "name": "Paalkampeerterrein Fort Sint Livinus",
+        "openfire": "no",
+        "opening_hours": "accessible all year round",
+        "operator": "Dutch State Forest Management",
+        "reservation": "no",
+        "source": "http://www.staatsbosbeheer.nl/overnachten/kampeerterreinen/fort%20sint%20livinus.aspx",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9378594,
+          51.247398
+        ]
+      },
+      "id": "node/1390806829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/1390812291",
         "backcountry": "yes",
         "camp_site": "basic",
@@ -1078,7 +962,7 @@
         "reservation": "no",
         "source:nl": "http://www.bivakzone.be/wereldboom-horebeke.html",
         "tents": "yes",
-        "toilet": "no",
+        "toilets": "no",
         "tourism": "camp_site",
         "url": "http://www.bivakzone.be/wereldboom-horebeke.html",
         "website": "http://www.bivakzone.be/wereldboom-horebeke.html"
