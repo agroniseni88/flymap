@@ -1,5 +1,5 @@
 import React from 'react';
-import MapBe from '../components/MapBe';
+import Media1 from '../components/Media1';
 import Card from 'react-bootstrap/Card';
 
 
@@ -7,7 +7,7 @@ function Home() {
     return (
         <Card >
             <Card.Body className="text-center">
-                <MapBe />
+                <Media1 />
             </Card.Body>
         </Card>
     );

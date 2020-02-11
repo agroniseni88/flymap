@@ -23,13 +23,13 @@ class Modal extends Component {
                   <div>
                     {Object.entries(result).map(function (entry) {
                       if (entry[0] === "openfire" && entry[1] === "yes") {
-                        return <i class="fas fa-fire"></i>;
+                        return <i className="fas fa-fire"></i>;
                       } else if (entry[0] === "openfire" && entry[1] === "no") {
                         return (
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-fire fa-stack-1x"></i>
+                          <span className="fa-stack fa-1x">
+                            <i className="fas fa-fire fa-stack-1x"></i>
                             <i
-                              class="fas fa-ban fa-stack-2x"
+                              className="fas fa-ban fa-stack-2x"
                               style={{ color: "Tomato" }}
                             ></i>
                           </span>
@@ -39,10 +39,10 @@ class Modal extends Component {
                         entry[1] === "no"
                       ) {
                         return (
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-glass-whiskey fa-stack-1x"></i>
+                          <span className="fa-stack fa-1x">
+                            <i className="fas fa-glass-whiskey fa-stack-1x"></i>
                             <i
-                              class="fas fa-ban fa-stack-2x"
+                              className="fas fa-ban fa-stack-2x"
                               style={{ color: "Tomato" }}
                             ></i>
                           </span>
@@ -51,15 +51,15 @@ class Modal extends Component {
                         entry[0] === "drinking_water" &&
                         entry[1] === "yes"
                       ) {
-                        return <i class="fas fa-glass-whiskey"></i>;
+                        return <i className="fas fa-glass-whiskey"></i>;
                       } else if (entry[0] === "toilets" && entry[1] === "yes") {
-                        return <i class="fas fa-toilet"></i>;
+                        return <i className="fas fa-toilet"></i>;
                       } else if (entry[0] === "toilets" && entry[1] === "no") {
                         return (
-                          <span class="fa-stack fa-1x">
-                            <i class="fas fa-toilet fa-stack-1x"></i>
+                          <span className="fa-stack fa-1x">
+                            <i className="fas fa-toilet fa-stack-1x"></i>
                             <i
-                              class="fas fa-ban fa-stack-2x"
+                              className="fas fa-ban fa-stack-2x"
                               style={{ color: "Tomato" }}
                             ></i>
                           </span>

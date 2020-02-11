@@ -2,34 +2,17 @@
 #mapid { height: 180px; }
 
 .leaflet-container {
-    height: 800px;
+    height: 600px;
     width: 100%;
-}
-
-svg {
-  width: 70px;
-  height: 70px;
-}
-
-svg:hover {
-    fill: coral;
-}
-.app-header {
-    width: 100%;
-    height: 10rem;
-    background: rgba(196, 196, 196, 0.2);
-    display: flex;
-    align-items: center;
-    padding: 0 4rem;
 }
 
 /*button colors*/
 
 .btn {
-  background-color:rgb(127, 199, 114);
-  border: none;
+  background-color:#b2d0d5;
+  border: 2px solid #1c4327;
   color: rgb(27, 37, 18);
-  padding: 16px 32px;
+  padding: 14px 28px;
   text-align: center;
   font-size: 18px;
   margin: 4px 2px;
@@ -38,8 +21,8 @@ svg:hover {
 }
 
 .btn:hover {
-  background-color: rgb(9, 110, 34);
-  color: rgb(51, 46, 46);
+  background-color:#1c4327;
+  color: #fff;
 }
 
  #root {
@@ -52,10 +35,11 @@ svg:hover {
 font-family: 'billabong', 'billabongregular';
 text-align: center;
 font-size: 8rem;
-font-weight: 100;
+font-weight: 80;
 margin:2rem 0;
 letter-spacing: -1;
 color:rgb(4, 7, 41);
+
 }
 
 @font-face {
@@ -74,20 +58,23 @@ color:rgb(4, 7, 41);
   display: flex;
   flex-wrap: wrap;
   
+  
 }
 
 .figure {  
   flex-basis: calc(25.333% - 4rem);
-  border: 1px solid #d3d3d3;
+  border: 1px solid #99a9a6;
   padding: 2rem;
   flex-grow: 1;
   margin: 0rem 2rem 2rem 2rem;
-  box-shadow: 0px 10px 10px rgba(83, 91, 236, 0.5);
+  box-shadow: 0px 10px 10px #b2d0d5;
   border-radius: 25px;
+  line-height: 1.2;
 }
 
 .photo{
   width: calc(100% + 4rem);
   margin: -2rem 0rem 0rem -2rem;
+  box-shadow: 2px 2px 2px #b2d0d5;
   
 }

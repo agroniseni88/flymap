@@ -5,7 +5,7 @@ import OpenFire from '../components/OpenFire';
 import Toilets from '../components/Toilets'
 import Home from '../pages/Home';
 import Gallery from '../pages/Gallery';
-
+import Med from '../pages/Med';
 
 
 class MyRoutes extends React.Component {
@@ -17,6 +17,7 @@ class MyRoutes extends React.Component {
                 <Route exact path="/water" component={Water} />
                 <Route exact path="/toilets" component={Toilets} />
                 <Route exact path="/fire" component={OpenFire} />
+                <Route exact path="/m" component={Med} />
             </Switch>
         );
     }
