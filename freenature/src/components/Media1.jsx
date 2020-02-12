@@ -21,7 +21,8 @@ function Media1() {
 
                 .map((bivakzone) => (
                     <ul className="list-unstyled" bivakzone={bivakzone} key={bivakzone.id} style={{ marginLeft: '20px' }}>
-                        <Media as="li" >
+
+                        <hr />   <Media as="li" >
                             <img
                                 width={200}
                                 height={200}
@@ -47,7 +48,7 @@ function Media1() {
                                 ></Image>
                             </Media.Body>
                         </Media>
-                        <hr />
+
                     </ul>
                 ))
             }
