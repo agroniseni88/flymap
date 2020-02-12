@@ -38,7 +38,6 @@ class MapBe extends React.Component {
                     animate={true}
                     easeLinearity={0.35}
                 >
-
                     <TileLayer url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
                         attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
                     />

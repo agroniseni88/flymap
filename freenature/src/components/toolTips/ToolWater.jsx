@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function renderTooltip(props) {
-    return <Tooltip {...props}>Drinking Water is there</Tooltip>;
+    return <Tooltip {...props}>Drinking Water</Tooltip>;
 }
 
 const ExampleWater = () => (

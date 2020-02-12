@@ -7,7 +7,7 @@ import { Col, Row, Card } from 'react-bootstrap';
 function Fire() {
     return (
 
-        <Card style={{ border: "3px #138086 solid", padding: '0px', margin: "0px" }}>
+        <Card style={{ border: "3px #1c4327 solid", padding: '0px', margin: "0px" }}>
             <Row>
 
                 <Col sm={8}><OpenFire /></Col>

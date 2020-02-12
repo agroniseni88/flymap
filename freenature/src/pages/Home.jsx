@@ -6,7 +6,7 @@ import { Col, Row, Card } from 'react-bootstrap';
 
 function Home() {
     return (
-        <Card style={{ border: "3px #138086 solid", padding: '0px', margin: "0px" }}>
+        <Card style={{ padding: '0px', margin: "0px" }}>
             <Row>
 
                 <Col sm={8}><MapBe /></Col>

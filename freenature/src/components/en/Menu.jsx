@@ -12,9 +12,9 @@ class Menu extends React.Component {
         super(props);
         this.props.initialize({
             languages: [
-                { name: "English", code: "en" },
-                { name: "Dutch", code: "du" },
-                { name: "French", code: "fr" }
+                { name: "EN", code: "en" },
+                { name: "NL", code: "du" },
+                { name: "FR", code: "fr" }
             ],
             translation: globalTranslations,
             options: { renderToStaticMarkup }

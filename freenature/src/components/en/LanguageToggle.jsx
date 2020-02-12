@@ -4,10 +4,10 @@ import { NavDropdown, Button } from 'react-bootstrap';
 
 const LanguageToggle = ({ languages, activeLanguage, setActiveLanguage }) => (
 
-    <NavDropdown title="Language" id="collasible-nav-dropdown" className="selector" >
+    <NavDropdown style={{float:'right', fontSize:'15px'}} title="Language" id="collasible-nav-dropdown" className="selector" >
         {languages.map(lang => (
             <NavDropdown.Item key={lang.code}>
-                <Button variant="outline-warning" onClick={() => setActiveLanguage(lang.code)}>
+                <Button style={{ fontSize:'13px', width:'4px', height:'3px', textAlign:'center', margin:'0px', padding:'20px'}} onClick={() => setActiveLanguage(lang.code)}>
                     {lang.name}
                 </Button>
             </NavDropdown.Item>
