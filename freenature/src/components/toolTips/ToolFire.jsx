@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function renderTooltip(props) {
-    return <Tooltip {...props}>Fire is allowed bivakzones</Tooltip>;
+    return <Tooltip {...props}>Fire is allowed</Tooltip>;
 }
 
 const ExampleFire = () => (

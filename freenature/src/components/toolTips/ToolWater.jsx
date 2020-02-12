@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
+import water from "./water.png";
 
 function renderTooltip(props) {
     return <Tooltip {...props}>Drinking Water</Tooltip>;
@@ -11,7 +12,7 @@ const ExampleWater = () => (
         delay={{ show: 250, hide: 400 }}
         overlay={renderTooltip}
     >
-        <Button variant="outline-info">    <i className="fas fa-glass-whiskey fa-2x "> </i> </Button>
+        <Button> <img src={water} alt='water' style={{ width: '35px', height: '35px' }} /></Button>
     </OverlayTrigger>
 );
 

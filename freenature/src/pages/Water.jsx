@@ -1,24 +1,38 @@
-import React from 'react';
-import Media1 from '../components/Media1';
-import DrinkingWater from '../components/DrinkingWater'
-import { Col, Row, Card } from 'react-bootstrap';
-
+import React from "react";
+import Media1 from "../components/Media1";
+import DrinkingWater from "../components/DrinkingWater";
+import { Col, Row, Card } from "react-bootstrap";
+import MapGalery from "../components/MapGalery";
 
 function Water() {
-    return (
-        <Card style={{ border: "3px #1c4327 solid", padding: '0px', margin: "0px" }}>
-            <Row>
-
-
-                <Col className='media1' sm={4} style={{ fontSize: '16px', color: '#354418', overflowY: 'auto', overflowX: ' hidden', backgroundColor: '#E5F4F2', height: '600px' }}>
-                    <Media1 />
-
-                </Col>
-                <Col sm={8}><DrinkingWater /></Col>
-            </Row>
-        </Card>
-
-    );
+  return (
+    <Card
+      style={{ padding: "0px", margin: "0px" }}
+    >
+      <div>
+        <MapGalery />
+      </div>
+      <Row>
+        <Col
+          className="media1"
+          sm={4}
+          style={{
+            fontSize: "16px",
+            color: "#354418",
+            overflowY: "auto",
+            overflowX: " hidden",
+            backgroundColor: "#E5F4F2",
+            height: "600px"
+          }}
+        >
+          <Media1 />
+        </Col>
+        <Col sm={8}>
+          <DrinkingWater />
+        </Col>
+      </Row>
+    </Card>
+  );
 }
 
 export default Water;

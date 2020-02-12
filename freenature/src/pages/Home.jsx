@@ -14,12 +14,14 @@ function Home() {
             </div>
             <Row>
 
-                <Col className='media1' sm={4} style={{ fontSize: '16px', color: '#354418', overflowY: 'auto', overflowX: ' hidden', backgroundColor: '#E5F4F2', height: '600px' }}>
+                
+              
+                <Col className='media1' sm={4} style={{ fontSize: '16px', color: '#044A18', overflowY: 'scroll', overflowX: ' hidden', backgroundColor: 'F8F8FF', height: '600px' }}>
                     <Media1 />
 
                 </Col>
-
                 <Col sm={8}><MapBe /></Col>
+
             </Row>
         </Card>
 

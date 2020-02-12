@@ -8,7 +8,7 @@ function MapGalery() {
   return (
     <div>
       <Row>
-        <Col xs="8">
+        <Col xs="8" >
           <Nav.Link href="/gallery">
             <ExampleGalery />
           </Nav.Link>
