@@ -1,14 +1,10 @@
 import React from 'react';
-
 import { Card, Row, Col, Container } from 'react-bootstrap';
-
-
 
 function Footer() {
     return (
         <div>
-
-            <Card.Footer style={{ border: "3px #138086 solid", padding: "4px" }}>
+            <Card.Footer style={{ background: '#52627F', padding: "4px" }}>
                 <Container>
                     <Row>
                         <Col style={{ color: '#fff' }}>

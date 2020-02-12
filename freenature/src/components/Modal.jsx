@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
 import getFeature from "./filterer";
+
+
 const features = [
   "opening_hours",
   "reservation",
@@ -9,7 +11,7 @@ const features = [
   "toilets",
   "dog"
 ];
-//const images = ['image', 'image:1', 'image:2', 'image:3', 'image:4']
+
 class Modal extends Component {
   render() {
     return (
@@ -80,16 +82,6 @@ class Modal extends Component {
                           </span>
                         );
                       }
-
-
-
-
-
-
-
-
-
-
                       else if (Object.keys(result).length !== 0) {
                         return (
                           <div>

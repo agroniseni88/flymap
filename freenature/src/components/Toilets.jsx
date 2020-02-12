@@ -30,35 +30,34 @@ class Marker extends React.Component {
                     <TileLayer url="https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CrxeqLRPyjGPIdZII2Ej"
                         attribution="&copy; <a href=&quot;https://www.maptiler.com/copyright/&quot;>OpenStreetMap</a>"
                     />
-                    {
-                        bivakzones.features
-                            .filter((bivak) => bivak.properties.toilets === 'yes')
-                            .map((bivak) => {
-                                if (bivak.geometry.type === 'Point') {
-                                    return (bivak)
+                    {bivakzones.features
+                        .filter((bivak) => bivak.properties.toilets === 'yes')
+                        .map((bivak) => {
+                            if (bivak.geometry.type === 'Point') {
+                                return (bivak)
 
-                                } else {
-                                    bivak.geometry.coordinates =
-                                        bivak.geometry.coordinates[0][0]
-                                    bivak.geometry.type = 'Point'
-                                    return (bivak)
-                                }
-                            })
-                            .map((bivak) => (
-                                <GeoJSON
-                                    key={bivak.id}
-                                    data={bivak}
-                                    style={() => ({
-                                        color: '#4a83ec',
-                                        weight: 0.5,
-                                        fillColor: "#1a1d62",
-                                        fillOpacity: 1,
-                                    })}>
-                                    <Popup>
-                                        <Modal bivakzone={bivak} />
-                                    </Popup>
-                                </GeoJSON>
-                            ))
+                            } else {
+                                bivak.geometry.coordinates =
+                                    bivak.geometry.coordinates[0][0]
+                                bivak.geometry.type = 'Point'
+                                return (bivak)
+                            }
+                        })
+                        .map((bivak) => (
+                            <GeoJSON
+                                key={bivak.id}
+                                data={bivak}
+                                style={() => ({
+                                    color: '#4a83ec',
+                                    weight: 0.5,
+                                    fillColor: "#1a1d62",
+                                    fillOpacity: 1,
+                                })}>
+                                <Popup>
+                                    <Modal bivakzone={bivak} />
+                                </Popup>
+                            </GeoJSON>
+                        ))
                     }
                 </LeafletMap>
             </div>

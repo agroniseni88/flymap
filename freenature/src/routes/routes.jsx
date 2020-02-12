@@ -8,7 +8,6 @@ import Gallery from '../pages/Gallery';
 import DogYes from '../pages/DogYes';
 
 
-
 class MyRoutes extends React.Component {
     render() {
         return (
