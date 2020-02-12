@@ -21,7 +21,7 @@ function Water() {
             color: "#354418",
             overflowY: "auto",
             overflowX: " hidden",
-            backgroundColor: "#E5F4F2",
+            backgroundColor: "#F5F5F5",
             height: "600px"
           }}
         >

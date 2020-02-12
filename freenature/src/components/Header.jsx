@@ -34,7 +34,7 @@ class Header extends Component {
                 <Image
                   src={freenature}
                   alt="name for website"
-                  style={{ marginLeft: '100px', padding: "0px", width: "400px" }}
+                  style={{ marginLeft: '130px', padding: "0px", width: "400px", marginTop:'20px', marginBottom:'0px' }}
                 ></Image>
               </Nav.Link>
             </Col>

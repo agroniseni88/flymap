@@ -7,7 +7,7 @@ import MapGalery from '../components/MapGalery';
 
 function Home() {
     return (
-        <Card style={{ padding: '0px', margin: "0px" }}>
+        <Card style={{ padding: '0px', margin: "0px", border:'none' }}>
         <div> 
 
             <MapGalery /> 
@@ -16,7 +16,7 @@ function Home() {
 
                 
               
-                <Col className='media1' sm={4} style={{ fontSize: '16px', color: '#044A18', overflowY: 'scroll', overflowX: ' hidden', backgroundColor: 'F8F8FF', height: '600px' }}>
+                <Col className='media1' sm={4} style={{ fontSize: '16px', color: '#044A18', overflowY: 'scroll', overflowX: ' hidden', backgroundColor: '#F5F5F5', height: '600px' }}>
                     <Media1 />
 
                 </Col>
