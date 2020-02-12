@@ -4,7 +4,8 @@ import getFeature from "./filterer";
 const features = [
   "openfire",
   "drinking_water",
-  "toilets"
+  "toilets",
+  "dog"
 ];
 //const images = ['image', 'image:1', 'image:2', 'image:3', 'image:4']
 class Modal extends Component {
@@ -79,7 +80,28 @@ class Modal extends Component {
                           </span>
                           </span>
                         );
-                      } else if (Object.keys(result).length !== 0) {
+                      }
+
+                      else if (entry[0] === "dog" && entry[1] === "yes") {
+                        return (
+                        <span style={{fontSize: "20px"}}>     
+                        <i className="fas fa-dog"></i>
+                        </span>
+                        )
+                      } else if (entry[0] === "dog" && entry[1] === "no") {
+                        return (
+                          <span style={{fontSize: "20px"}}>     
+                          <span className="fa-stack fa-1x">
+                            <i className="fas fa-dog fa-stack-1x"></i>
+                            <i
+                              className="fas fa-ban fa-stack-2x"
+                              style={{ color: "Tomato" }}
+                            ></i>
+                          </span>
+                          </span>
+                        );
+                      }
+                      else if (Object.keys(result).length !== 0) {
                         return (
                           <div>
                             {Object.entries(result).map(
@@ -90,8 +112,8 @@ class Modal extends Component {
                       }
                     })}
                   </div>
-                )
-              } else return null;
+                );
+              } else { return null; }
             })}
                   </Row>
           </div>

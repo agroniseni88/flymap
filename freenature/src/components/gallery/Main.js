@@ -8,7 +8,6 @@ class Main extends Component {
 
     render() {
 
-        console.log(bivakzones.features[2])
         return (
             <div >
                 <Route exact path="/gallery" render={() => (
@@ -17,17 +16,6 @@ class Main extends Component {
 
                         {
                             bivakzones.features
-                                .map((bivakzone) => {
-                                    if (bivakzone.geometry.type === 'Point') {
-                                        return (bivakzone)
-
-                                    } else {
-                                        bivakzone.geometry.coordinates =
-                                            bivakzone.geometry.coordinates[0][0]
-                                        bivakzone.geometry.type = 'Point'
-                                        return (bivakzone)
-                                    }
-                                }).sort()
 
                                 .map((bivakzone) => (
                                     <ul bivakzone={bivakzone} className='figure' key={bivakzone.id}>

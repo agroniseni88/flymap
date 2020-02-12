@@ -2,8 +2,22 @@ import React from 'react';
 import { Media, Card } from 'react-bootstrap';
 import bivakzones from './bivakzones.json';
 
-
-
+/*const features = [
+    "openfire",
+    "drinking_water",
+    "toilets",
+    "dog",
+    "opening_hours",
+    "reservation"
+  ];
+  function getDetails(i, bivakzone) {
+    if(bivakzone.properties[i] === undefined){
+        return("")
+    }else{
+        return(<li>{i + ':' + bivakzone.properties[i]}</li>)
+    }
+    }
+*/
 export default function Media1() {
     return (
         <div>
@@ -33,13 +47,13 @@ export default function Media1() {
                                 />
                                 <Media.Body >
                                     <h3>   {bivakzone.properties.name}    </h3>
-                                    <p>WGS84:  {bivakzone.geometry.coordinates[1]},  {bivakzone.geometry.coordinates[0]}  </p>
-                                    <p> Is there any toilets?  {bivakzone.properties.toilets}  </p>
-                                    <p> Drinking water?  {bivakzone.properties.drinking_water}  </p>
-                                    <p> Open fire?  {bivakzone.properties.openfire}  </p>
-                                    <p> Opening hours:  {bivakzone.properties.opening_hours}  </p>
-                                    <p> Is a reservation required?  {bivakzone.properties.reservation}  </p>
-                                    <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
+                                    <br></br> 
+                                    <p> WGS84:  {bivakzone.geometry.coordinates[1]},  {bivakzone.geometry.coordinates[0]}  </p>
+                                    {bivakzone.properties.toilets === undefined ? null : bivakzone.properties.toilets === 'yes' ? (<p> Is there any toilets? Yes </p>) : bivakzone.properties.toilets === 'no' ? (<p> Is there any toilets? No </p>) : null}  
+                                    {bivakzone.properties.toilets === undefined ? null : bivakzone.properties.drinking_water === 'yes' ? (<p> Can I find there drinking water? Yes </p>) : bivakzone.properties.drinking_water === 'no' ? (<p> Can I find there drinking water? No </p>) : null}  
+                                    {bivakzone.properties.openfire === undefined ? null : bivakzone.properties.openfire === 'yes' ? (<p> Is open fire allowed? Yes </p>) : bivakzone.properties.openfire === 'no' ? (<p> Is open fire allowed? No </p>) : null}  
+                                    {bivakzone.properties.reservation === undefined ? null : bivakzone.properties.reservation === 'yes' ? (<p> Is a reservation required?  Yes </p>) : bivakzone.properties.reservation === 'no' ? (<p> Is a reservation required? No </p>) : null}  
+                                    <Card.Link href={bivakzone.properties.website} style={{ fontSize: '15px', color: '#044A18' }}><u>learn more</u></Card.Link>
 
                                 </Media.Body>
                             </Media>

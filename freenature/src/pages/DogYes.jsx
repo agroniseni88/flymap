@@ -1,11 +1,12 @@
 import React from 'react';
 import Media1 from '../components/Media1';
-import MapBe from '../components/MapBe'
+import Dog from '../components/Dog'
 import { Col, Row, Card } from 'react-bootstrap';
 
 
-function Home() {
+function DogYes() {
     return (
+
         <Card style={{ padding: '0px', margin: "0px" }}>
             <Row>
 
@@ -16,12 +17,14 @@ function Home() {
 
                 </Col>
 
-                <Col sm={8}><MapBe /></Col>
+                <Col sm={8}><Dog /></Col>
             </Row>
         </Card>
+
+
 
 
     );
 }
 
-export default Home;
+export default DogYes;

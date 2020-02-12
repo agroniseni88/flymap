@@ -10,17 +10,19 @@
 
 .btn {
   background-color:#fff;
-  border: 3px solid #1c4327;
+  border: 3px solid #044A18;
   color: rgb(27, 37, 18);
   padding: 10px;
   text-align: center;
   font-size: 18px;
   margin: 4px;
   transition: 0.3s;
+   width: 80px;
+   height: 60px;
 }
 
 .btn:hover {
-  background-color:#1c4327;
+  background-color:#044A18;
   color: #fff;
   border: none;
 }
@@ -77,4 +79,39 @@ color:rgb(4, 7, 41);
   margin: -2rem 0rem 0rem -2rem;
   box-shadow: 2px 2px 2px #b2d0d5;
   
+}
+
+
+
+@media screen and (max-width: 992px) {
+  
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+}
+.media1{
+  height: '500px'
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  
+.leaflet-container {
+    height: 300px;
+    width: 100%;
+    overflow:scroll;
+}
+.media1{
+  height: '300px'
+}
+}
+
+@media screen and (max-width: 480px) {
+ 
+.leaflet-container {
+    height: 200px;
+    width: 100%;
+     overflow:scroll;
+}
 }

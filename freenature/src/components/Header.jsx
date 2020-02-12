@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import freenature from "../image/freenature.png";
-import { Card, Col, Image, Row, Nav } from "react-bootstrap";
+import { Col, Image, Row, Nav } from "react-bootstrap";
 import { renderToStaticMarkup } from "react-dom/server";
 import { withLocalize } from "react-localize-redux";
 import globalTranslations from "../components/en/language.json";
@@ -29,7 +29,6 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Card style={{padding: "4px" }}>
           <Row>
 
             <Col md={{ span: 6, offset: 3 }}>
@@ -37,7 +36,7 @@ class Header extends Component {
                 <Image
                   src={freenature}
                   alt="name for website"
-                  style={{marginLeft:'100px', padding: "0px", width: "400px" }}
+                  style={{ marginLeft: '100px', padding: "0px", width: "400px" }}
                 ></Image>
               </Nav.Link>
             </Col>
@@ -61,13 +60,13 @@ class Header extends Component {
             </Navbar.Collapse>
           </Navbar>
               */}
-        </Card>
         <Row>
-       
-        <FilterIcons />
+          <Col xs='8'>  
         <Nav.Link href="/gallery">
               <ExampleGalery />
             </Nav.Link>
+            </Col > 
+            <Col xs='4'><FilterIcons style={{float:'right'}}/></Col>
         </Row>
       </div>
     );
