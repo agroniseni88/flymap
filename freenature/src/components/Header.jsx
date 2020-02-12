@@ -47,39 +47,42 @@ class Header extends Component {
           <Navbar bg="light" expand="lg">
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <p>
-              <Translate id="menu.title">
-                Depending on the owner of the site on which a bivouac zone is
-                located, there may be some limitations.
-            </Translate>
-            </p>
+
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
+                <Nav.Link href="/">
+                  <Button variant="outline-info"> ALL zones</Button>
+                </Nav.Link>
+                <Nav.Link href="/water">
+                  <ExampleWater />
+                </Nav.Link>
+                <Nav.Link href="/toilets">
+                  <Example />
+                </Nav.Link>
+                <Nav.Link href="/fire">
+                  <ExampleFire />
+                </Nav.Link>
+                <Nav.Link href="/dog">
+                  <DogT />
+                </Nav.Link>
               </Nav>
+
+
+
               <Nav.Link href="/gallery">
                 Gallery
               </Nav.Link>
               <LanguageToggle />
             </Navbar.Collapse>
+
           </Navbar>
 
-          <Row>
-            <Nav.Link href="/">
-              <Button variant="outline-info"> ALL zones</Button>
-            </Nav.Link>
-            <Nav.Link href="/water">
-              <ExampleWater />
-            </Nav.Link>
-            <Nav.Link href="/toilets">
-              <Example />
-            </Nav.Link>
-            <Nav.Link href="/fire">
-              <ExampleFire />
-            </Nav.Link>
-            <Nav.Link href="/dog">
-              <DogT />
-            </Nav.Link>
-          </Row>
+          <p>
+            <Translate id="menu.title">
+              Depending on the owner of the site on which a bivouac zone is
+              located, there may be some limitations.
+            </Translate>
+          </p>
         </Card>
       </div>
     );

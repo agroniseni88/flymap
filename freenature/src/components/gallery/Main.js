@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Title from './Title';
 import { Route, Link } from 'react-router-dom';
 import bivakzones from '../bivakzones.json';
-import { Card, Container, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, Container, Col } from 'react-bootstrap';
 
 class Main extends Component {
 
@@ -33,16 +33,23 @@ class Main extends Component {
                                     <ul bivakzone={bivakzone} className='figure' key={bivakzone.id}>
                                         <Container >
                                             <Col>
-                                                <Card style={{ width: '18rem' }}>
+                                                <Card style={{ width: '16rem' }}>
 
 
                                                     <Link to='/'><Card.Img className='photo' bg="info" variant="top" src={`${bivakzone.properties.image}`} /></Link>
                                                     <Card.Title>{bivakzone.properties.name}</Card.Title>
-                                                    <ListGroup variant="flush">
-                                                        <ListGroupItem>opening hours : {bivakzone.properties.opening_hours}</ListGroupItem>
-                                                        <ListGroupItem>reservation : {bivakzone.properties.reservation}</ListGroupItem>
-                                                        <ListGroupItem>{bivakzone.properties.maxstay}</ListGroupItem>
-                                                    </ListGroup>
+                                                    <Card.Text>
+                                                        opening hours : {bivakzone.properties.opening_hours}
+
+                                                    </Card.Text>
+                                                    <Card.Text>
+                                                        reservation : {bivakzone.properties.reservation}
+
+                                                    </Card.Text>
+                                                    <Card.Text>
+                                                        {bivakzone.properties.maxstay}
+
+                                                    </Card.Text>
                                                     <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
 
                                                 </Card>
