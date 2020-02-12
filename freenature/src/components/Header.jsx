@@ -6,8 +6,6 @@ import { withLocalize } from "react-localize-redux";
 import globalTranslations from "../components/en/language.json";
 import LanguageToggle from "../components/en/LanguageToggle";
 //import { Translate } from "react-localize-redux";
-import ExampleGalery from "../components/toolTips/ToolGalery";
-import FilterIcons from './FilterIcons';
 
 
 class Header extends Component {
@@ -60,14 +58,7 @@ class Header extends Component {
             </Navbar.Collapse>
           </Navbar>
               */}
-        <Row>
-          <Col xs='8'>  
-        <Nav.Link href="/gallery">
-              <ExampleGalery />
-            </Nav.Link>
-            </Col > 
-            <Col xs='4'><FilterIcons style={{float:'right'}}/></Col>
-        </Row>
+        
       </div>
     );
   }

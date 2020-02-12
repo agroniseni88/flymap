@@ -35,8 +35,8 @@ export default function Media1() {
                     })
 
                     .map((bivakzone) => (
-                        <ul className="list-unstyled" bivakzone={bivakzone} key={bivakzone.id}  >
-                            <Media as="li" >
+                        <ul className="list-unstyled" bivakzone={bivakzone} key={bivakzone.id}>
+                            <Media as="li">
                                 <img
                                     width={200}
                                     height={200}
@@ -53,7 +53,7 @@ export default function Media1() {
                                     {bivakzone.properties.toilets === undefined ? null : bivakzone.properties.drinking_water === 'yes' ? (<p> Can I find there drinking water? Yes </p>) : bivakzone.properties.drinking_water === 'no' ? (<p> Can I find there drinking water? No </p>) : null}  
                                     {bivakzone.properties.openfire === undefined ? null : bivakzone.properties.openfire === 'yes' ? (<p> Is open fire allowed? Yes </p>) : bivakzone.properties.openfire === 'no' ? (<p> Is open fire allowed? No </p>) : null}  
                                     {bivakzone.properties.reservation === undefined ? null : bivakzone.properties.reservation === 'yes' ? (<p> Is a reservation required?  Yes </p>) : bivakzone.properties.reservation === 'no' ? (<p> Is a reservation required? No </p>) : null}  
-                                    <Card.Link href={bivakzone.properties.website} style={{ fontSize: '15px', color: '#044A18' }}><u>learn more</u></Card.Link>
+                                    <Card.Link href={bivakzone.properties.website} target="_blank" style={{ fontSize: '15px', color: '#044A18' }}><u>learn more</u></Card.Link>
 
                                 </Media.Body>
                             </Media>
