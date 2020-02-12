@@ -5,6 +5,7 @@ import Fire from '../pages/Fire';
 import Wc from '../pages/Wc'
 import Home from '../pages/Home';
 import Gallery from '../pages/Gallery';
+import DogYes from '../pages/DogYes';
 
 
 
@@ -17,6 +18,7 @@ class MyRoutes extends React.Component {
                 <Route exact path="/water" component={Water} />
                 <Route exact path="/toilets" component={Wc} />
                 <Route exact path="/fire" component={Fire} />
+                <Route exact path="/dog" component={DogYes} />
             </Switch>
         );
     }

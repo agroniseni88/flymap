@@ -9,7 +9,7 @@ import { Translate } from "react-localize-redux";
 import Example from '../components/toolTips/Tooltips';
 import ExampleWater from '../components/toolTips/ToolWater';
 import ExampleFire from '../components/toolTips/ToolFire';
-
+import DogT from '../components/toolTips/DogT';
 
 class Header extends Component {
   constructor(props) {
@@ -75,6 +75,9 @@ class Header extends Component {
             </Nav.Link>
             <Nav.Link href="/fire">
               <ExampleFire />
+            </Nav.Link>
+            <Nav.Link href="/dog">
+              <DogT />
             </Nav.Link>
           </Row>
         </Card>

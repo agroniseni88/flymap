@@ -9,8 +9,8 @@
 /*button colors*/
 
 .btn {
-  background-color:#e2ecea;
-  border: 2px solid #1c4327;
+  background-color:#67C3CD;
+  border: 2px solid #000;
   color: rgb(27, 37, 18);
   padding: 14px 28px;
   text-align: center;
@@ -23,8 +23,8 @@
 }
 
 .btn:hover {
-  background-color:#eaee0b;
-  color: rgb(6, 114, 54);
+  background-color:#F3BB33;
+  color: #fff;
 }
 
  #root {
@@ -79,4 +79,39 @@ color:rgb(4, 7, 41);
   margin: -2rem 0rem 0rem -2rem;
   box-shadow: 2px 2px 2px #b2d0d5;
   
+}
+
+
+
+@media screen and (max-width: 992px) {
+  
+.leaflet-container {
+    height: 400px;
+    width: 100%;
+}
+.media1{
+  height: '500px'
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  
+.leaflet-container {
+    height: 300px;
+    width: 100%;
+    overflow:scroll;
+}
+.media1{
+  height: '300px'
+}
+}
+
+@media screen and (max-width: 480px) {
+ 
+.leaflet-container {
+    height: 200px;
+    width: 100%;
+     overflow:scroll;
+}
 }

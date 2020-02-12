@@ -39,7 +39,7 @@ export default function Media1() {
                                     <p> Open fire?  {bivakzone.properties.openfire}  </p>
                                     <p> Opening hours:  {bivakzone.properties.opening_hours}  </p>
                                     <p> Is a reservation required?  {bivakzone.properties.reservation}  </p>
-                                    <Card.Link href={bivakzone.properties.website} style={{ color: 'green' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
+                                    <Card.Link href={bivakzone.properties.website} style={{ fontSize: '22px', color: '#A4BB3B' }}><i className="fas fa-seedling"></i>see Website</Card.Link>
 
                                 </Media.Body>
                             </Media>
