@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function renderTooltip(props) {
-    return <Tooltip {...props}>WC is there</Tooltip>;
+    return <Tooltip {...props}>Fire allowed in camping</Tooltip>;
 }
 
 const ExampleFire = () => (
