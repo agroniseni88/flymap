@@ -2,8 +2,8 @@
 #mapid { height: 180px; }
 
 .leaflet-container {
-    height: 650px;
-    width: 100%;
+  height: 650px;
+  width: 100%;
 }
 
 /*button colors*/
@@ -28,20 +28,19 @@
 }
 
  #root {
-   height: 100%;
+  height: 100%;
  }
 
 
 /*it is for Gallery page*/
 #photo_title {
-font-family: 'billabong', 'billabongregular';
-text-align: center;
-font-size: 8rem;
-font-weight: 80;
-margin:2rem 0;
-letter-spacing: -1;
-color:rgb(4, 7, 41);
-
+ font-family: 'billabong', 'billabongregular';
+ text-align: center;
+ font-size: 8rem;
+ font-weight: 80;
+ margin:2rem 0;
+ letter-spacing: -1;
+ color:rgb(4, 7, 41);
 }
 
 
@@ -52,13 +51,13 @@ hr {
 }
 
 @font-face {
-    font-family: 'billabongregular';
-    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
-    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
-         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
-         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'billabongregular';
+  src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+  src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+  url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+  url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .photoGrid{
@@ -66,9 +65,8 @@ hr {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
+
 
 .figure {  
   flex-basis: calc(25.333% - 4rem);
@@ -87,62 +85,71 @@ hr {
   margin: -2rem 0rem 0rem -2rem;
   box-shadow: 2px 2px 2px #b2d0d5;
   height: 200px;
-  
 }
 
 /*Media @*/
 
-@media screen and (max-width: 992px) {
-  
+@media screen and (max-width: 992px) {  
 .leaflet-container {
     height: 500px;
     width: 100%;
 }
-.media1{
 
+.media1{
   width: 800px;
   font-size: 16px;
-
 }
+
 #photo_title{
   font-size: 32px;
 }
 
+#header_icon {
+  width: 300px;
+}
 }
 
-@media screen and (max-width: 600px) {
-  
+
+
+@media screen and (max-width: 600px) {  
 .leaflet-container {
     height: 400px;
     width: 100%;
     overflow:scroll;
 }
-.media1{
 
+.media1{
   width: 500px;
   font-size: 14px;
 }
+
 #photo_title{
   font-size: 30px;
 }
 
+#header_icon {
+  width: 150px;
 }
+}
+
 
 @media screen and (max-width: 480px) {
- 
-.leaflet-container {
+ .leaflet-container {
     height: 400px;
     width: 100%;
-     overflow:scroll;
+    overflow:scroll;
 }
-.media1{
 
+.media1{
   width: 300px;
   font-size: 14px;
 }
+
 #photo_title{
   font-size: 26px;
 }
 
-
+#header_icon {
+  width: 100px;
+}
 }

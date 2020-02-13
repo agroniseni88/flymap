@@ -33,7 +33,7 @@ class Header extends Component {
         <Card style={{ border: "3px #138086 solid", padding: "4px" }}>
           <Row>
 
-            <Col md={{ span: 6, offset: 3 }}>
+            <Col id='header_icon' md={{ span: 6, offset: 3 }}>
               <Nav.Link href="/">
                 <Image
                   src={freenature}
