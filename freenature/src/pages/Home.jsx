@@ -5,7 +5,7 @@ import { Col, Row, Card } from 'react-bootstrap';
 
 function Home() {
     return (
-        <Card style={{ border: '5px yellow solid' }}>
+        <Card style={{ border: '5px #52627F solid' }}>
             <Row>
                 <Col><MapBe /></Col>
             </Row>

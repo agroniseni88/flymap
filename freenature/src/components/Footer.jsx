@@ -8,7 +8,10 @@ function Footer() {
                 <Container>
                     <Row>
                         <Col style={{ color: '#fff' }}>
-                            <small > © Hack Your Future 2020</small>
+                            <a href='https://hackyourfuture.be/'>  <small > © Hack Your Future 2020</small></a>
+                        </Col>
+                        <Col style={{ color: '#fff' }}>
+                            <a href='http://www.bivakzone.be/bivaktochten.html'>  <small >  © Bivakzone</small></a>
                         </Col>
                     </Row>
                 </Container>

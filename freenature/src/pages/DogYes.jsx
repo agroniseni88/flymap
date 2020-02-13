@@ -5,7 +5,7 @@ import { Col, Row, Card } from 'react-bootstrap';
 
 function DogYes() {
     return (
-        <Card style={{ border: '5px green solid' }}>
+        <Card style={{ border: '5px #52627F solid' }}>
             <Row>
                 <Col ><Dog /></Col>
             </Row>
