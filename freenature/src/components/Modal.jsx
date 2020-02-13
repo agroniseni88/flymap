@@ -23,12 +23,12 @@ class Modal extends Component {
                   <div>
                     {Object.entries(result).map((entry) => {
                       if (entry[0] === "openfire" && entry[1] === "yes") {
-                        return <span style={{fontSize: "20px"}}>
+                        return <span style={{fontSize: "20px", margin:'5px'}}>
                         <i className="fas fa-fire"></i>
                         </span>
                       } else if (entry[0] === "openfire" && entry[1] === "no") {
                         return (
-                          <span style={{fontSize: "20px"}}>
+                          <span style={{fontSize: "20px", margin:'5px'}}>
                           <span className="fa-stack fa-1x">
                             <i className="fas fa-fire fa-stack-1x"></i>
                             <i
@@ -43,7 +43,7 @@ class Modal extends Component {
                         entry[1] === "no"
                       ) {
                         return (
-                          <span style={{fontSize: "20px"}}>                          
+                          <span style={{fontSize: "20px",  margin:'5px'}}>                          
                           <span className="fa-stack fa-1x">
                             <i className="fas fa-glass-whiskey fa-stack-1x"></i>
                             <i
@@ -58,19 +58,19 @@ class Modal extends Component {
                         entry[1] === "yes"
                       ) {
                         return (
-                        <span style={{fontSize: "20px"}}>                                              
+                        <span style={{fontSize: "20px", margin:'5px'}}>                                              
                         <i className="fas fa-glass-whiskey"></i> 
                         </span>
                         )
                       } else if (entry[0] === "toilets" && entry[1] === "yes") {
                         return (
-                          <span style={{fontSize: "20px"}}>                                                                      
+                          <span style={{fontSize: "20px", margin:'5px'}}>                                                                      
                         <i className="fas fa-toilet"></i>
                         </span> 
                         )
                       } else if (entry[0] === "toilets" && entry[1] === "no") {
                         return (
-                        <span style={{fontSize: "20px"}}>                                              
+                        <span style={{fontSize: "20px", margin:'5px'}}>                                              
                           <span className="fa-stack fa-1x">
                             <i className="fas fa-toilet fa-stack-1x"></i>
                             <i
@@ -84,13 +84,13 @@ class Modal extends Component {
 
                       else if (entry[0] === "dog" && entry[1] === "yes") {
                         return (
-                        <span style={{fontSize: "20px"}}>     
+                        <span style={{fontSize: "20px",  margin:'5px'}}>     
                         <i className="fas fa-dog"></i>
                         </span>
                         )
                       } else if (entry[0] === "dog" && entry[1] === "no") {
                         return (
-                          <span style={{fontSize: "20px"}}>     
+                          <span style={{fontSize: "20px", margin:'5px'}}>     
                           <span className="fa-stack fa-1x">
                             <i className="fas fa-dog fa-stack-1x"></i>
                             <i

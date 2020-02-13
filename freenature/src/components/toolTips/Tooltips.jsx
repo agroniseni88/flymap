@@ -11,7 +11,7 @@ const Example = () => (
         delay={{ show: 250, hide: 400 }}
         overlay={renderTooltip}
     >
-        <Button variant="outline-info"> <i className="fas fa-toilet fa-2x "> </i></Button>
+        <Button variant="outline-info" > <i className="fas fa-toilet fa-2x "> </i></Button>
     </OverlayTrigger>
 );
 
