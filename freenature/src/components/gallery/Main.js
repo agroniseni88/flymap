@@ -15,7 +15,7 @@ class Main extends Component {
                     <div>
                         <Title title={'Bivakzone Gallery'} />
 
-                        <Col md="auto" className='media1' style={{ fontSize: '16px', color: '#354418', overflowY: 'auto', overflowX: ' hidden', backgroundColor: '#E5F4F2', height: '600px', margin: '10px' }}>
+                        <Col xs={12} className='media1' style={{ fontSize: '16px', color: '#354418', overflowY: 'auto', overflowX: ' hidden', backgroundColor: '#E5F4F2', height: '600px', margin: '10px' }}>
                             <Media1 />
                         </Col>
                     </div>

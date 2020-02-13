@@ -98,6 +98,15 @@ hr {
     height: 500px;
     width: 100%;
 }
+.media1{
+
+  width: 800px;
+  font-size: 16px;
+
+}
+#photo_title{
+  font-size: 32px;
+}
 
 }
 
@@ -107,6 +116,14 @@ hr {
     height: 400px;
     width: 100%;
     overflow:scroll;
+}
+.media1{
+
+  width: 500px;
+  font-size: 14px;
+}
+#photo_title{
+  font-size: 30px;
 }
 
 }
@@ -118,5 +135,14 @@ hr {
     width: 100%;
      overflow:scroll;
 }
+.media1{
+
+  width: 300px;
+  font-size: 14px;
+}
+#photo_title{
+  font-size: 26px;
+}
+
 
 }
